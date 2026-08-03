@@ -56,3 +56,41 @@ But cold is your once vivid breath
 and oh... I miss you.
 
 ### Instrumental-Outro
+
+## Related Files
+
+### Artifacts
+
+```text
+File:                  ai-artifacts/fame.mp3
+
+Duration:              02:47.99 s
+Sample Rate:           44100 Hz
+Total Samples:         7408510
+
+Integrated Loudness:   -12.2 LUFS
+True Peak:             0.6 dBTP
+Max Short-Term:        -7.9 LUFS
+Loudness Range (LDR):  7.8 LU
+Peak-Loudness (PLR):   12.80 dB
+
+SHA-256 Audio Hash:    2573191d09e3916d2f8ea5c94d023f4ee105ec3b9efa6f0e01cbdb373b3f829a
+```
+
+### Master
+
+```text
+File:                  masters/11_Fame.wav
+
+Duration:              02:50.00 s
+Sample Rate:           44100 Hz
+Total Samples:         7496988
+
+Integrated Loudness:   -13.9 LUFS
+True Peak:             -2.4 dBTP
+Max Short-Term:        -10.7 LUFS
+Loudness Range (LDR):  6.3 LU
+Peak-Loudness (PLR):   11.50 dB
+
+SHA-256 Audio Hash:    d5b0f3ab22571de6c6d513c9912981ecfbc858763265661a923c5e5a6c99e10a
+```

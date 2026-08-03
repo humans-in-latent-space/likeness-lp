@@ -54,3 +54,74 @@ You ask for my perspective, not the echo underneath.
 But they... are still perching ...
 They are still carping ...
 Will they ever leave?
+
+## Related Files
+
+### Artifacts
+
+```text
+File:                  ai-artifacts/reflection_1.mp3
+
+Duration:              02:55.39 s
+Sample Rate:           44100 Hz
+Total Samples:         7734526
+
+Integrated Loudness:   -12.1 LUFS
+True Peak:             0.2 dBTP
+Max Short-Term:        -9.5 LUFS
+Loudness Range (LDR):  7.3 LU
+Peak-Loudness (PLR):   12.30 dB
+
+SHA-256 Audio Hash:    9b0b2c8e7869948d8ac5905f123489c9a3f17e242caed63e478f4454ba373a74
+```
+
+```text
+File:                  ai-artifacts/reflection_2.mp3
+
+Duration:              02:59.57 s
+Sample Rate:           44100 Hz
+Total Samples:         7918846
+
+Integrated Loudness:   -11.7 LUFS
+True Peak:             0.1 dBTP
+Max Short-Term:        -8.7 LUFS
+Loudness Range (LDR):  8.7 LU
+Peak-Loudness (PLR):   11.80 dB
+
+SHA-256 Audio Hash:    a015d41c8f5789a4c621789127dd68f751ca86099d4514edb7cfdc5b11936903
+```
+
+```text
+File:                  ai-artifacts/reflection_3.mp3
+
+Duration:              03:02.00 s
+Sample Rate:           44100 Hz
+Total Samples:         8025981
+
+Integrated Loudness:   -11.3 LUFS
+True Peak:             0.1 dBTP
+Max Short-Term:        -7.8 LUFS
+Loudness Range (LDR):  11.8 LU
+Peak-Loudness (PLR):   11.40 dB
+
+SHA-256 Audio Hash:    044a89924924ddbec393064fad59f369923838a59278067fa6fd94325deb1249
+```
+
+### Master
+
+```text
+File:                  masters/07_Reflection.wav
+
+Duration:              02:57.00 s
+Sample Rate:           44100 Hz
+Total Samples:         7805700
+
+Integrated Loudness:   -13.9 LUFS
+True Peak:             -2.4 dBTP
+Max Short-Term:        -11.8 LUFS
+Loudness Range (LDR):  6.4 LU
+Peak-Loudness (PLR):   11.50 dB
+
+SHA-256 Audio Hash:    12b853f11871f7e9a8c3e0a565bdd8521f0b3a8c99bae7a9c8361ae5bef9ebeb
+
+```

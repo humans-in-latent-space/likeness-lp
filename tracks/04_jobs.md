@@ -1,51 +1,58 @@
-## jobs
+# 04 - Jobs
 
-### Setup
+Um nicht unter dem Druck des Büroalltags zu kollabieren, flüchtet sich das Lyrische Ich an einen imaginären Ort. 
 
-[BASICS]
+## Instruction
+
+```markdown
+## Setup
+
+**BASICS**
 * **Style:** Organic Indie-Folk, Folk-Pop
 * **Mood:** Intimate, melancholic, introspective
 
-[INSTRUMENTATION]
+**INSTRUMENTATION**
  * **Main:** Felt Piano, Finger-picked Guitar 
  * **Texture:** Cello, soft Brushes on Snare, light Heartbeat-pulse Kick.
  * **Vocals:** Female, breathy, extreme close-up "ASMR" quality.
    **Production:** High-fidelity, warm analog saturation, spacious reverb on instruments but dry on vocals for intimacy. 
 
-### Arrangement 
+## Arrangement 
 
 Wir steigen zurückhaltend ein: Wir überlagern die Klaustrophopie des Büros mit einem finger picked Gitarrenspiel. Das Lyrische Ich beschreibt in Verse 1 fast schon stoisch den Status Quo. Die Instrumentalisierung bleibt dezent. 
 Das Interlude "He needs a brithday [...] / something expansive [...]" ist monoton gesprochen und greift die Befehle des Chefs auf. Verse 2 baut bereits mehr Energie auf. Das Lyrische bekennt, dass es leid ist, zu tun, was ihm gesagt wird. 
 Es folgt ein gedanklicher Ausbruch in den Chorus, ein Befreiungsschlag, ein mentales Durchatmen mit dem Charme der kanadischen Golden hour. Der Hörer muss hören, wie traumhaft dieser Ort ist. Es muss Fernweh und die Sehnsucht nach einem Kuschelabend am Kamin wecken.
-Die Bridge reißt das Lyrische ich zurück in die Gegenwart. Das "rhythmic, metal thud" des Druckers spiegelt sich im Klang als treibender Rhythmus. Das Lyrische ich singt (nicht schreit) förmlich gegen den Chef im Flur an, beschwört ihr Cottage, obwohl sich das Büro aufdrängen. Den emotionalen Höhepunkt erreichen wir bei "as I reach for the latch", gefolgt von der Distanzierung zum Job, die wie ein zuckersüßen Ausatmen wirkt ("... far away from the game"). 
+Die Bridge reißt das Lyrische ich zurück in die Gegenwart. Das "rhythmic, metal thud" des Druckers spiegelt sich im Klang als treibender Rhythmus. Das Lyrische ich singt (nicht schreit) förmlich gegen den Chef im Flur an, beschwört ihr Cottage, obwohl sich das Büro aufdrängt. Den emotionalen Höhepunkt erreichen wir bei "as I reach for the latch", gefolgt von der Distanzierung zum Job, die wie ein zuckersüßen Ausatmen wirkt ("... far away from the game"). 
 Die Instrumente dürfen kurz wirken, dann setzen wir zu einem Chorus als Reprise an. Er fängt die komprimierte Essenz des ersten Chorus ein, die Instrumentalisierung ist maximal. Das Lyrische ich hat mehr Luft zum atmen und schwelgt ein letztes mal in der Vorstellung.
-Das Outro "the list is done..." ist wieder gesprochen, die Instrumente verblassen. Nach "and I'm still here" ist die Instrumentalisierung ganz weg. Die letzte Worte "am I?", gefolgt von einem Seufzen und "Man, I need another Job" werden in stille gesprochen.
+Das Outro "the list is done..." ist wieder gesprochen, die Instrumente verblassen. Nach "and I'm still here" ist die Instrumentalisierung ganz weg. Die letzte Worte "am I?", gefolgt von einem Seufzen und "Man, I need another Job" werden in Stille gesprochen.
 Der Song soll mitreißen, ohne einzulullen. Jeder träumt in einem stressigen Job von dem Ausflug in das eigene kleine Paradies. Es ist kein Lammentieren, kein Klagen, sondern ein Plädoyer für die eigene innere Stärke, deswegen ist ein gewisser drive wichtig, ein Beat wie ein Herzschlag.
 
 Wichtig: Die Lyrics folgen einer strikten narrativen Entwicklung. Betrachte sie als unverrückbar. Die Lyrics dürfen nicht durch Glättung, Duplikation oder Auslassung verändert werden. Die Message ist hier wichtiger als die reine Symmetrie. 
 
-<lyrics>
+## Lyrics
+
+### Spoken Word Intro
 He needs the list, now
 
-[INSTRUMENTAL INTRO]
+### Instrumental Interlude
  
-[VERSE 1]
+### Verse 1
 His demands and commands stifle the room.
 I’m weaving spreadsheets like fabric on a loom.
 He leans across the desk to pen my spark in.
 Doesn't see the woman, just the ledger I’m within.
 
-[SPOKEN INTERLUDE]
-(He needs a birthday present for his wife.)
-(Something expensive. Something that looks like he cares.)
+### Spoken Word Interlude
+He needs a birthday present for his wife.
+Something expensive. Something that looks like he cares.
 
-[VERSE 2]
+### Verse 2
 I pick out the silk and I ribbon-wrap the lie,
 Starving for soul beneath this halogen sky.
 He wants someone pliant, he hates someone bold.
 Oh, I’m growing weary of doing what I’m told.
 
-[CHORUS]
+### Chorus
 And the emails flood like a wild mountain brook.
 I drown in the inbox and my smiling he mistook.
 But in the back of my mind there’s a cottage in the pines
@@ -53,7 +60,7 @@ Where dust stays on the shelves; the clock just untwines
 Where I write songs for myself, not being a machine,
 Not being a resource, just venting the spleen.
 
-[BRIDGE]
+### Bridge
 The boss bellows margins all the way down the hall.
 But I’m smelling cocoa and the descent of the fall.
 I’m feeling soft flannel, aged timber and warmed stone.
@@ -63,17 +70,201 @@ But I’m tasting the woodsmoke, I’m enjoying the mud
 Between my toes as I reach for the latch in the rain
 Far away from the profit, far away from the game.
 
-[CHORUS REPRISE]
+### Chorus Reprise
 Yeah, the emails flood like a wild mountain brook.
 But there’s a cottage in the pines not caring how I look.
 Where I write songs for myself, not being a machine,
 Living a life that I’ve never even seen.
 
-[OUTRO]
+### Spoken Word Outro
 The list is done.
 The gift is wrapped.
 And I’m still here...
+Am I? ...
+Man, I need another job!
+```
+
+## Track Liner Notes
+
+*May 13, 2026 (until May 19)*
+
+Nachdem das Konzept für den Song “Masks” nicht aufgegangen war (zu theatralisch und zu barock in seiner Bildsprache), musste ich mich neu orientieren. Also gestaltete ich das Setting alltäglicher, zugänglicher. Zugleich versuchte ich durch die (übertrieben klischeehafte) Erdung im Cottage Core den weichen Kuschelsound zu erwirken, der mir vorschwebte. Der Sound sollte der zuckersüß sein, um die Härte der Lyrics zu kaschieren (so etwas ist immer eine Herausforerung für die KI, die Text und Melodie als Einheit behandelt).
+Die Maske als Metapher für die Rollen, die wir einnehmen, wandelte sich zu den (oft nervigen und etwas stumpfsinnigen) Aufgaben, die wir vor allem im Berufsalltag ausführen müssen.
+Der KI machte ich für die Lyrics folgende Vorgaben (deklariert als frei nutzbare Versatzstücke): 
+* das lyrische Ich muss wie im Hamsterrad irgendwelche Aufgaben auf der Arbeit erledigen, die es mit kurzen Sprecheinschüben wie "He needs the list, now", "He needs a birthday present for my wife, something expansive, something that looks like he cares" kommentiert
+* niemand auf Arbeit interessiert sich dafür, was sie denkt oder wer sie wirklich ist, sie ist eine Ressource, die funktionieren muss. Man erwartet ein Lächeln und sie liefert es stoisch, weil Klagen ein Eingeständnis von Schwäche wäre
+* Das Lyrische Ich würde gern etwas anderes machen. Während die Emails ihr Postfach wie ein Wildbach fluten, träumt sie davon, in einem Cottage im Wald bei knisternden Kaminfeuer Gittare zu spielen und Songs zu schreiben. Während der Chef brüllt, träumt sie von heißer Schokolade, weichem Flanell und Staub auf den Regalen
+* es endet gesprochen mit "the list is done / the gift is wrapped / and I'm still here... Am I? / Man, I need another job."
+Dass ich jetzt das Lyrische ich “He needs the list” sagen lasse und das “he” nicht selbst sprechen lasse, hatte direkt mit Problemen bei der Generierung zu tun (zu oft hatte das Modell den Umstand, dass der Beitrag von einer anderen Person stammt, übergangen - oder “vom Telefon verzerrt” als ohrenbetäubende Distortion fehlinterpretiert). Letztendlich war ich mit dieser indirekten Präsenz aber ganz zufrieden. Sie schafft eine größere Distanz zum Geschehen und macht den “Boss” zu einem Phantom, das gar nicht mehr bis zum Kern des Lyrischen Ichs vordringt.
+
+<details>
+<summary><b>AI Draft</b><br/><br/></summary>
+
+**Title:** The Resource
+**Instrumentation:**Acoustic guitar, muted piano, atmospheric production
+**Tempo:** Mid-tempo, slightly melancholic
+
+**(Verse 1)** 
+The fluorescent hum is a low-grade fever in the room
+I’m weaving spreadsheets like a tapestry on a broken loom
+He leans across the desk, shadow stretching long and thin
+Doesn't see the woman, just the ledger I’m living in
+
+*(Spoken, breathy)* 
+*"He needs the list, now."* 
+
+So I check the boxes, keep the ink within the lines
+Trading in my eyesight for these digital gold mines
+But gold don’t keep you warm when the office air is cold
+And I’m growing weary of doing exactly what I’m told.
+
+**(Chorus)** 
+And the emails flood the inbox like a wild mountain brook
+I’m drowning in the CCs, and the way I’m supposed to look
+But in the back of my mind, there’s a cottage in the pines
+Where the dust stays on the shelves and the clock just untwines
+I’m trading this blue light for a fire in the grate
+Playing songs for the trees, far away from the weight
+Of being a resource, a smile, a machine
+Living a life that I’ve never even seen.
+
+**(Verse 2)** A crack in the porcelain is an admission of the end
+So I don’t offer feelings, I just offer to transcend
+The mundane expectations of a girl who’s built to serve
+I hold the line steady, never losing my nerve
+
+*(Spoken, faster, monotone)* 
+*"He needs a birthday present for his wife. Something expensive. Something that looks like he cares."* 
+
+I pick out the silk and I ribbon-wrap the lie
+While my own heart is starving under this halogen sky
+They want a hollow vessel, someone stoic, someone quiet
+While my internal world is starting up a riot.
+
+**(Chorus)** 
+And the emails flood the inbox like a wild mountain brook
+I’m drowning in the CCs, and the way I’m supposed to look
+But in the back of my mind, there’s a cottage in the pines
+Where the dust stays on the shelves and the clock just untwines
+I’m trading this blue light for a fire in the grate
+Playing songs for the trees, far away from the weight
+Of being a resource, a smile, a machine
+Living a life that I’ve never even seen.
+
+**(Bridge)** 
+(Music builds: heavy cello and rapid, muted piano notes)
+The boss is shouting about a deadline in the hall
+But I’m smelling hot cocoa and the spirit of the fall
+I’m feeling soft flannel against a skin that’s turned to stone
+I’m imagining a silence that I can finally call my own
+The printer is jamming, a rhythmic, metal thud
+But I’m tasting the woodsmoke, I’m feeling the mud
+Between my toes as I walk toward the porch in the rain
+Far away from the profit, far away from the gain.
+
+**(Guitar Solo - Soft, finger-picked, echoing)**
+
+**(Chorus)** 
+Yeah, the emails flood the inbox like a wild mountain brook
+I’m drowning in the CCs, and the way I’m supposed to look
+But in the back of my mind, there’s a cottage in the pines
+Where the dust stays on the shelves and the clock just untwines
+I’m trading this blue light for a fire in the grate
+Playing songs for the trees, far away from the weight
+Of being a resource, a smile, a machine
+Living a life that I’ve never even seen.
+
+**(Outro)** 
+(The music fades to a single, pulsing piano note)
+Static on the wire.
+Static in my head.
+
+*(Spoken, very quiet and close to the mic)* 
+The list is done.
+The gift is wrapped.
+
+And I’m still here...
 Am I?
-Hhh...
 Man, I need another job.
-</lyrics>
+(Final chord rings out and decays)
+</details>
+
+Der erste Entwurf war richtig gut, aber natürlich zu lang für 3 Minuten. Mir gefiel das Bild des “Tabellen-Webens auf einem (kaputten) Webstuhl”. Auch das sehr hübsche “ribbon-wrap the lie” war schon enthalten. Die ersten Iterationen zeigten aber, dass die Zeilen zu vollgestopft waren, weswegen ich sie einkürzte. Um auf die 3 Minuten zu kommen, habe ich anschließend alles umgestellt und eingedampft. Dem fielen auch das "fluorescent hum" zum Opfer. Aus “starving heart” (hätte man so lesen können, als wäre sie heimlich in den Chef verliebt) wurde “starving for soul”.
+
+Die neue Fassung hatte die richtige Länge, aber die Stimmung war nicht die richtige. Also habe ich ein weiteres Tuning vorgenommen, bis die Lyrics ihre finale Form bekamen. Auch das reichte aber noch nicht, weswegen ich mich genötigt sah, erstmals ausführlich das Arrangement zu beschreiben und detailliert darauf einzugehen, wie ich mir die Stimmung in den einzelnen Sektionen vorstelle. Ich musste die von den Lyrics etablierte Trajektorie im Latenzraum gezielt manipulieren. Das brachte die Wende: der Sound war deutlich kuscheliger, wirkte aber merkwürdig instabil.  
+Einer Vermutung folgend fragte ich die KI, ob das gesprochene Intro ohne Melodie ein Problem sein könnte, was sie bejahte: ohne einleitendes Instrumengtal-Intro hätte das Modell keine Chance, sich auf ein Muster einzuschwingen. Ob das für Lyria 3 im Speziellen so klar gilt oder ob die KI hier halluziniert hat, weil ich ihr eine Suggestionsfrage gestellt habe, sei dahingestellt. Fakt ist, dass ich ohne Intro nach nur 3 weiteren Versuchen beim finalen Artefakt landete. Dort fehlte zwar das Intro und Teile des Outros, aber das konnte ich später aus verschiedenen Iterationen zusammenschneiden. Was mir an der finalen Version so gefiel, waren das leise schwebende Klavier und die tonale Färbung. Hier war mehr Gefühl drin, in Verbindung mit dem fast schon verletzlichen Gesang (die anderen Iterationen waren stoischer, wenn nicht zynischer im Tonfall) entstand genau jener sehnsüchtige Vibe, nach dem ich gesucht hatte. Insgesamt hat mich dieser Track etwa eine Woche beschäftigt (von Idee bis zum finalen Artefakt). Das war sicher die erste Bewährungsprobe für das Projekt. Ich musste mich streckenweise durchbeißen, viel ausprobieren - und mir vor allem sehr viel mehr Gedanken machen, wie der Song klingen sollte, weil Gemini/Lyria hier “intuitiv” danebenlagen.
+
+## Postproduction
+
+Insgesamt habe ich ca. 20 Iterationen erzeugt (viele waren “kaputt” und schafften es daher gar nicht erst auf die Festplatte). Es ist offensichtlich, dass das ganze Konstrukt eher instabil ist. Die Kombination aus Spoken Word, Büro-Alltag und Cottage-Klischee hat es dem Modell schwer gemacht, stabiles Fahrwasser zu finden. Qualitativ war am finalen Artefakt aber wenig auszusetzen. Das Ergänzen von Intro und Outro aus zwei anderen Iterationen war unkompliziert. Im späteren Mastering folgten nur die obligatorische Stille am Anfang und Ende, die Plugin-Kette und die Normalisierung.
+
+## Related Files
+
+### Artifacts
+
+```text
+File:                  ai-artifacts/jobs_1.mp3
+
+Duration:              03:02.05 s
+Sample Rate:           44100 Hz
+Total Samples:         8028286
+
+Integrated Loudness:   -11.7 LUFS
+True Peak:             0.6 dBTP
+Max Short-Term:        -7.8 LUFS
+Loudness Range (LDR):  9.6 LU
+Peak-Loudness (PLR):   12.30 dB
+
+SHA-256 Audio Hash:    fcef27629be87dc2d5c0e6b75c802ca26cd31733c4a7f7840eb1f51cc3f0fc03
+```
+
+```text
+File:                  ai-artifacts/jobs_2.mp3
+
+Duration:              03:03.41 s
+Sample Rate:           44100 Hz
+Total Samples:         8088190
+
+Integrated Loudness:   -12.0 LUFS
+True Peak:             0.2 dBTP
+Max Short-Term:        -8.7 LUFS
+Loudness Range (LDR):  7.0 LU
+Peak-Loudness (PLR):   12.20 dB
+
+SHA-256 Audio Hash:    4f7626f7b44015f5804089f67ceb8bae724409eb1c998dbab35feb9009a3f7b1
+```
+
+```text
+File:                  ai-artifacts/jobs_3.mp3
+
+Duration:              02:59.85 s
+Sample Rate:           44100 Hz
+Total Samples:         7931517
+
+Integrated Loudness:   -11.5 LUFS
+True Peak:             0.5 dBTP
+Max Short-Term:        -7.4 LUFS
+Loudness Range (LDR):  10.9 LU
+Peak-Loudness (PLR):   12.00 dB
+
+SHA-256 Audio Hash:    3b6cb54ad81890fe4c4691aa94f6d630db3591543265aa0ac9cb11cada15bb80
+```
+
+### Master
+
+```text
+File:                  masters/04_Jobs.wav
+
+Duration:              03:09.00 s
+Sample Rate:           44100 Hz
+Total Samples:         8334900
+
+Integrated Loudness:   -13.9 LUFS
+True Peak:             -2.5 dBTP
+Max Short-Term:        -10.9 LUFS
+Loudness Range (LDR):  8.5 LU
+Peak-Loudness (PLR):   11.40 dB
+
+SHA-256 Audio Hash:    9574559694ac9a14b1f6e0653953eddc814b3686446ab151e91137944677acb7
+
+```

@@ -52,3 +52,58 @@ Everyone is gone, leaving a blazer on a chair.
 Hh... I wish I was more like my sister
 
 ### Instrumental-Outro
+
+## Related Files
+
+### Artifacts
+
+```text
+File:                  ai-artifacts/agent_1.mp3
+
+Duration:              02:59.85 s
+Sample Rate:           44100 Hz
+Total Samples:         7931517
+
+Integrated Loudness:   -12.1 LUFS
+True Peak:             0.1 dBTP
+Max Short-Term:        -8.0 LUFS
+Loudness Range (LDR):  9.4 LU
+Peak-Loudness (PLR):   12.20 dB
+
+SHA-256 Audio Hash:    04dbb437d8135b7c7c3d1d8fd02c842d5434c4ac16da1fb407d900cbca63de9b
+```
+
+```text
+File:                  ai-artifacts/agent_2.mp3
+
+Duration:              02:57.35 s
+Sample Rate:           44100 Hz
+Total Samples:         7820926
+
+Integrated Loudness:   -11.9 LUFS
+True Peak:             0.4 dBTP
+Max Short-Term:        -8.1 LUFS
+Loudness Range (LDR):  9.1 LU
+Peak-Loudness (PLR):   12.30 dB
+
+SHA-256 Audio Hash:    32fef86c05965dc0c7b5044b60911360a1ccf439f758d686055a75a847f1a162
+```
+
+### Master
+
+```text
+File:                  masters/09_Agent.wav
+
+Duration:              03:15.00 s
+Sample Rate:           44100 Hz
+Total Samples:         8599500
+
+Integrated Loudness:   -13.9 LUFS
+True Peak:             -2.5 dBTP
+Max Short-Term:        -10.8 LUFS
+Loudness Range (LDR):  7.2 LU
+Peak-Loudness (PLR):   11.40 dB
+
+SHA-256 Audio Hash:    cd401d31558b4a436660824bb6403a2b37523214f0ea6c205a118125350f71a6
+
+```

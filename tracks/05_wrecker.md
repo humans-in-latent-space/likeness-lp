@@ -50,3 +50,42 @@ You know what they say about the things that float free?
 You found me out here, so you can keep me.
 
 ### Instrumental-Outro
+
+## Related Files
+
+### Artifacts
+
+```text
+File:                  ai-artifacts/wrecker.mp3
+
+Duration:              03:00.01 s
+Sample Rate:           44100 Hz
+Total Samples:         7938430
+
+Integrated Loudness:   -11.9 LUFS
+True Peak:             0.4 dBTP
+Max Short-Term:        -8.5 LUFS
+Loudness Range (LDR):  7.5 LU
+Peak-Loudness (PLR):   12.30 dB
+
+SHA-256 Audio Hash:    0d2f6a0df35a7d572e67b959f3e07ffba453cc273d3d99e77603e03bcedd0c46
+```
+
+### Master
+
+```text
+File:                  masters/05_Wrecker.wav
+
+Duration:              03:01.70 s
+Sample Rate:           44100 Hz
+Total Samples:         8012982
+
+Integrated Loudness:   -13.9 LUFS
+True Peak:             -2.1 dBTP
+Max Short-Term:        -11.3 LUFS
+Loudness Range (LDR):  5.8 LU
+Peak-Loudness (PLR):   11.80 dB
+
+SHA-256 Audio Hash:    96acdea9e4dba6061b4868fa77218f5d969f5c347089d75f5cc80e8e6aad04d7
+
+```

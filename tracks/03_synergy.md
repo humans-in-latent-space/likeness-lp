@@ -59,3 +59,42 @@ I map the room.
 You shake a hand.
 The gears lock in.
 We take our stand.
+
+## Related Files
+
+### Artifacts
+
+```text
+File:                  ai-artifacts/synergy.mp3
+
+Duration:              02:50.84 s
+Sample Rate:           44100 Hz
+Total Samples:         7534077
+
+Integrated Loudness:   -12.3 LUFS
+True Peak:             0.3 dBTP
+Max Short-Term:        -9.5 LUFS
+Loudness Range (LDR):  6.3 LU
+Peak-Loudness (PLR):   12.60 dB
+
+SHA-256 Audio Hash:    1ad127e495e297cdd1729f3570538450a3c3d2d0585529166881a3511cc97096
+```
+
+### Master
+
+```text
+File:                  masters/03_Synergy.wav
+
+Duration:              02:52.00 s
+Sample Rate:           44100 Hz
+Total Samples:         7585211
+
+Integrated Loudness:   -13.9 LUFS
+True Peak:             -1.8 dBTP
+Max Short-Term:        -11.9 LUFS
+Loudness Range (LDR):  4.6 LU
+Peak-Loudness (PLR):   12.10 dB
+
+SHA-256 Audio Hash:    df35ad4c8be561cac646908d96ae198315584058d34d6e85a3ad2f29c7c31807
+
+```
