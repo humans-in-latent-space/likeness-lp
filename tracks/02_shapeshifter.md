@@ -1,5 +1,7 @@
 # 02 - Shapeshifter
 
+Die Sichtung eines fremdartigen Wesens verunsichert eine Kleinstadt.
+
 ## Instruction
 
 ```markdown
@@ -73,7 +75,7 @@ I'm not like my sister...
 *June 2 and July 13, 2026*
 
 Shapeshifter bildet zusammen mit [Agent](./09_agent.md) die beiden Sister-Tracks und bildet damit das narrative Rückgrat des Albums.
-Nach der Arbeit an [Artifact](./06_artifact.md) wollte ich das alte Thema “Masken” wieder aufgreifen, denn mit [Jobs](./04_jobs.md) hatte ich nur die alltäglichen Aufgaben, nicht aber das Spielen einer Rolle verarbeitet. Das Bild der Maske hatte sich aber als inkompatibel mit meinem Albumkonzept erwiesen, ich musste es anders angehen. Nach einem schnell verworfenen Experiments namens *Wardrobe* (die Kleider im Schrank als Sinnbild für die Rollen), löste ich mich ganz vom Objekt und konzentrierte mich auf das Subjekt. Ich landete bei alten Sagen und Märchen, beim Gestaltwandler. Sobald man versucht, ein altes Motiv in die Moderne zu holen, landet man unweigerlich bei einer Urban Legend, so auch hier. Diesen Track auszuarbeiten, hat mir sehr viel Spaß gemacht. Ich konnte mich mit landschaftlichen Details austoben, einen Twist vor der Bridge einbauen und am Ende einen zynischen Kommentar fallen lassen.
+Nach der Arbeit an [Fame](./11_fame.md) wollte ich das alte Thema “Masken” wieder aufgreifen, denn mit [Jobs](./04_jobs.md) hatte ich nur die alltäglichen Aufgaben, nicht aber das Spielen einer Rolle verarbeitet. Das Bild der Maske hatte sich aber als inkompatibel mit meinem Albumkonzept erwiesen, ich musste es anders angehen. Nach einem schnell verworfenen Experiments namens *Wardrobe* (die Kleider im Schrank als Sinnbild für die Rollen), löste ich mich ganz vom Objekt und konzentrierte mich auf das Subjekt. Ich landete bei alten Sagen und Märchen, beim Gestaltwandler. Sobald man versucht, ein altes Motiv in die Moderne zu holen, landet man unweigerlich bei einer Urban Legend, so auch hier. Diesen Track auszuarbeiten, hat mir sehr viel Spaß gemacht. Ich konnte mich mit landschaftlichen Details austoben, einen Twist vor der Bridge einbauen und am Ende einen zynischen Kommentar fallen lassen.
 Der KI skizzierte ich die Idee so:
 ```text
 Verse (4 Zeilen): Das Lyrische ich berichtet, dass in einem kleinen Dorf nahe der großen Wälder Aufregung herrscht. Ein merkwürdiges Wesen wurde gesichtet, irgendwie menschlich, aber dann auch wieder nicht. Es werden Zäune errichtet und Bürgerwehren gebildet.
@@ -121,11 +123,13 @@ But don't worry, darlings... I'm nothing like my uncle
 </details>
 
 Der Entwurf war eine ordentliche Basis. Ich musste vor allem die Sprache glatt ziehen.
-Die ersten Generierungen wollten aber nicht so recht zünden. Sie hatten einen merkwürdigen Humpta-Humpta-Rhythmus. Da ich die erste Zeile zunächst zu “RUMors SPREAD like WILDfire in the SUMmer-dry PINES” geändert hatte, überrascht das nicht. Das Model konnte gar nicht anders, als diesen stampfenden Beat zu erzeugen. Also nahm ich noch einmal ein Refactoring vor und brach den Rhythmus bewusst auf und verstärkte das Motiv der Kälte und des Nebels. Das zeigte Wirkung, aber die Melodie hatte noch diesen Hauch von Jahrmarkt-Grusel. Die Lösung bestand darin, den Grusel zu negieren und durch den Vibe einer True-Crime-Story zu ersetzen. Das zwang das Modell zu einem nüchternen Stil.
+Die ersten Generierungen wollten aber nicht so recht zünden. Sie hatten einen merkwürdigen Humpta-Humpta-Rhythmus. Da ich die erste Zeile zunächst zu “RUmors SPREAD like WILDfire IN the SUMmer DRY PINES” geändert hatte, überrascht das nicht. Das Model konnte gar nicht anders, als diesen stampfenden Beat zu erzeugen (4/4, 1 und 3 betont). Also nahm ich noch einmal ein Refactoring vor und brach den Rhythmus bewusst auf und verstärkte das Motiv der Kälte und des Nebels. Das zeigte Wirkung, aber die Melodie hatte noch diesen Hauch von Jahrmarkt-Grusel. Die Lösung bestand darin, den Grusel zu negieren und durch den Vibe einer True-Crime-Story zu ersetzen. Das zwang das Modell zu einem nüchternen Stil.
+
+Die finale Iteration war nach “you love me with a blazer on” zuende. Das so wichtige Outro mit “I'm not like my sister” fehlte. Versuche, dieses Outro sauber mit zu generieren oder separat erstellen zu lassen, scheiterten, weil der Stimme der “Hauch” fehlte. Der Übergang wäre zu hart gewesen. Schließlich generierte ich eine Version mit demselben Text, nur dass ich das eigentliche Outro mit der Anweisung “keine Instrumentation” in die Mitte zog. Nach nur 3 Iterationen hatte ich eine Version, die passte (die ersten 2 waren auch schon gut, aber zu unterkühlt).
 
 ## Postproduction
 
-Die finale Iteration war nach “you live m with a blazer on” zuende. Das so wichtige Outro mit “I'm not like my sister” fehlte. Versuche, dieses Outro sauber mit zu generieren oder separat erstellen zu lassen, scheiterten, weil der Stimme der “Hauch” fehlte. Der Übergang wäre zu hart gewesen. Schließlich generierte ich eine Version mit demselben Text, nur dass ich das eigentliche Outro mit der Anweisung “keine Instrumentation” in die Mitte zog. Nach nur 3 Iterationen hatte ich eine Version, die passte (die ersten 2 waren auch schon gut, aber zu unterkühlt). Das Zusammenfügen war dann banal.
+Nachdem das Problem mit der Generierung des Outros gelöst war, ging das Zusammenbauen in der DAW recht problemlos vonstatten. Am Ende habe ich noch ein paar Klaviernoten aus einer anderen Iteration eingefügt, damit das Outro nicht komplett ohne Instrumente auskommen muss.
 
 ## Related Files
 
