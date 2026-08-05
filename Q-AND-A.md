@@ -1,0 +1,5 @@
+<details>
+<summary><b>Darf ich deine Songs covern?</b><br/><br/></summary>
+
+Im Prinzip ja, uneingeschränkt. Terminologisch lauert hier aber eine Falle: KI-Artefakte sind gemeinfrei. Sie neu zu vertonen, ist kein "Cover", sondern einfach nur eine andere Aufnahme - das ist insofern wichtig, als dich z.B. ein Distributor bei einem Upload fragen würde, ob es sich um einen "Coversong" handelt (nein, ist es im rechtlichen Sinne nicht). Gib mich einfach als Autor der Lyrics an und gib mir einen Credit, wenn du den Song irgendwo bewirbst - und vermeide das Aktivieren von Content ID auf Youtube. Du besitzt nur das Recht an deiner Aufnahme, das Original bleibt gemeinfrei. Ein Claim deinerseits würde einen Takedown meines Songs auslösen, den ich abwehren müsste (und würde) - auf falsche ContentID-Claims reagieren die Plattform teilweise drakonisch (Sperrung des Accounts), also erspare uns beiden den Trouble.
+</details>
