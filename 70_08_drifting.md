@@ -1,5 +1,9 @@
 # 08 - Drifting
 
+**ISRC:** `QT6FZ2609876`
+
+Das Lyrische Ich flüchtet sich während eines Roadtrips in Tagträume.
+
 ## Instruction
 
 ```markdown
@@ -20,6 +24,7 @@ Fingerpicked Stahlsaiten-Gitarre, warme Drum-Machine, Tambourin, einzelne Akzent
 Die Lyrics erzählen eine Geschichte. Die Lyrics dürfen nicht durch Auslassung, Umstellung oder Verdoppelung verändert werden, sondern müssen genau so vorkommen.
 
 ## Lyrics
+
 ### Verse 1
 You talk about sights while the trees fly by
 You sound like a pilot; have you noticed the sky?
@@ -61,8 +66,6 @@ Should I pick a new destination for us to try?
 ```
 
 ## Track Liner Notes
-
-*May 24, 2026*
 
 Nach der Arbeit am emotionalen Track [Window](./70_10_window.md) wollte ich einen eher gut gelaunten Track angehen, einen klassischen Roadtrip-Song, den man im Auto hören könnte, mit einer E-Gitarre (vorzugsweise einer Strat), um mit der eher melancholischen bzw. Düsteren Ästhetik der anderen Tracks bewusst zu brechen.
 Für die KI sah der Arbeitsauftrag so aus: 
@@ -140,7 +143,7 @@ Eine Spezialbehandlung war abgesehen von der Standardprozedur nicht notwendig. D
 ```text
 File:                  ai-artifacts/drifting.mp3
 
-Duration:              02:57.89 s
+Duration:              02:57.89
 Sample Rate:           44100 Hz
 Total Samples:         7845118
 
@@ -158,7 +161,7 @@ SHA-256 Audio Hash:    e98c0001579ae03f6567262f7a75b4e3ed863c29f37965df5ca8a9a41
 ```text
 File:                  masters/08_Drifting.wav
 
-Duration:              02:59.30 s
+Duration:              02:59.30
 Sample Rate:           44100 Hz
 Total Samples:         7907119
 

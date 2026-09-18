@@ -1,5 +1,7 @@
 # 02 - Shapeshifter
 
+**ISRC:** `QT6FZ2609870`
+
 Die Sichtung eines fremdartigen Wesens verunsichert eine Kleinstadt.
 
 ## Instruction
@@ -72,8 +74,6 @@ I'm not like my sister...
 
 ## Track Liner Notes
 
-*June 2 and July 13, 2026*
-
 Shapeshifter bildet zusammen mit [Agent](./70_09_agent.md) die beiden Sister-Tracks und bildet damit das narrative Rückgrat des Albums.
 Nach der Arbeit an [Fame](./70_11_fame.md) wollte ich das alte Thema “Masken” wieder aufgreifen, denn mit [Jobs](./70_04_jobs.md) hatte ich nur die alltäglichen Aufgaben, nicht aber das Spielen einer Rolle verarbeitet. Das Bild der Maske hatte sich aber als inkompatibel mit meinem Albumkonzept erwiesen, ich musste es anders angehen. Nach einem schnell verworfenen Experiments namens *Wardrobe* (die Kleider im Schrank als Sinnbild für die Rollen), löste ich mich ganz vom Objekt und konzentrierte mich auf das Subjekt. Ich landete bei alten Sagen und Märchen, beim Gestaltwandler. Sobald man versucht, ein altes Motiv in die Moderne zu holen, landet man unweigerlich bei einer Urban Legend, so auch hier. Diesen Track auszuarbeiten, hat mir sehr viel Spaß gemacht. Ich konnte mich mit landschaftlichen Details austoben, einen Twist vor der Bridge einbauen und am Ende einen zynischen Kommentar fallen lassen.
 Der KI skizzierte ich die Idee so:
@@ -138,7 +138,7 @@ Nachdem das Problem mit der Generierung des Outros gelöst war, ging das Zusamme
 ```text
 File:                  ai-artifacts/shapeshifter_1.mp3
 
-Duration:              02:58.52 s
+Duration:              02:58.52
 Sample Rate:           44100 Hz
 Total Samples:         7872765
 
@@ -154,7 +154,7 @@ SHA-256 Audio Hash:    2107e5d1790d8ae4ac5f9d67090336c36ddbdec508c0147d6db81dbd7
 ```text
 File:                  ai-artifacts/shapeshifter_2.mp3
 
-Duration:              02:46.87 s
+Duration:              02:46.87
 Sample Rate:           44100 Hz
 Total Samples:         7358974
 
@@ -172,7 +172,7 @@ SHA-256 Audio Hash:    ec9b5e94e3323a519dfdca2d1aba5fb4e2d667f5033abeb51e0bcafe2
 ```text
 File:                  masters/02_Shapeshifter.wav
 
-Duration:              03:12.00 s
+Duration:              03:12.00
 Sample Rate:           44100 Hz
 Total Samples:         8467200
 

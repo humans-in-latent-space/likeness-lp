@@ -1,5 +1,7 @@
 # 07 - Reflection
 
+**ISRC:** `QT6FZ2609875`
+
 Manchmal ist People Pleasing auch einfach nur eine Methode, um ungestört zu bleiben.
 
 ## Instruction
@@ -39,11 +41,13 @@ Throwing withered tinder onto their yes-seeking fire
 They want a pliant shadow, a soft and shallow friend
 Demanding the distortion, they want their Echo in the end.
 
+(Oh, how interesting! Yes, absolutely! Please, go on!)
+
 ### Bridge
 And I feel like that ancient well behind the garden shed
 Where children scream their prattle, better left unsaid
 Just to hear the same lines, reflected and retold.
-God, I wish I were the water—black, untouched, and cold,
+God, I wish I were the water-black, untouched, and cold,
 The ruthless, silent surface that shows the jagged truth,
 Every wrinkle, every blemish, every vanity of youth.
 But they’re delighted by the reverb, the gentle, hollow flow.
@@ -65,8 +69,6 @@ Will they ever leave?
 > Bei diesem Song habe ich direkt auf eine Beschreibung der Stimmung verzichtet und nur die Instrumente definiert. Die von den Lyrics definierte Stimmung war auch so dicht genug.
 
 ## Track Liner Notes
-
-*July 18, 2026*
 
 Reflection ist der letzte Track des Albums, er begann als ungeliebtes Stiefkind. Nachdem ich mich schweren Herzens von einem zuvor lange gesetzten Track getrennt hatte (eine absolut richtige und notwendige Entscheidung, die mir aber trotzdem schwerfiel), klaffte in der Mitte des Albums ein Loch. Ich hätte auf 12 Tracks reduzieren können, aber der Übergang von [Artifact](./70_06_artifact.md) zu [Agent](./70_09_agent.md) fühlte sich nicht organisch an. Ich überlegte also, welches zentrale Thema noch fehlen könnte. Ganz am Anfang hatte ich mal die Idee, das Thema people-pleasing aufzugreifen, hatte es aber nicht weiter verfolgt, weil mir der narrative Rahmen fehlte. Nachdem ich mit [Fame](./70_11_fame.md) einen Ausflug in die Antike unternommen hatte, war es nur folgerichtig, dass mir die KI Echo und Narziss vorschlug. Der erste Vorschlag war mir aber zu sperrig. Ideen, ein Familientreffen oder ein Geschäftsmeeting als Setting zu etablieren, erwiesen sich aus meiner Sicht als Sackgasse (eine ähnliche Liste hatte mir die KI schon für [Synergy](./70_03_synergy.md) angefertigt). Also bediente ich mich in der Lore, die meine Tracks bereits aufgebaut hatten. Die Shapeshifterin war im Ort, es gab Zäune, die Ankunft der Agentin stand bevor. Das Szenario schrieb sich fast von selbst. Mit dem Brunnen konnte ich den klassischen Mythos aufgreifen und zugleich brechen. Aus dem ungeliebten Stiefkind wurde einer meiner Lieblingstracks. Die Nachbarn als nervige Vögel auszuarbeiten, bereitete mir eine diebische Freude.
 
@@ -252,7 +254,7 @@ Da ich aber inzwischen genügend Erfahrungen gesammelt hatte, um zu wissen, dass
 ```text
 File:                  ai-artifacts/reflection_1.mp3
 
-Duration:              02:55.39 s
+Duration:              02:55.39
 Sample Rate:           44100 Hz
 Total Samples:         7734526
 
@@ -268,7 +270,7 @@ SHA-256 Audio Hash:    9b0b2c8e7869948d8ac5905f123489c9a3f17e242caed63e478f4454b
 ```text
 File:                  ai-artifacts/reflection_2.mp3
 
-Duration:              02:59.57 s
+Duration:              02:59.57
 Sample Rate:           44100 Hz
 Total Samples:         7918846
 
@@ -284,7 +286,7 @@ SHA-256 Audio Hash:    a015d41c8f5789a4c621789127dd68f751ca86099d4514edb7cfdc5b1
 ```text
 File:                  ai-artifacts/reflection_3.mp3
 
-Duration:              03:02.00 s
+Duration:              03:02.00
 Sample Rate:           44100 Hz
 Total Samples:         8025981
 
@@ -302,7 +304,7 @@ SHA-256 Audio Hash:    044a89924924ddbec393064fad59f369923838a59278067fa6fd94325
 ```text
 File:                  masters/07_Reflection.wav
 
-Duration:              02:57.00 s
+Duration:              02:57.00
 Sample Rate:           44100 Hz
 Total Samples:         7805700
 

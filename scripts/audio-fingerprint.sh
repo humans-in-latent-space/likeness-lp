@@ -59,7 +59,7 @@ else
     DURATION_FORMATTED="N/A"
 fi
 
-echo "Duration:              ${DURATION_FORMATTED} s"
+echo "Duration:              ${DURATION_FORMATTED}"
 echo "Sample Rate:           ${SAMPLE_RATE} Hz"
 echo "Total Samples:         ${TOTAL_SAMPLES}"
 

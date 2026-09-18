@@ -1,5 +1,7 @@
 # 09 - Agent
 
+**ISRC:** `QT6FZ2609877`
+
 Die Aussicht auf ein unbeschwertes Leben ermöglicht einem geschickten Blender in einem kleinen Dorf leichtes Spiel.
 
 ## Instruction
@@ -19,7 +21,7 @@ Reiz die vollen 3 Minuten aus
 ### Verse 1
 I drove past the treeline, where the pines grow tall,
 A corporate agent to shape, the future of you all.
-You met my tailored coat with a  cautious stare,
+You met my tailored coat with a cautious stare,
 But you let me in, 'cause a "good cause" brought me there.
 
 ### Chorus 1
@@ -32,6 +34,7 @@ You smiled into the sunrise and showed me your lands.
 ​Soon you pulled up a kitchen chair, and let me share your bread,
 You trusted me with town-hall tasks, and things you left unsaid.
 You voted me onto the council, beneath the steeple’s shade,
+To run the church bake sale, and the summer parade.
 To run the church bake sale, and the summer parade.
 
 ### Spoken word interlude
@@ -61,8 +64,6 @@ I wish I was more like my sister
 > Die Instruktionen wirken ungewöhnlich kurz und oberflächlich (ich habe nicht einmal Instrumente vorgegeben). Die Anweisungen für die erste Iteration war ausführlicher, erzeugte aber zu viel "gute Laune" im Chorus. Später habe ich es noch einmal versucht und Folktronica als Genre ergänzt. Das Ergebnis klang anders als geplant, gefiel mir aber sofort, sodass sich weiteres Ausprobieren erübrigte.
 
 ## Track Liner Notes
-
-*June 2 and June 14, 2026*
 
 Agent entstand zu parallel zu [Shapeshifter](./70_02_shapeshifter.md) und ist der zweite “Sistertrack”. Wo Shapeshifter die fremdartige Bedrohung thematisiert, die im Kern niemandem etwas Böses will, inszeniert Agent das genaue Gegenteil: das Vertraute, Freundliche, Hilfreiche, das sich im Kern als verdorben erweist. Wo der Shapeshifter sich erst mühsam anpassen muss, beherrscht der Agent die Kunst der Täuschung perfekt. Sie verspricht den Menschen ein sorgenfreies, bequemes Leben, redet ihnen nach dem Mund und erschleicht sich so ihr Vertrauen, nur um es dann gnadenlos auszunutzen.
 Der KI beschrieb ich die Geschichte so:
@@ -142,7 +143,7 @@ Die Dopplung von "To run the church bake sale, and the summer parade." war nicht
 ```text
 File:                  ai-artifacts/agent_1.mp3
 
-Duration:              02:59.85 s
+Duration:              02:59.85
 Sample Rate:           44100 Hz
 Total Samples:         7931517
 
@@ -158,7 +159,7 @@ SHA-256 Audio Hash:    04dbb437d8135b7c7c3d1d8fd02c842d5434c4ac16da1fb407d900cbc
 ```text
 File:                  ai-artifacts/agent_2.mp3
 
-Duration:              02:57.35 s
+Duration:              02:57.35
 Sample Rate:           44100 Hz
 Total Samples:         7820926
 
@@ -176,7 +177,7 @@ SHA-256 Audio Hash:    32fef86c05965dc0c7b5044b60911360a1ccf439f758d686055a75a84
 ```text
 File:                  masters/09_Agent.wav
 
-Duration:              03:15.00 s
+Duration:              03:15.00
 Sample Rate:           44100 Hz
 Total Samples:         8599500
 

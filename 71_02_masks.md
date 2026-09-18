@@ -98,9 +98,7 @@ Man, I need another Job...
 
 ## Track Liner Notes
 
-*May 12, 2026*
-
-Die Idee zu Masks kam mir direkt nach Hallow, ich habe mich aber erst an "[Excellence](./excellence.md)" versucht, bevor ich mich diesem gewidmet habe. Es ist also Track Nummer 3, auch wenn er es in dieser Form nicht auf das Album geschafft hat.
+Die Idee zu Masks kam mir direkt nach Hallow, ich habe mich aber erst an "[Excellence](./71_01_excellence.md)" versucht, bevor ich mich diesem gewidmet habe. Es ist also Track Nummer 3, auch wenn er es in dieser Form nicht auf das Album geschafft hat.
 
 Die titelgebenden Masken waren also Metapher für die Rollen, die wir im Alltag spielen müssen (und wollen), angelegt. Zuweilen machen wir uns diese Masken derart zu eigen, dass wir sie gar nicht mehr ablegen können.
 Die Vorgaben für die KI waren:
@@ -209,22 +207,4 @@ It fits better in the light.
 
 Die resultierende Entwurf hatte etwas “Barockes” in seiner Bildsprache und auch ein paar Eigenheiten (sei es das Bild des Gartens, ein Artefakt meines Profils - oder die Fehlinterpretation der Maske als Atemmaske in Verse 2). Ich habe den Entwurf wie immer eingedampft, entschlackt und umgestellt.
 
-Das “Barocke” konnte ich dem Track aber nicht nehmen, wenig überraschend fiel auch der Sound merkwürdig verschnörkelt aus. Es matchte einfach nicht. Schon wie bei "[Excellence](./excellence.md)" drohte das Projekt eine klangliche Ästhetik zu entwickeln, die ich so nicht intendiert hatte. Ich traf die einzig folgerichtige Entscheidung, verwarf den Song und unterzog ihn einem gnadenlosen Refactoring. Das Ergebnis schaffte es als "[Jobs](../04_jobs.md)" auf das Album. 
-
-
-## Postproduction
-
---
-
-## Related Files
-
-### Artifacts
-
-```text
-```
-
-### Master
-
-```text
-
-```
+Das “Barocke” konnte ich dem Track aber nicht nehmen, wenig überraschend fiel auch der Sound merkwürdig verschnörkelt aus. Es matchte einfach nicht. Schon wie bei [Excellence](./excellence.md) drohte das Projekt eine klangliche Ästhetik zu entwickeln, die ich so nicht intendiert hatte. Ich traf die einzig folgerichtige Entscheidung, verwarf den Song und unterzog ihn einem gnadenlosen Refactoring. Das Ergebnis schaffte es als [Jobs](./70_04_jobs.md) auf das Album. 

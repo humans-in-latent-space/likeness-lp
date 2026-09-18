@@ -1,5 +1,9 @@
 # 06 - Artifact
 
+**ISRC:** `QT6FZ2609874`
+
+Über das Wesen eines Artefakts
+
 ## Instruction
 
 ```markdown
@@ -51,8 +55,6 @@ Or do we create it once raised from the ground?
 > Die Instruktionen wirken ungewöhnlich kurz und oberflächlich (ich habe nicht einmal Instrumente vorgegeben). Das war eine Art Überreaktion: ich hatte zuvor ein sehr detalliertes Setup entworfen, das aber nicht so recht zünden wollte - daher habe ich für den Sound dieses Songs komplett auf die Intuition der Maschine vertraut.
 
 ## Track Liner Notes
-
-*May 27 and June 23, 2026*
 
 Dieser Song entstand nach [Drifting](./70_08_drifting.md). Er begann unter dem Titel “Excavation” und ist in gewisserweise mein persönlichster Track, auch wenn das Thema und die fast schon philosophischen Fragen es eher nicht erahnen lassen.
 Ich habe selbst Archäologie studiert und habe an diversen Ausgrabungen teilgenommen (und auch mehrere Jahre im Ausland gelebt). Ich habe zwar nie an einem 2H-Bleitift geknabbert, aber ich kenne diese ganz besondere Art des Wartens, während sich die Spitzhacke in den Boden gräbt (wir hatten es mit Böden zu tun, die kein Spaten der Welt hätte meistern können) und ich kenne den Unterschied zwischen dem Schatz im Museum und den Scherben im Depot nur zu gut. Vor allem aber kenne ich die Zweifel und die Unsicherheit, mithin die Unmöglichkeit, sich über zweitausend Jahre alten Relikten zu nähern. Zugleich spiegelt sich hier meine Überzeugung, dass die Menschen von damals auch nur Menschen waren. Wir werden also nie etwas finden, was nicht anthropologisch erklärbar wäre - bzw. Wenn wir etwas wirklich Fremdartiges fänden, würden wir es womöglich gar nicht erkennen, weil es eben zu fremdartig wäre. So ist auch die Schlussfrage zu verstehen: die Existenz eines Artefakts ist ein physikalisches Faktum, aber seine Ansprache als Artefakt ist an den Finder oder allgemeiner den Betrachter gekoppelt. Wenn es niemanden gibt, der den Marmorsplitter als Fragment einer Inschrift erkennt, dann existiert es für unsere Aufzeichnungen nicht. Noch drängender wird die Frage, wenn wir sie auf den Latenzraum einer KI anwenden: existiert jede Iteration, jedes Artefakt bereits als mathematische Wahrscheinlichkeit latent im Raum oder wird es erst im Moment der Generierung erschaffen? Ist der Latenzraum  ein Depot mit Objekten, ein Marmorblock, aus dem man eine Statue herausschlägt, oder ein Haufen Atome, den man zu Molekülen formen kann?
@@ -202,19 +204,19 @@ Die finale Iteration brauchte keine spezielle Nachbearbeitung. Beim Mastering ha
 ### Artifacts
 
 ```text
-File:                  ai-artifacts/agent_1.mp3
+File:                  ai-artifacts/artifact.mp3
 
-Duration:              02:59.85 s
+Duration:              02:58.65
 Sample Rate:           44100 Hz
-Total Samples:         7931517
+Total Samples:         7878526
 
-Integrated Loudness:   -12.1 LUFS
-True Peak:             0.1 dBTP
-Max Short-Term:        -8.0 LUFS
+Integrated Loudness:   -12.3 LUFS
+True Peak:             0.2 dBTP
+Max Short-Term:        -8.8 LUFS
 Loudness Range (LDR):  9.4 LU
-Peak-Loudness (PLR):   12.20 dB
+Peak-Loudness (PLR):   12.50 dB
 
-SHA-256 Audio Hash:    04dbb437d8135b7c7c3d1d8fd02c842d5434c4ac16da1fb407d900cbca63de9b
+SHA-256 Audio Hash:    a4f0208b09aeac97387cdb5614516e4a0feab00e8126b5971a6cd8963d79defd
 ```
 
 ### Master
@@ -222,7 +224,7 @@ SHA-256 Audio Hash:    04dbb437d8135b7c7c3d1d8fd02c842d5434c4ac16da1fb407d900cbc
 ```text
 File:                  masters/06_Artifact.wav
 
-Duration:              02:53.50 s
+Duration:              02:53.50
 Sample Rate:           44100 Hz
 Total Samples:         7651327
 

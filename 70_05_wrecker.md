@@ -1,5 +1,7 @@
 # 05 - Wrecker
 
+**ISRC:** `QT6FZ2609873`
+
 Das Lyrische Ich überkommt bei einem Strandspaziergang die Vision eines historischen Schiffsunglücks.
 
 ## Instruction
@@ -26,7 +28,7 @@ When the logs burn low and the hour gets late.
 ### Verse 2
 The mist drops down like a curtain of damp wool,
 As fifty feet of water obeys the Moon's lonely rule.
-Then in the gray, it's hard to believe:
+It's hard to believe:
 The ship of the dead rises out of the reef.
 
 ### Chorus
@@ -60,8 +62,6 @@ You found me out here, so you can keep me.
 > Die Instruktionen wirken ungewöhnlich kurz und oberflächlich (ich habe nicht einmal Instrumente vorgegeben). Die ersten Iterationen war in sich nicht stimmig, sodass ich es mit einem reduzierten Setup probiert habe - das brachte dann direkt die finale Iteration.
 
 ## Track Liner Notes
-
-*June 6, 2026*
 
 Dieser Song entstand nach den Sister-Tracks ([Shapeshifter](./70_02_shapeshifter.md) und [Agent](./70_09_agent.md)), vermeidet aber einen eindeutigen Bezug zu einer der Schwestern. Der Genese ging eine längere Unterhaltung mit der KI über Lorenna McKennitts "Skellig" voraus. Davon ist im finalen Track kaum etwas zu spüren, aber mit dem Vorwissen erkennt man vielleicht die (wenigen) Parallelen: der Titel hat keine klassische Pop-Song-Struktur, sondern ist eine lineare Erzählung. Das Meer und die Gezeiten spielen eine große Rolle.
 Der erste Arbeitsauftrag, der aus dieser Unterhaltung entstand, sah so aus:
@@ -429,7 +429,7 @@ Die finale Iteraion ließ sich direkt verwenden und ging unverändert ins Master
 ```text
 File:                  ai-artifacts/wrecker.mp3
 
-Duration:              03:00.01 s
+Duration:              03:00.01
 Sample Rate:           44100 Hz
 Total Samples:         7938430
 
@@ -447,7 +447,7 @@ SHA-256 Audio Hash:    0d2f6a0df35a7d572e67b959f3e07ffba453cc273d3d99e77603e03bc
 ```text
 File:                  masters/05_Wrecker.wav
 
-Duration:              03:01.70 s
+Duration:              03:01.70
 Sample Rate:           44100 Hz
 Total Samples:         8012982
 

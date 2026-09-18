@@ -73,9 +73,7 @@ Mmm…
 
 ## Track Liner Notes
 
-*May 11, 2026*
-
-Dieser Song hat es nicht aufs Album geschafft, auch wenn er lange sicher gesetzt war. Es war der zweite Song (nach "[Hollow](../01_hollow.md)"). Adressieren wollte ich den Umstand, dass in Zeiten von KI der Durschnitt praktisch instant vorhanden ist, womit Exzellenz (sei es in Form von Qualität oder Innovation) obligatorisch wird, um nicht ersetzt zu werden. 
+Dieser Song hat es nicht aufs Album geschafft, auch wenn er lange sicher gesetzt war. Es war der zweite Song (nach "[Hollow](./70_01_hollow.md)"). Adressieren wollte ich den Umstand, dass in Zeiten von KI der Durschnitt praktisch instant vorhanden ist, womit Exzellenz (sei es in Form von Qualität oder Innovation) obligatorisch wird, um nicht ersetzt zu werden. 
 Der KI habe ich für die Lyrics folgende Vorgaben gemacht:
 * das lyrische Ich ist zum Erfolg verdammt. Es ist "excellent by demand". Wenn es nicht liefert, setzt man es auf die Straße
 * in einer Welt, in der Durschnitt wertlos und jederzeit zu haben ist, ist Exzellenz die einzige harte Währung
@@ -147,21 +145,3 @@ Die Ironie an diesem Entwurf war, dass er von Gemini 3.0 Flash stammte, welches 
 Mit etwas Abstand fielen mir aber die Ecken und Kanten an den Lyrics auf (“in a world of copper coins I'm the only currency” - ernsthaft? Da hat das Context Bleeding meines Profils hart zugeschlagen). Also habe ich sie überarbeitet, auch weil ich keine rein KI-generierten Texte ohne menschliche Nacharbeit auf dem Album haben wollte. Das Ergebnis ist in der finalen Instruktion zu finden.
 
 Die Versuche, mit diesen Lyrics wieder die Ästhetik des so gefälligen Tracks zu treffen, scheiterten jedoch (was fast klar war - man bekommt nie zweimal die gleichen Lottozahlen). Nach 5 Iterationen habe ich aufgegeben. Zudem wurde mir bewusst, dass der Track zu direkt und extrovertiert ist. Es gibt keine Innensicht und keine Erzählung. Es ist nur ein Klagen über den Status Quo. Daher habe ich diesen Song ersatzlos gestrichen, auch weil die klangliche Ästhetik zu sehr nach Broadway und großer Bühne klang.
-
-## Postproduction
-
---
-
-
-## Related Files
-
-### Artifacts
-
-```text
-```
-
-### Master
-
-```text
-
-```

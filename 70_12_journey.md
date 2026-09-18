@@ -1,5 +1,7 @@
 # 12 - Journey
 
+**ISRC:** `QT6FZ2609880`
+
 Wenn wir auf eine Reise gehen, dann tun wir das mit einem Ziel vor Augen - das Ziel sieht aber oft anders aus, als erwartet, hat sich verändert.
 
 ## Instruction
@@ -34,8 +36,6 @@ A place once known, that somehow stays unknown.
 > Die Genese des Instrumentaltracks ist für mich nicht mehr sauber zu rekonstruieren und da es ein langer Chatverlauf war, gäbe es auch nicht *die eine* Instruktion, um ihn zu erzeugen, sondern eine ausuferende Diskussion (zusätzlich beeinflusst durch Geminis *Gedächtnis*). Ich hätte ex post etwas erfinden können, bekenne mich aber an dieser Stelle offen zur Lücke in der Dokumentation.
 
 ## Track Liner Notes
-
-*May 21, 2026*
 
 Journey ist ein besonderer Track, denn er ist im Kern deutlich älter als die Albumidee. Es war der erste 3-Minuten-Track, den ich je mit Lyria 3 erstellt habe. Das war direkt am Abend nach der Veröffentlichung der neuen Funktion in Gemini. Zuvor hatte ich bereits einen 30-Sekunden-Clip erstellt, der als eine Art Mood-Track gedacht war. Ich wechselte in den alten Chat und forderte eine 3-Minuten-Version an. Da das Feature noch neu war, scheiterte es bestimmt 5-mal, bevor es funktionierte. Interessanterweise zeigte das Cover zum Song Artwork, das ich in einem ganz anderen Chat als Moodboard für die Buch-Idee, auf der auch [Hollow](./70_01_hollow.md) beruht, erstellt hatte. Auch hier hatte also wieder Geminis “Gedächtnis” eine Rolle gespielt, was insofern bemerkenswert war, als ich das Buch nicht erwähnt hatte - Gemini hat hier allein aufgrund der Themen eine Verbindung hergestellt. Der generierte Track war folglich ganz anders als der 30-Sekunden-Track: er hatte etwas Drängendes und Existenzielles - und genau deswegen hat er mich berührt. Ein reiner Instrumentaltrack war für das Album aber ungeeignet, da es keine vom Menschen kuratierte Lyrics gibt. Ich wollte daher Text einbauen (auch um einen Wechsel in der Gitarrenspur zu Beginn zu kaschieren bzw. Diesem Wechsel einen Sinn zu geben).
 Da die Lyrics aus [Homecoming](./70_13_homecoming.md) zu einem eigenen Song geworden waren, mussten neuen Lyrics her. Da mich der Track an das Reisen und Selbsttransformation erinnerte, beschloss ich, ihn "Journey" zu nennen und die Lyrics entsprechend zu wählen - zudem wollte ich einen Aspekt einbringen, der mir für die Arbeit mit KI zentral erschien: man kann das Ziel definieren, aber das Ziel wird nie genauso aussehen, wie geplant, sondern anders, wenn auch vertraut, das Wesen der Probalistik eben.
@@ -72,7 +72,7 @@ Am Ende habe ich die Rezitation in Segmente zerlegt und so platziert, dass die b
 ```text
 File:                  ai-artifacts/journey_1.mp3
 
-Duration:              02:47.26 s
+Duration:              02:47.26
 Sample Rate:           44100 Hz
 Total Samples:         7376254
 
@@ -88,7 +88,7 @@ SHA-256 Audio Hash:    3bb8f1d6eadf2e79f3f77dc1b3a17758974b870b3d095f8d954151947
 ```text
 File:                  ai-artifacts/journey_2.mp3
 
-Duration:              00:27.64 s
+Duration:              00:27.64
 Sample Rate:           44100 Hz
 Total Samples:         1218814
 
@@ -106,7 +106,7 @@ SHA-256 Audio Hash:    7461812e9e8e6baf1387b3d3943abf3dde56ba6a6594fc568be78ebeb
 ```text
 File:                  masters/12_Journey.wav
 
-Duration:              02:51.50 s
+Duration:              02:51.50
 Sample Rate:           44100 Hz
 Total Samples:         7563139
 

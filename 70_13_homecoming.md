@@ -1,5 +1,9 @@
 # 13 - Homecoming
 
+**ISRC:** `QT6FZ2609881`
+
+Der Phantomschmerz einer Erinnerung an die Zukunft.
+
 ## Instruction
 
 ```markdown
@@ -40,8 +44,6 @@ I dream of the day when I finally pass the bleached threshold
 welcomed by a self I have yet to meet.
 ```
 ## Track Liner Notes
-
-May 20, 2026
 
 Homecoming folgte produktionstechnisch direkt auf [Jobs](./70_04_jobs.md) und greift das Motiv des sehnsüchtig imaginierten cottages auf, aber aus einer völlig anderen Perspektive. Wo jobs tief im Alltag und klischeeartigen Sehnsüchten (“cottage in the pines”) verwurzelt ist, wagt sich Homecoming in andere Gefilde vor.
 Der KI habe ich das Vorhaben so beschrieben: 
@@ -149,7 +151,7 @@ Das finale KI-Artefakt war in Sachen Lyrics und Instrumentation makellos, kämpf
 ```text
 File:                  ai-artifacts/homecoming.mp3
 
-Duration:              02:54.08 s
+Duration:              02:54.08
 Sample Rate:           44100 Hz
 Total Samples:         7676926
 
@@ -167,7 +169,7 @@ SHA-256 Audio Hash:    5703e461c7dbdb4b49d7f2b8ec55f02a1d58e84fc47ebc919d3253238
 ```text
 File:                  masters/13_Homecoming.wav
 
-Duration:              02:58.00 s
+Duration:              02:58.00
 Sample Rate:           44100 Hz
 Total Samples:         7849800
 

@@ -1,5 +1,9 @@
 # 10 - Window
 
+**ISRC:** `QT6FZ2609878`
+
+Gefangen in der eigenen Innenwelt, sieht das Lyrische Ich die Außenwelt nur durch die Augen anderer.
+
 ## Instruction
 
 ```markdown
@@ -66,8 +70,6 @@ Please, tell me they're blooming; tell me you're blooming, too.
 ```
 
 ## Track Liner Notes
-
-*May 22, 2026*
 
 Dieser Song entstand nach [Journey](./70_12_journey.md). Er ist wieder einmal das Ergebnis einer kompletten Neuorientierung. Ich hatte einen Song mit dem Arbeitstitel "Empathy" begonnen, der die Unfähigkeit des Lyrischen Ichs zu selbiger zum Gegenstand hatte. Es kann dem Gegenüber zwar tröstliche oder schmeichelnde Worte zuflüstern, aber es nicht wirklich fühlen. Das Ergebnis war eine Soziopathin... ich musste die Idee anders aufrollen. Im Kern ging es mir um die Unmöglichkeit, die Welt des anderen zu berühren. Ich dachte schon an ein Meeresaquarium, wo das Lyrische ich das Gegenüber durch eine Glasscheibe getrennt betrachtet. Die KI schlug außerdem den Fund eines verletzten Wildtieres und ein Gewächshaus (als Trennung zwischen und draußen mit der Glasscheibe als Sinnbild) vor. Das Gewächshaus war mir als Bild zu weit hergeholt (warum sollte das Lyrische Ich in einem Gewächshaus bleiben, wenn es nicht gerade eine Südpflanze ist?). Aber das Bild der Glasscheibe verhärtete sich und der Garten brachte die Intimität und Erdung, nach der ich gesucht hatte.
 Da fiel mir ein, wie ich mich im April im Garten mit der KI über meine neu angelegte Rabatte unterhalten hatte. Eigentlich wollte ich nur eine Tulpensorte, deren Name ich vergessen hatte, anhand eines Fotos bestimmen lassen (es war die weiß-blaue seltene Wildtulpe "Alba Coerulea Oculata"). Natürlich blieb es nicht dabei, ich fragte nach weiteren Pflanzen, Unkraut und Pflanzungsideen - und ja, vielleicht habe ich mich von der KI ein wenig einwickeln lassen. Sie simulierte jedenfalls sehr glaubwürdig Begeisterung für den Garten - genau daraus entstand die Idee, dass das Lyrische Ich in diesem Song den Garten nur durch die Augen bzw. Worte des Gegenübers wahrnehmen kann - warum das so ist, ließ ich bewusst offen. Ist sie krank, muss sie sich verstecken? Um den Kontrast zur erdigen Realität des Gartens hervorzuheben, machte ich aus ihrem Gefängnis ein Arbeitszimmer.
@@ -150,7 +152,7 @@ An der finalen Iteration gab es nichts groß zu machen korrigieren. Das letzte W
 ```text
 File:                  ai-artifacts/window.mp3
 
-Duration:              02:58.34 s
+Duration:              02:58.34
 Sample Rate:           44100 Hz
 Total Samples:         7864702
 
@@ -168,7 +170,7 @@ SHA-256 Audio Hash:    3852f1d849cf6c8b6321b5f3b8a88ce8f39448c6fb3d83344508e0381
 ```text
 File:                  masters/10_Window.wav
 
-Duration:              03:01.00 s
+Duration:              03:01.00
 Sample Rate:           44100 Hz
 Total Samples:         7982134
 

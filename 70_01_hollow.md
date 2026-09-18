@@ -1,5 +1,7 @@
 # 01 - Hollow
 
+**ISRC:** `QT6FZ2609869`
+
 A successful woman in her mid-twenties returns to her hometown, only to realize she isn't real, but rather the figment of her parents' ideal daughter.
 
 ## Instruction
@@ -24,8 +26,8 @@ Introspective, melancholic, meticulously crafted, close, and intimate.
 * **Bridge:** The guitar picking becomes more energetic (staccato), the strings become more agitated, almost "breaking."
 * **Outro:** Stripped back drastically to just the felt piano, followed by an abrupt, unresolved ending.
 
-### Vocals (Optional/Mental):
-Close-miked vocals, with every breath audible. Multiple ghostly, slightly dissonant vocal layers in the bridge.
+### Vocals
+Close-miked female vocals, with every breath audible. Multiple ghostly, slightly dissonant vocal layers in the bridge.
 
 ## Lyrics
 
@@ -48,7 +50,7 @@ You talk about my honors like you’re reading from a brochure.
 I smile in the right places, practiced and demure.
 But looking at my childhood bed, the pillows feel like props.
 Questioning myself is the only thing that never really stops.
-I’ve got the CV of a titan and the spirit of a bird,
+I’ve got the CV of a titan, spirit of a bird,
 Caught inside the syntax of your every single word.
 
 ### ​Chorus
@@ -82,8 +84,6 @@ Just ink on the page.
 ```
 
 ## Track Liner Notes
-
-*May 10, 2026*
 
 This is the song that started it all. It was early in the morning—my family was still asleep. I’m not really an early riser, but I love that quiet and contradictory clarity of mind. On one hand, your mind still feels half-asleep, but on the other, it’s already fully present. Unlike in the evening, where growing tiredness leads to irritability and a lack of focus, the morning wraps ideas in silk.
 
@@ -163,17 +163,21 @@ Just a girl on a stage.
 (Mm-mm, just a draft you made.)  
 </details>
 
-I largely adopted this draft. The most significant change is shifting from "**holy** ghost" to "**hollow** ghost." The contrast "not the guest of honor [...] just the holy ghost" didn't make any sense to me: how could being the "Holy Ghost" be worth less than being the "guest of honor"? Moreover, it introduced a religious connotation I wasn't fond of. That's when I came up with "hollow." It plays phonetically with "holy," but sets a completely different tone that hits the intended message of the track much better.
+I largely adopted this draft. The most significant change is shifting from "**holy** ghost" to "**hollow** ghost." The contrast "not the guest of honor [...] just the holy ghost" didn't make any sense to me: how could being the "holy ghost" be worth less than being the "guest of honor"? Moreover, it introduced a religious connotation I wasn't fond of. That's when I came up with "hollow." It plays phonetically with "holy," but sets a completely different tone that hits the intended message of the track much better.
 
 Furthermore, I streamlined the chorus from six lines down to four (I didn't like "young and deep") and changed the line "The stage lights are the only thing that never really stop" in Verse 2. While the imagery of the stage lights fit content-wise, the break from the intimacy of one's childhood room felt too jarring. So, I changed it to "Questioning myself is the only thing that never really stops," giving the narrator a subtle, nagging sense of self-doubt that felt like a better fit for the concept of the "hollow ghost."
 
 Finally, the outro turned out a bit shorter, but that wasn't a conscious choice on my part—the AI took the "Strike the line!" command a bit too literally (though looking at the 3-minute limit, it was actually a solid call).
 
-If I were working today on a song I intended to release, I'd probably make deeper revisions (as I've done with all my later tracks), but back then, it was just an experiment. Since I really liked the generated track, it *had to* end up on the album—after all, without this song, the whole album would simply not exist.
+In the chorus, it says "you written" instead of "you’ve written", which unfortunately I only caught after the track was already finished. I went back and forth on what to do about it. It’s definitely a grammatical error—and while you barely notice it when listening, there's genuinely no "'ve" to be heard, no matter how hard you try. It's frustrating that it ended up on the album like this (especially since rhythmically it wouldn't have been an issue at all), but fixing it is almost impossible. Let's just treat it as a glitch in the very *syntax* the song is singing about.
+
+If I were working today on a song I intended to release, I would make deeper revisions (as I've done with all my later tracks), but back then, it was just an experiment. Since I really liked the generated track, it *had to* end up on the album—after all, without this song, the whole album would simply not exist.
+
 
 ## Postproduction
 
 This track was almost an one-shot. I liked the melody and vibe right away, the 3rd iteration was the final one. No specific post-processing was needed. On one of my pairs of headphones, I noticed a slight harshness on the piano key strikes (especially when the track gets denser in the chorus). However, since I didn't hear any unpleasant clicking or popping, I didn't push the slew rate too hard so I wouldn't muddy up the texture. In my view, that subtle sonic restlessness in the chorus actually reflects the agitated state of the lyrics' narrator really well. During mastering, I just added the silence at the beginning and end, applied my standard plugin chain, and normalized it to the target loudness.
+
 
 ## Related Files
 
@@ -182,7 +186,7 @@ This track was almost an one-shot. I liked the melody and vibe right away, the 3
 ```text
 File:                  01_hollow.mp3
 
-Duration:              02:52.49 s
+Duration:              02:52.49
 Sample Rate:           44100 Hz
 Total Samples:         7606653
 
@@ -200,7 +204,7 @@ SHA-256 Audio Hash:    c7a522e37c75d223f65f5131a63ba025adf089876fdcb0c7bec89b55a
 ```text
 File:                  ai-artifacts/hollow.mp3
 
-Duration:              02:52.49 s
+Duration:              02:52.49
 Sample Rate:           44100 Hz
 Total Samples:         7606653
 

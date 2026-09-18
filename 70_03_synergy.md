@@ -1,5 +1,7 @@
 # 03 - Synergy
 
+**ISRC:** `QT6FZ2609871`
+
 Ein Lovesong, der keiner sein will.
 
 ## Instruction
@@ -30,8 +32,6 @@ A nod, a glass, a sudden laugh—you speak the language of the crowd.
 ### Chorus
 They talk of magnets in the blood, of fated stars above,
 A tired line in paperbacks to justify their love.
-But we are something structural, the closing of a space,
-An interlocking mechanism, a synthesis of grace.
 I don’t need to hold your heart. Our footing is secure—
 We don’t match, we complement, two shadows sharing one contour.
 
@@ -51,7 +51,7 @@ We don’t match, we calibrate, two shadows sharing one contour.
 
 ### Bridge
 I will never fathom the nature of your mind,
-You will never trace the languages, untranslated till the end—
+You will never trace the languages, untranslated till the end.
 Are we partners? Are we allies? Just a shadow and a friend?
 It doesn’t matter when the architecture locks.
 It doesn’t matter who is winding up the clocks.
@@ -66,8 +66,6 @@ We take our stand.
 ```
 
 ## Track Liner Notes
-
-*June 21, 2026*
 
 Mit [Wrecker](./70_05_wrecker.md) hatte ich bereits einen Song etabliert, den man als Lovesong lesen kann, der aber dann doch eher in die Kategorie Grusel-Ballade fällt. Ich wollte einen weiteren Lovesong, der keiner ist. Das Ergebnis ist Synergy, ein Song, der sich der klassischen Lesung als Romanze explizit verweigert und stattdessen eine rein funktionale Koexistenz beschreibt, deren wahres Wesen offen und letztendlich irrelevant bleibt. Zudem wollte ich einen Song, der wie [Drifting](./70_08_drifting.md) etwas andere Töne anschlägt, vielleicht sogar zum Tanzen einlädt. Daher kam ich auf die Idee, die KI um einen Bacata-Rhythmus als Base zu bitten. Bacata ist ein sehr enger Tanz, der explizit romantisch ist - und daher hervorragend mit der Verweigerung der Romanze kontrastiert.
 Arbeitsauftrag an die KI:
@@ -261,7 +259,7 @@ Die finale Iteration (müsste der 5. Versuch gewesen sein) war direkt verwendbar
 ```text
 File:                  ai-artifacts/synergy.mp3
 
-Duration:              02:50.84 s
+Duration:              02:50.84
 Sample Rate:           44100 Hz
 Total Samples:         7534077
 
@@ -279,7 +277,7 @@ SHA-256 Audio Hash:    1ad127e495e297cdd1729f3570538450a3c3d2d0585529166881a3511
 ```text
 File:                  masters/03_Synergy.wav
 
-Duration:              02:52.00 s
+Duration:              02:52.00
 Sample Rate:           44100 Hz
 Total Samples:         7585211
 
