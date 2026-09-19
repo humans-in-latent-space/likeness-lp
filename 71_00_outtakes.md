@@ -1,5 +1,7 @@
 # Outtakes
 
-Ich habe deutlich mehr Tracks in unterschiedlichen Stadien verworfen, als ich hier dokumentiere. Das hier ist also keine erschöpfende Auflistung und erst recht kein *secret Vault*. Vielmehr habe ich zwei Tracks herausgegriffen, die ich aus zwei Gründen für das bessere Verständnis der Genese als essentiell erachte:
-1) excellence: der Song dokumentiert eine frühe thematische Stoßrichtung des Albums, die ich verworfen habe
-2) masks: ein gescheiterter Entwurf, der aber mehrere andere Songs darunter vor allem Jobs inspiriert hat
+Across the production cycle, I discarded far more tracks in various stages of development than are documented here. This section is neither an exhaustive catalog nor a "secret vault." Rather, I selected two specific discarded pieces that provide essential context for understanding the album's conceptual evolution:
+
+1. **Excellence:** Documents an early thematic trajectory that was subsequently abandoned.
+2. **Masks:** A failed conceptual draft that nevertheless directly inspired several album tracks, most notably *Jobs*.
+

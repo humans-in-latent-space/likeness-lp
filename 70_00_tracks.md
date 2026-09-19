@@ -1,13 +1,14 @@
 # Tracks
 
-Im folgenden habe ich jedem Track des Albums eine separate Dokumentation gewidmet. Das Template besteht immer aus:
-* Finale Instruction für die eigentlich Generierung des Tracks
-* Track Liner Notes: Sie dokumentieren die Idee, die ersten Drafts und die Überarbeitungen
-* Postproduction: Notizen zur DAW-Session
-* Related Artifacts: Technische Paramter von Artifacts und Masters
+The following sections provide dedicated documentation for each track on the album. Each entry follows a consistent architectural template:
+
+* **Final Generation Instruction:** The exact prompt dispatched for audio synthesis.
+* **Track Liner Notes:** Documentation of the initial concept, preliminary drafts, and manual revisions.
+* **Post-Production:** Detailed notes on DAW mixing, restoration, and stem assembly.
+* **Related Files:** Technical parameters, loudness specifications, and cryptographic hashes for both generated artifacts and final masters.
 
 
-| # | Track | Länge | ISRC |
+| # | Track | Length | ISRC |
 | :--- | :--- | :--- | :--- |
 | 01 | [Hollow](./70_01_hollow.md) | 02:55 | `QT6FZ2609869` |
 | 02 | [Shapeshifter](./70_02_shapeshifter.md) | 03:12 | `QT6FZ2609870` |

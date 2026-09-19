@@ -1,102 +1,157 @@
 # Instruction
 
 ## Setup
-Auch wenn ich beruflich inzwischen primär agentische Setups in der IDE verwende, habe ich mich für Likeness bewusst gegen einen agentischen Ansatz oder gar eine automatisierte Pipeline entschieden und stattdessen mit der B2C-Gemini-App von Google gearbeitet. Das hat mehrere Gründe.
-Die App ist mit all ihren Features komplett über mein Google-One-Abo abgedeckt. Solange ich mich innerhalb meines Computing-Budgets bewege (das ich noch nie gerissen habe), zahle ich nichts drauf, wohingegen ich bei API-Nutzung pro Request zahlen müsste. Zwar ist in meinem Google-Abo ein kleines Cloud-Volumen über die Dev-Features inkludiert, aber gerade Audio-Generierung würde das sehr schnell auffressen.
-Während ich an Likeness gearbeitet habe, habe ich nur wenig Zeit außerhalb der Arbeit am Rechner verbracht. Meist hatte ich nur das Handy zur Verfügung. Die App war schlicht praktisch.
-Ich nutze sehr gern die nur in der B2C-App verfügbare *persönliche Kontext* von Gemini sowie die umfangreiche Vorkonfiguration des Modells. Wer schon einmal via API mit dem “rohen” Modell zu tun hatte, weiß, wie schwierig es ist, das Modell zu ordentlicher Arbeit zu bewegen. Ich greife hier also gern auf die Expertise zurück, die Google in seinen “Showcase” steckt.
-In der Gemini-App agiert Gemini als Orchestrator für die anderen Spezialmodelle wie eben Lyria für die Audio-Generierung. Es ist nicht so, als hätte ich keine Lust, direkt mit dem Audio-Modell zu interagieren, aber mich reizte schlicht dieser Proxy-Aspekt. Zum einen wollte ich in Aktion sehen, was Google da gebaut hat - und zum anderen wollte ich wissen, welchen Einfluss meine spezifische Konfiguration auf Geminis Orchestrator-Tätigkeit haben würde.
 
-## Die Blackbox
-Dass KI eine “Blackbox” ist, ist eine oft zitierte Formulierung. Zwar ist die Technologie nicht magisch - schließlich wurde sie von Menschen konstruiert und folgt den Gesetzen der Mathematik -, aber der Prozess der Genese bleibt für uns verborgen. In diesem Setup gilt das umso mehr, als mir die Konfiguration der Modelle (ihre Systemprompts, Guardrails etc.) jenseits meiner eigenen Prompts gänzlich unbekannt sind (nur weniges kann man nachlesen oder sich erschließen). Ich betrachte das nicht als Problem (das gilt schließlich für jede proprietäre Software), aber man muss sich dessen bewusst sein. Dieses Experiment ist insofern open, als ich sehr viel von meinem Vorgehen offenlege, die verwendete Technik ist aber proprietär und latent: Open Concept statt Open Source.
+Although I primarily deploy agentic workflows within the IDE for my professional software architecture work, I deliberately opted against an autonomous pipeline for *Likeness*. Instead, I worked directly within Google's consumer Gemini mobile application. Several pragmatic factors drove this decision:
 
-## Persönlicher Kontext
-Eine ganz entscheidende Komponente ist meine Personalisierung in der Gemini-App. Dieses auf Privatuser beschränkte Feature heißt immer mal anders und wandert im UI von Version zu Version. Aktuell läuft es unter dem Label “Persönlicher Kontext”. Dieses Feature erlaubt es (ähnlich Agentrules) an zentraler Stelle Informationen bzw. Anweisungen zu hinterlegen (entweder über einen Prompt “Merke dir für dir Zukunft…” oder direkt über das Menü). Diese Anweisungen greifen immer, auch in Gems, wirken also wie ein Super-Systemprompt. Als ich 2025 anfing, mit der Gemini-App zu arbeiten, habe ich eine Woche damit verbracht, Gemini über diese Personalisierung an meine Bedürfnisse anzupassen - ich hatte keine Lust auf die typische KI-Höflichkeit und ich wollte bei Fachfragen nicht jedes mal erklären müssen, dass ich Software Engineer und studierter Archäologe bin. Also habe ich ihr eine Art Kurzbiografie und Kommunikationsprotokoll geschrieben - zunächst in der Ich-Perspektive. Das hat allerdings bei längeren Chats mit einsetzendem Context Rot zu skurrilen Fehlreferenzierungen geführt (die KI konnte nicht mehr sauber zwischen mir als User und seiner eigenen Persona unterscheiden). Also habe ich es auf die dritte Person (“der User”) umgestellt und die einzelnen Rubriken mit Pseudo-Keys wie “USER_INTERACTION_PROTOCOL” versehen (eine Empfehlung der KI selbst). Das Ergebnis war eine wie ausgewechselte KI. Wo klassisches Persona Prompting das Actors Dilemma triggert (die KI reproduziert das Klischee der Rolle, scheitert aber am Inhalt), änderten meine Anweisungen nichts an der Persona des Modells (es war immer noch der hilfreiche Assistent), aber es konnte mich nun viel besser adressieren. Die Antworten waren kompakter, auf den Punkt und angenehm gnadenlos mit Kritik. Dieses Setup funktionierte so gut, dass ich es seit Dezember 2025 nicht mehr geändert habe. Ich habe es also nicht für dieses Album entworfen, sondern mitgebracht. Diese ausführliche Personalisierung verbraucht einiges an Tokens und Attention. Da es aber bessere Ergebnisse generiert, erfüllt es seinen Zweck. Das umfangreiche Profil ist auch der Grund, warum ich ansonsten mit recht simplen Prompts arbeiten kann. Das Profil verschiebt die Trajektorie im Latenzraum in eine so ungewöhnliche Ecke (die Kombination aus Software-Entwicklung, Archäologie, maximaler intellektueller Reibung, Schreinern, Gärtnern und Character-First-Ansatz beim kreativen Schreiben), dass selbst ein “stinknormaler” Prompt daran nichts mehr ändern kann. Ich ziehe das Modell also in eine ganz bestimmte Richtung, ohne es übermäßig einzuschränken.
-Diese Personalisierung ist ein Kernelement der “Likeness”, um die es in diesem Album geht. Wenn ich den Entwurf für die Lyrics eines Tracks anfordere, dann berücksichtigt die KI mein Profil. In ihrem KI-typischen Bedürfnis, mir zu gefallen und nützlich zu sein, spiegelt sie mich, ohne zu einer Kopie von mir zu werden.
-Das Prinzip besteht also darin, der KI zu beschreiben, mit wem sie interagiert (als ihren Rezipienten). Aufgebaut sind die Informationen wie folgt:
-USER_COGNITIVE_ARCHITECTURE: Ausführungen zum Denkertyp, z.B. dass ich zur Minderheit der analytisch-vernetzend denkenden Menschen gehöre - damit die KI weiß, dass ich z.B. eher top-down-Ausführungen beorzuge
-USER_INTEL_PREFERENCE: Was genau interessiert mich, wenn ich nach einem Sachverhalt frage? In meinem Fall z.B. der Fokus auf das Wie und Warum. - damit die KI sich auf die Mechanik "dahinter" konzentriert
-USER_PROBLEM_SOLVING: Beschreibt wie ich mit einem Problem umgehe - hilft der KI, mir bei der Lösung eines Problems zu assistieren
-USER_INTERACTION_BIAS: definiert den Kommunikationsstil (in meine Fall u.a. keine KI-Höflichkeit)
-USER_COMMUNICATION_LOGIC: Framet den Grund für die Kommunikation
-USER_CV: extrem kompakter beruflicher Werdegang - hilft der KI zu erkennen, in welchen Feldern ich mich auskenne
-USER_DOMAIN_FUSION: hier betone ich noch einmal die Kombination aus Geisteswissenschaft, Software-Entwicklung und Handwerk - das hat mit die stärkste Auswirkung auf die Trajektorie im Latenzraum
-USER_CREATIVE_LOGIC: Ein paar Kernpunkte für kreative Themen (z.B. "character-driven") - für dieses Projekt sehr wichtig
-USER_PRACTICAL_INTERESTS: Akdemisch für "Hobbies" - das verhindert, dass die KI ausschließlich im Elfenbeinturm verharrt.
+* **Subscription Economics:** The application's feature set was fully covered under my Google One subscription. Operating within my compute allowance incurred zero marginal cost, whereas API-based inference would have billed per request. While my Google account includes modest developer cloud credits, intensive audio generation would have exhausted them rapidly.
+* **Mobile Reality:** Throughout the production of *Likeness*, I had minimal uninterrupted desk time outside of working hours. Most of my creative labor occurred on a smartphone. The mobile application was simply the most viable interface.
+* **The "Personal Context" Feature:** I relied heavily on Gemini's consumer personalization feature (labeled "Personal Context" in current builds), alongside Google's proprietary model tuning. Anyone who has interacted with the unmediated foundational model via raw API calls knows the sheer friction involved in eliciting disciplined, high-caliber prose. Utilizing Google's showcase interface allowed me to leverage the guardrails and conversational scaffolding they built into their consumer flagship.
+* **Orchestration:** In the consumer interface, Gemini acts as an orchestrator for downstream multimodal engines—specifically Lyria for audio synthesis. I was intrigued by this proxy dynamic: I wanted to observe Google's orchestration in practice and determine how my bespoke personalization layer would influence Gemini's translation of my prompts into proxy instructions for the audio model.
 
-Mein konkrete Umsetzung veröffentliche ich hier bewusst nicht. Ziel ist eben nicht, eine Copy-and-Paste-Vorlage anzubieten, sondern mein Konzept zu erklären. Ich lege die Mechanik offen - wer es nutzen möchte, muss sich selbst damit beschäftigen (und sich selbst besser kennenlernen).
+## The Black Box
 
-## Von der Idee zum Track
-Die Tracks entstanden nach folgendem Ablauf:
-* Ideenfindung: meiste hatte ich die Idee direkt, bei manchen Tracks entwickelten sie sich aus dem Dialog mit der KI (darauf gehe ich je Track ein)
-* Initialer Drafting-Prompt für Gemini - optional: Modifizierung oder Neugerierung, oft auch direktes Einkürzes
-* Händisches Überarbeiten
-* Prüfung ausgewählter Lines sowie des Tracks als Ganzes durch die KI (primär Grammatik bzw. Semantik)
-* Finale Kuratierung
-* Verfassen der Instruction für die Trackgenerierung - optional: Überlegungen mit der KI zum Arrangement oder Verfassen eines kurzen Abstracts zur intendierten Wirkung (manchmal wieder verworfen)
-* Generierung
-* Prüfen des Artefakts 
-* Erneute Iteration mit geänderten Settings (Ausnahme: Hollow)
-* Händisches Mastering in der DAW - optional: Schneiden/Stitchen mehrerer Artefakte 
+Characterizing artificial intelligence as a "black box" has become a cliché. While the underlying technology is not mystical—it was engineered by humans and operates strictly within mathematical parameters—the precise generative pathway remains concealed. In this setup, that opacity is compounded: beyond my own inputs, the internal configuration (system prompts, hidden safety filters, and orchestrator instructions) remains proprietary. I do not regard this as a fundamental defect—it is the baseline condition of all proprietary software—but it requires clear-eyed acknowledgment. This experiment is open in that it discloses my methodology and prompts, yet the underlying engine remains closed and latent: *Open Concept* rather than *Open Source*.
 
-## Die Lyrics-Genese
+## Personal Context
 
-### Ablauf
-Dass ich die Lyrics vorab erstelle und nicht im Zuge der Audiogenerierung gleich mit erzeugen lassen, hat mehrere Gründe:
-* Die Kopplung Gemini/Lyria ist meiner Erfahrung nach eher schlecht bei der simultanen Genese. Das Ergebnis klingt oberflächlich durchaus gut, aber die Erzählung bleibt platt, die Sprache wirkt hölzern und es kommt meist zu harten Fehlern, die den Song disqualifizieren.
-* Selbst ein elaborierter Prompt erfüllt selten die Schöpfungshöhe. Das Schreiben bzw. Kuratieren der Lyrics schärft die Rolle des Menschen im Prozess (ob die Lyrics menschen- oder rein maschinengemacht sind, gehört auch zu den Fragen, die im Zuge der Distribution gestellt werden) - ich bin zwar kein Singer, aber wenigstens Songwriter.
-* Erst das getrennte Schreiben der Lyrics erlaubt die Ausarbeitung einer konkreten Erzählung. Mit Prompts lässt sich eine abstrakte Idee vorgeben, für eine dichte, kohärente Story braucht es ausgearbeitete Lyrics. Man kann mit Sprache auch nicht “spielen”, wenn sie erst ad hoc erzeugt wird.
-* Lyrics sind für ein audiogeneratives Modell keine austauschbare Dekoration, die wie eine Tapete auf jede Wand geklebt werden kann. Die Lyrics sind Teil des Prompts und nehmen damit direkt Einfluss auf die Gewichte des Latenzraums und damit auf die Stimmung. Zudem sind sie Teil des metrischen Korsetts. Kurzum: mit den Lyrics lässt sich sehr viel stärker Einfluss auf die Melodie und den Charakter des finalen Tracks nehmen als mit zehnmal so viel Anweisung.
+A critical component of this workflow was the personalization profile embedded in the Gemini application. This feature—restricted to consumer accounts—frequently shifts names and UI locations across releases, currently residing under the label "Personal Context." Analogous to system-level developer instructions, it allows users to establish persistent behavioral parameters (either via conversational memory commands or direct manual entry). These directives apply globally across all chats and custom Gems, functioning effectively as a super-system prompt.
 
-### Der Stil
-Jeden Lyrics-Draft habe ich mit “Schreibe im Stil von Taylor Swit's Folkmore Alben” in Auftrag gegeben. Für einige Songs wie Homecoming habe ich zusätzlich auf John Keats zurückgegriffen. Das im “Stil von”, anstelle von “Du bist X und schreibst einen Song ...” ist dabei entscheidend: Es geht nicht darum, eine Taylor-Swift-Kopie zu erschaffen - das wäre genau die Art von AI Content, den ich ablehne -, sondern der KI einen stilistische Orientierung zu geben. Warum ausgerechnet Taylor Swift? Taylor Swift zeichnet sich auf ihren Alben Folklore und Evermore durch die ihr eigene elevated diction (hohes/altes Sprachregister, das aber gezielt gebrochen wird) und die Fähigkeit, Emotionen bodenständig und intim zu verhandeln, aus. Hinzu kommen ihre charakteristischen Bridges, die den Song oft in eine andere Richtung kippen lassen, als zunächst suggeriert. Das sind zumindest die Eigenschaften, die ich an ihr schätze, weniger mag ich ihre Obsession für Herzschmerz.
-Diese Eigenheiten kann man einer KI auch vorgeben, ohne Taylor Swift beim Namen zu nennen (siehe hierzu “Funktionale Disaggregation”), weil sich aber die konkrete Ausformung und die Gewichtung schwer verbalisieren lassen (bzw. lange Aufsätze erfordern würden), fühlt sich das Ergebnis nicht organisch an. “Taylor Swift” und “Folkmore” fungieren gewissermaßen als zusätzliche Gravitationszentren, um das Modell in eine bestimmte Richtung zu zwingen (siehe “Semantic Anchoring”). Da ich für die Songs zugleich Themen vorgebe, die eher nicht Swifts bestehendem Oevre entsprechen, und mein *persönlicher Kontext* eine ganz andere inhaltliche Ausprägung fordert, ist das Ergebnis eigenständig. Welche Rolle hier der *persönliche Kontext* spielt, lässt sich beispielhaft an Homecoming beobachten, wo ich testweise darauf verzichtet habe. Das Ergebnis war die übliche Collage aus Versatzstücken, zu denen die KI im Standardmodus neigt.
-Der Swift-Vektor kam nur beim initialen Draft zum Einsatz. Die Aus- und Überarbeitung der finalen Lyrics erfolgte getrennt davon, um die Eigenständigkeit zu gewährleisten. Die finale Instruction für die Audio-Generierung verzichtet komplett auf solche direkten Referenzen und arbeitet ausschließlich mit abstrakten Anweisungen. Googles Guardrails würden Namen existierender Künstler auch gar nicht akzeptieren.
-Da ich mir vorstellen kann, dass mein Vorgehen bei dem einen oder anderen Ablehnung oder zumindest Unwohlsein verursacht, noch ein Wort zur künstlerischen Praxis: das Bild vom Genie im luftleeren Raum, das allein aus sich selbst heraus wirkt, ist eine romantische Illusion. In der Praxis orientieren wir uns immer (un)bewusst an anderen. Je erfolgreicher ein Künstler ist (Taylor Swift, Michael Jackson etc.), umso eher werden andere ihn zum Vorbild nehmen. Entscheidend ist, dass man über die reine Kopie hinausgeht. Für mich ist dieses Vorgehen eine simple Arbeitserleichterung in der frühen Konzeptionsphase.
-Ansonsten gibt es keine Parameter außer denen des Persönlichen Kontexts und den in den Track-Linernotes ausgewiesenen.
+When I began working extensively with the Gemini application in 2025, I dedicated a week to calibrating the model to my cognitive habits. I wanted to eliminate generic corporate sycophancy, and I refused to waste tokens repeatedly establishing my background as a software engineer and classically trained archaeologist. I drafted a concise biographical brief and communication protocol. Initially, I wrote this in the first person ("I prefer..."). Over extended conversational horizons, however, this triggered severe context rot: the model began conflating its persona with mine, producing bizarre identity misattributions.
 
-### $10-Dollar-Wörter
-Die Lyrics sind reich an schwierigen, sperrigen und eher seltenen Wörtern. Diese tauchen zuweilen bereits im ersten KI-Entwurf auf, sind also Teil des angesteuerten Bereichs im Latenzraum, oft habe ich sie aber auch erst selbst bei der Überarbeitung eingebracht. Das ist weniger die Marotte eines sprachbegeisterten Philologen und gewiss kein Versuch, besondere Belesenheit vorzutäuschen (das würde auch immer nach hinten losgehen, weil gerade im AE plain spoken klar bevorzugt wird), sie dienen vielmehr als zusätzliche Vektoren für die Musikgenerierung. Wie bereits ausgeführt, haben die Lyrics maßgeblichen Einfluss auf den resultierenden Track. In der Popmusik und im Trainingsmaterial des Modells dominiert plain spoken, hochgestochenes Vokabular wird bewusst gemieden. Wer diesem Vorbild folgt, wird genau das bekommen: vertraute Popmusik. Da mein Stil ein eigenständiger Stil sein soll, nutze ich nicht nur die Länge der Zeilen, sondern auch die Semantik und Phonetik der einzelnen Wörter, um das Modell in Bereiche zu navigieren, die eher selten angesteuert werden. Am besten lässt sich das an Homecoming beobachten, diese an Arioso oder Parlando erinnernde Performance wäre mit *konventionellem* Text kaum zu erreichen gewesen. Das sprachliche Register dient hier also tatsächlich der Distinktion, aber nicht vom Publikum, sondern vom statischen Mittelmaß des Latenzraums.
+Following a suggestion from the model itself, I refactored the entire profile into the third person ("the user") and organized the sections under pseudo-keys such as `USER_INTERACTION_BIAS`. The transformation was immediate. Where standard roleplay prompting frequently triggers the *actor's dilemma*—the model mimics the superficial tropes of a role while diluting substantive output—my structural directives preserved the model's core identity as a helpful assistant while radically altering how it addressed me. Responses became dense, compressed, and unapologetically critical. This configuration proved so stable that I have kept it unchanged since December 2025. It was not devised for this album; it was an established cognitive workspace brought to the project.
 
-### Die Struktur
-Da Lyria zum Zeitpunkt, da ich den Tracks gearbeitet habe, nur maximal 3-Minuten-lange Tracks generieren konnte, stand ich bei allen Tracks unter ziemlichen Zeitdruck. Intuitiv würde ich eher Tracks mit 5 Minuten oder länger erstellen wollen, aber das war technisch nicht möglich. Das Stitching mehrerer Artefakte wäre theoretisch möglich, scheitert in der Praxis aber an den feinen Abweichungen zwischen ansonsten sehr ähnlichen Artefakten (zumal die getrennten Lyrics ihr übriges zur Verschiedenheit beitragen werden). Da die klassischen Strukturen (wie z.B. Strophe, Chorus, Strophe, Chorus, Bridge, Chorus, Outro) zu viel Zeit beanspruchen würden, musste ich kompaktere Formate entwickeln. Ich habe die einzelnen Blöcke auf 6 oder 4 Zeilen eingedampft und nur sparsam mit Redundanzen (der klassische Chorus ist qua Definition redundant) gearbeitet, indem ich z.B. den zweiten Chorus als Reprise gestaltet habe.
+While this extensive profile consumes upfront context tokens, the return on investment is substantial. It allows me to rely on surprisingly compact prompts. The profile introduces a strong directional vector within latent space (a fusion of software engineering, classical scholarship, intellectual friction, tactile craft, and character-driven creative writing) that anchors even a basic prompt firmly within an idiosyncratic territory.
 
-### Vermeidung des Self-Preference Bias
-LLMs neigen dazu, ihren eigenen Output als besonders hochwertig anzusehen. Ich habe daher regelmäßig neue Chats angelegt, um den Context zurückzusetzen und mit einem *frischen* Modell zu arbeiten. Das Modell ist dann eher geneigt, Fehler bzw. Unsauberkeiten als solche zu benennen. Zusätzlich verzichte ich während der sprachlichen Feinabstimmung auf den *persönlichen Kontext* und nutze stattdessen die Default-Persona. Dadurch verschieben sich die Gewichtungen und das Modell geht mit dem Text anders ins Gericht. Um zu verhindern, dass der Text wieder ins statistische Mittelmaß kollabiert, ist es wichtig, diese Prüfung rein logisch und stilistisch durchzuführen (“Was würde ein Native Speaker als unsaubere Sprache empfinden?”). Gerade diese Sprachprüfung ist für mich als Nicht-Muttersprachler essentiell (wobei ich mir ziemlich sicher bin, dass am Ende doch diverse Germanismen durchgerutscht sind und Hollow ist das beste Beispiel, dass einem auch Grammatik-Schnitzer durchrutschen, wenn man nicht pedantisch genug prüfen lässt).
+This personalization lies at the very heart of the *Likeness* concept. When I request a lyric draft, the model conditions its generation on this cognitive profile. In its algorithmic drive to be useful and responsive, it mirrors its operator—producing a likeness of the initiator without collapsing into a literal clone.
 
-### Vorgeplänkel
-Bei einigen Songs (vor allem Wrecker) bin ich nicht direkt mit der Lyrics-Generierung eingestiegen, sondern habe zuerst eine allgemeine Unterhaltung mit der KI über Genre-Konventionen etc. geführt. Die Idee war, einen gewichtigeren, organischen Kontext zu schaffen. Meiner Wahrnehmung nach war das aber nicht zielführend. Ich habe deutlich bessere Ergebnisse erzielt, wenn ich direkt mit den Lyrics eingestiegen bin.
+The profile is structured around the following parameters:
+
+* `USER_COGNITIVE_ARCHITECTURE:` Details analytical thinking habits—for example, a preference for networked, top-down structural synthesis.
+* `USER_INTEL_PREFERENCE:` Specifies analytical priorities—focusing strictly on the "how" and "why" behind systemic mechanics.
+* `USER_PROBLEM_SOLVING:` Outlines heuristic preferences—prioritizing improvisation and pattern recognition over sequential simulations.
+* `USER_INTERACTION_BIAS:` Defines communication tone—mandating minimal social distance, zero performative politeness, and high intellectual friction.
+* `USER_COMMUNICATION_LOGIC:` Frames the functional purpose of exchange—aiming for maximal information negentropy (high signal density, minimal redundancy).
+* `USER_CV:` A compressed professional trajectory establishing technical domains of competence.
+* `USER_DOMAIN_FUSION:` Emphasizes the intersection of humanities, software architecture, and physical craft—this serves as the strongest steering vector in latent space.
+* `USER_CREATIVE_LOGIC:` Core narrative principles—demanding character-driven trajectories where external plot mechanics never override internal character motivation.
+* `USER_PRACTICAL_INTERESTS:` Grounding hobbies (gardening, woodworking)—preventing the model from retreating into ivory-tower abstractions.
+
+I intentionally refrain from publishing my verbatim profile here. The objective is not to distribute a boilerplate template, but to demonstrate the underlying architecture. Disclosing the mechanics invites creators to engage in the necessary self-reflection to calibrate their own systems.
+
+## From Concept to Audio
+
+Every track proceeded through a defined production sequence:
+
+1. **Conceptual Ideation:** Most song premises originated independently; others emerged through conversational dialogue with the model (detailed in individual track notes).
+2. **Initial Drafting Prompt:** Dispatched to Gemini—followed by selective pruning, restructuring, or regeneration.
+3. **Manual Editorial Refinement:** Hands-on lyrical editing by the author.
+4. **Structural & Linguistic Review:** Model evaluation of specific lines and overall semantic cohesion (focusing on meter, cadence, and grammar).
+5. **Final Curation:** Locking the lyrical text.
+6. **Instruction Authoring:** Composing the generation instruction set (arrangements, instrumentation, and narrative intent).
+7. **Audio Synthesis:** Executing the generation via Gemini and Lyria.
+8. **Artifact Evaluation:** Critical auditioning of generated stems.
+9. **Iterative Calibration:** Rerunning generations with adjusted parameters if required (with the exception of *Hollow*, which was an immediate take).
+10. **Digital Audio Workstation (DAW) Post-Production:** Manual mixing, stem restoration, arrangement stitching, and mastering.
+
+## The Genesis of the Lyrics
+
+### Workflow Mechanics
+
+Authoring lyrics in advance rather than allowing the audio model to generate words and music simultaneously was guided by four factors:
+
+* **Multimodal Dilution:** In my experience, pairing Gemini and Lyria for simultaneous musical and lyrical synthesis yields poor results. While superficially polished, the narrative remains shallow, the prosody feels robotic, and syntactic glitches inevitably disqualify the take.
+* **Threshold of Authorship:** A prompt alone rarely meets the threshold of original creative expression. Drafting and refining the lyrics anchors the human hand in the process, formalizing the operator's role as a songwriter.
+* **Narrative Cohesion:** A layered, concept-driven narrative cannot be generated spontaneously through high-level prompts. Complex storytelling requires pre-composed language. You cannot play with subtext if the text is being hallucinated in real time.
+* **Semantic Weighting in Latent Space:** In audio generation models, lyrics are not decorative wallpaper draped over an independent harmonic bed. They function as active prompt components, exerting direct gravitational pull on the latent weights that govern mood, tempo, and vocal cadence. Carefully engineered lyrics shape the melody and character of a track far more effectively than an essay of descriptive adjectives.
+
+### Stylistic Anchoring
+
+Every lyrical draft was initiated with the directive: *"Write in the style of Taylor Swift's Folkmore albums."* For select tracks, such as *Homecoming*, I introduced John Keats as an additional stylistic pole.
+
+The formulation "in the style of" (rather than "You are X writing a song...") was deliberate. The intent was never to manufacture an algorithmic clone of Taylor Swift—a practice I explicitly reject—but to supply the model with a precise stylistic coordinate. Why Swift? On *Folklore* and *Evermore*, Swift demonstrates a distinct elevated diction (antique or formal registers juxtaposed against conversational speech) alongside an ability to ground complex emotional vulnerability in domestic intimacy. Her songs also feature dynamic bridges that pivot the narrative in unexpected directions. Those were the formal mechanics I sought to utilize; her thematic obsession with romantic heartbreak was deliberately discarded.
+
+One could attempt to specify these qualities without naming the artist (see *Functional Disaggregation* below). However, because the precise weighting of these stylistic elements is notoriously difficult to articulate without writing sprawling prompts, the resulting output often feels disjointed. Referencing "Taylor Swift" and "Folkmore" provides dense gravitational attractors that pull the model toward a specific aesthetic cluster (see *Semantic Anchoring*). Because I supplied narrative premises far outside Swift's thematic oeuvre—further conditioned by my *Personal Context* profile—the generated text remained entirely distinct.
+
+The Swift vector was employed strictly during the initial lyrical sketch. Final lyrics were developed and edited independently. Crucially, the final generation prompt fed to the audio engine omitted all artist names, relying solely on abstract sonic and structural descriptors. Google's safety guardrails would have rejected explicit references to living commercial artists in any case.
+
+To address potential discomfort regarding this technique: the notion of an artistic genius operating in a vacuum, creating purely ex nihilo, is a romantic fallacy. Creative practice always operates in dialogue with precedent. The ethical boundary lies in moving beyond derivative imitation toward an independent aesthetic statement.
+
+### "$10 Words"
+
+The lyrics across *Likeness* are dense with complex, archaic, or phonetically heavy vocabulary. In some instances, these terms emerged in the initial machine draft; in others, I introduced them deliberately during editing.
+
+This was neither an affectation of classical philology nor an attempt to project academic prestige (a maneuver that invariably misfires, particularly in American English where plain-spoken clarity is privileged). Rather, these terms served as functional steering vectors for audio synthesis.
+
+Mainstream pop music and the majority of the model's training data heavily favor basic, conversational vocabulary. If you feed the model conventional pop lyrics, it defaults to conventional pop phrasing and cadence. To cultivate a distinct musical personality, I leveraged the phonetic density, syllable count, and semantic weight of uncommon words to steer the model into under-sampled regions of its latent space. This effect is most pronounced in *Homecoming*, where the recitative, parlando vocal delivery could never have been coaxed out of generic lyrical phrasing. Elevated diction here serves not to alienate the listener, but to escape the gravitational pull of the model's statistical median.
+
+### Structural Constraints
+
+At the time of production, Lyria enforced a hard duration cap of three minutes per generation. This constraint imposed relentless temporal discipline. While I naturally lean toward expansive five-minute arrangements, technical limits prohibited them. Splicing separate generations together remains theoretically possible, but often founders on subtle timbral discontinuities.
+
+To accommodate this window, conventional pop structures (Verse-Chorus-Verse-Chorus-Bridge-Chorus-Outro) had to be abandoned. I compressed narrative sections into tight four-to-six-line blocks and eliminated structural redundancy. Instead of repeating identical choruses, second choruses were frequently refactored as altered reprises to propel the story forward within the 180-second boundary.
+
+### Mitigating Self-Preference Bias
+
+Large language models exhibit a documented self-preference bias, consistently evaluating their own generations as superior. To obtain rigorous editorial feedback, I routinely initiated fresh chat sessions to clear the context buffer, presenting the draft to a "cold" instance of the model. Unburdened by previous conversational history, the model proved far more willing to identify clunky phrasing or logical gaps.
+
+Furthermore, during linguistic polishing, I disabled my *Personal Context* profile, reverting to the baseline consumer persona. This recalibrated the model's critical lens. To ensure the text did not collapse back into bland corporate phrasing, I instructed the model to evaluate the work strictly along lines of native-speaker naturalness ("Would a native speaker flag this phrasing as awkward or unidiomatic?"). For a non-native writer, this editorial filter was indispensable—even if, as in *Hollow*, subtle grammatical anomalies occasionally slipped past.
+
+### Rejecting Conversational Preamble
+
+On earlier tracks (most notably *Wrecker*), I experimented with initiating extensive preliminary dialogues with the model regarding genre history and narrative subtext prior to requesting a draft. The goal was to build rich contextual momentum. In practice, this proved counterproductive: the model became over-sensitized and delivered stilted results. Direct, unambiguous prompting yielded far superior drafts.
 
 ## Prompting Techniques
-Im folgenden umreiße ich die Techniken, die ich bewusst einsetze. Dabei berücksichtige ich nicht, ob diese Techniken unter diesen oder anderen Namen im Netz kursieren. Ich bin Autodidakt und meide klassische Ratgeber und Tutorials. Wenn ich hier an Bekanntes anknüpfe, dann nur, weil ich in der Besprechung mit der KI darauf gestoßen bin.
+
+The following techniques were applied deliberately throughout the project. I make no claim regarding whether these methods exist under identical terminology elsewhere in prompt-engineering literature. As an autodidact, I avoid generic influencer tutorials; these heuristics emerged directly through empirical experimentation.
 
 ### Semantic Anchoring
-Der Prompt definiert die Trajektorie des Modells im Latenzraum. Jeder Inputtoken gibt einen Impuls in eine bestimmte Richtung. Allgemeines Vokabular oder solches mit mehreren Bedeutungen übt einen geringen Impuls aus, spezifisches Vokabular zieht das Modell massiv in seine Region. Man kann sich das wie eine Raumsonde vorstellen, deren Flugbahn je nach Gravitation des Objekts, an dem sie vorbeifliegt, unterschiedlich stark abgelenkt wird. Eine massive Gravitationsquelle hat dabei signifikant mehr Einfluss als viele schwache. Das sind die zuvor erwähnten 10-Dollar-Wörter oder etablierte Genre- oder Künstlernamen. Je exotischer oder einschlägiger ein Vektor ist, um so besser kann man ihn als semantischen Anker verwenden. Zu dieser Technik gehört aber auch, im Zweifelsfall gezielt nach Synonymen zu suchen. In meinem Fall hat sich z.B. Archäologie als Sackgasse erwiesen, weil der Begriff popkulturell zu stark aufgeladen ist für meine Zwecke. Seit ich von “Altertumswissenschaften” spreche, ist das Modell deutlich wissenschaftlicher unterwegs.
 
-### Funktionale Disaggregation
-Das genaue Gegenteil zum Semantic Anchoring. Manchmal haben Wörter eine ungewollte Konnotation oder sind aus anderen Gründen ungeeignet, Buzzword-Gefahr. Dann zerlege ich den monolithischen Vektor in seine weniger gefärbten Bestandteile. Ich mache das eher ungern, weil die Prompts dadurch länger und verrauschter werden, aber manchmal lässt es sich nicht vermeiden. Man ersetzt damit letztendlich einen einzelnen Vektor durch eine Wolke.
+A prompt dictates a trajectory through latent space, where every input token imparts an impulse. Common or polysemous terms exert weak, diffuse gravitational pull; rare, highly specific terms pull the model decisively toward their coordinate space.
+
+Think of an interplanetary probe whose trajectory is altered by the gravitational fields of celestial bodies: a massive, dense object exerts vastly more steering force than several dispersed asteroids. Unusual vocabulary, distinct historical periods, or established genre coordinates serve as dense gravitational anchors. Conversely, this technique requires monitoring for unwanted cultural baggage: for example, the term "archaeology" initially steered the model toward pop-cultural pulp tropes; replacing it with "classical studies" (*Altertumswissenschaften*) immediately shifted the model toward academic rigor.
+
+### Functional Disaggregation
+
+The inverse of Semantic Anchoring. When a monolithic keyword carries problematic associations or triggers cliché-ridden output, I decompose the concept into its underlying mechanical components. While this increases prompt length and token entropy, it replaces an overdetermined vector with a controlled cloud of neutral descriptors.
 
 ### Persona Prompting
-Der Klassiker, der dem Modell eine Rolle vorgibt “Du bist ein ...”. Ich benutze diese Technik nur sehr, sehr selten, weil sie fast immer das Klischee der Rolle triggert und den Output verschlechtert. Für dieses Projekt habe ich sie nur bei “Journey” genutzt, um das Modell in die Rolle von Kaspar David Friedrichs Wanderer über dem Nebelmeer zu zwingen. Das habe ich dort aber auch nur gemacht, weil das keine definierte Rolle. Die KI muss sie synthetisieren.
+
+The standard convention of instructing a model: *"You are an expert X..."* I avoid this technique almost entirely. In practice, it reliably triggers the *actor's dilemma*, causing the model to lean into superficial roleplay clichés while degrading actual reasoning quality. I employed it only once—on *Journey*—to nudge the model into the psychological posture of Caspar David Friedrich's *Wanderer above the Sea of Fog*. Even there, it succeeded only because the reference was an abstract painting rather than a generic functional job title.
 
 ### Inverse Persona Prompting
-Meine Lieblingstechnik, die ich durch den persönlichen Kontext praktisch immer nutze. Anstatt dem Modell vorzugeben, welche Rolle es spielen soll, definiere ich mich als den Rezipienten. Das Modell bleibt mehr oder weniger in seiner Standard-Persona, passt aber sein Vokabular und sein Verhalten an. Gerade wenn man sich selbst als Experte in einem Gebiet definiert, bekommt man meiner Erfahrung nach sehr viel bessere Ergebnisse. Zum einen taucht das Modell tiefer in die Materie ein, statt an der Oberfläche zu bleiben, und zum anderen ist es vorsichtiger. Um zu gefallen, wird es eher auf Unsicherheiten oder abweichende Theorien hinweisen, als Gefahr zu laufen, vom User korrigiert zu werden. Für dieses Projekt war sicher der Hinweis, dass mir character-driven Storytelling besonders wichtig ist, entscheidend.
+
+My preferred technique, operationalized globally via the *Personal Context* profile. Rather than assigning an artificial role to the model, I define the identity and standards of the recipient: the human operator.
+
+The model remains anchored in its native persona, but modulates its vocabulary, analytical rigor, and critical threshold to meet the user's expectations. When a user establishes genuine domain competence, the model behaves with greater care: it bypasses introductory platitudes, surfaces theoretical nuances, and offers constructive critique rather than generic praise.
 
 ### Positive Prompting
-Ich versuche, wann immer möglich, auf die Negierung von Konzepten zu verzichten. Das Modell hat schließlich mit dem gleichen Problem wie der Mensch zu kämpfen: man kann nicht nicht an einen rosa Elefanten denken. Eine Anweisung wie “keine hölzernen Dialoge” *vergiftet* den Prompt mit einem Begriff, den man ja gerade vermeiden möchte. Zudem bleibt ohne Zielvektor, was genau das Modell mit der Anweisung machen soll. Man steigt schließlich auch nicht in ein Taxi und sagt zum Fahrer “Fahren Sie mich nicht zum Flughafen”. Wenn das Modell die Lücke füllt, dann mit dem statisch Wahrscheinlichsten - und das ist selten das, was man will. Wenn ich also etwas negieren muss, weil ich es nicht positiv formulieren kann, versuche ich wenigstens eine Richtung vorzugeben, “nicht A, sondern B”. Um beim Gleichnis mit dem Taxi zu bleiben "Fahr mich zum Bahnhof, aber nicht über die Autobahn".
 
-### Semantische Induktion
-Eine Spielart des Semantic Anchorings: diese Technik nutze ich gern für die Bildgenerierung, aber sie kam auch bei diesem Projekt zum Einsatz: statt dem Modell eine Liste an Requisiten vorzugeben, definiere ich ein Gefühl, einen Sinneseindruck oder etwas anderes nicht direkt konkret Abbildbares und lasse das Modell die passenden Chiffren finden. Das Ergebnis ist oft organischer und in sich stimmiger.
+Wherever possible, I eliminate negative constraints. Generative models struggle with negation for the same psychological reason humans do: you cannot instruct someone not to picture a pink elephant without first evoking the pink elephant.
 
-## Die Instruction für die Musikgenerierung
-Die finalen Anweisungen für die Track-Generierung habe ich grundsätzlich in einem neuen Chat, aber mit *persönlichem Kontext* ausführen lassen. Die Anweisungen sind in einen Setup- und einen Lyrics-Block unterteilt und verwenden Markdown.
+An instruction like "avoid wooden dialogue" actively poisons the context window with the very concept you wish to suppress, while providing no vector toward what should replace it. You do not hail a cab and instruct the driver: "Don't take me to the airport." If the model must fill a vacuum, it will default to its statistical mean. When negative steering is unavoidable, it must be formulated as a directed alternative: "Not A, but B"—or, following the cab analogy: "Take me to the train station, but avoid the expressway."
+
+### Semantic Induction
+
+A variant of Semantic Anchoring utilized primarily for visual and aesthetic generation. Rather than dictating an exhaustive catalog of literal props, I specify an emotional state, a sensory texture, or an atmospheric contradiction, allowing the model to derive the corresponding visual or sonic motifs. The resulting compositions feel noticeably more organic and coherent.
+
+## The Audio Generation Instruction Set
+
+The final instructions dispatched for audio synthesis were structured in Markdown, segmented into distinct `Setup` and `Lyrics` blocks, and executed in clean chat environments with the *Personal Context* active.
 
 ### Setup
-Das Setup arbeitet mit einfachen Keys wie Genre, Instrumentation, Beat, Vocals. Das Schema ist nicht einheitlich, weil ich hier und da Stellschrauben nachstellen musste. 
-Für die Vocals habe ich grundsätzlich Mikrofon-Nahbesprechung, ASMR und Intimität definiert. Emotionen wie “melancholisch”, “euphorisch” habe ich weitgehend gemieden, weil es meiner Beobachtung nach kein glaubwürdiges Ergebnis erzeugt. Ich verlasse mich lieber auf die Fähigkeiten des Modells, die Stimmung organisch abzuleiten.
-Bei vielen Tracks habe ich zudem ein kurzen Text zur intendierten Wirkung oder der klanglichen/narrativen Evolution verfasst. Das war nicht immer nötig. Manche Tracks funktionierten ohne, also nur über die Grundparameter und die Lyrics am besten. Andere brauchte es zwingend, vor allem dann, wenn ich eine Klangkulisse haben wollte, die der statisch wahrscheinlichsten Repräsentation der Lyrics widersprach. Die besten Beispiele dafür sind Shapeshifter und Jobs, wo ich gegen Jahrmarktgrusel und drögen Büroalltag ankämpfen musste.
+
+The setup block established operational parameters using clear key-value pairs: `Style`, `Mood`, `Instrumentation`, `Beat`, and `Vocals`.
+
+For the vocal parameters, I consistently specified close-mic capture, ASMR textures, and intimate articulation. I avoided broad emotional descriptors such as "melancholic" or "euphoric," as they routinely provoked ham-fisted, melodramatic performances. I relied instead on the lyrical meter and instrumentation to convey emotion organically.
+
+For several tracks, I appended a brief narrative abstract outlining the intended dynamic progression. This was critical whenever the desired arrangement conflicted with the statistical default suggested by the lyrics. In *Shapeshifter* and *Jobs*, for instance, explicit narrative framing was necessary to prevent the model from defaulting to carnival novelty music or dull corporate acoustic strumming.
 
 ### Lyrics
-Für die Strukturierung der Lyrics verwende ich ebenfalls Markdown, weil die bei Lyrics oft üblichen eckigen Klammern zuweilen Googles Guardrails getriggert haben. Das war reine Heuristik: Das Modell vermutete aufgrund der Formatierung einen C&P existierender Lyrics. Die Generierung wurde nicht abgebrochen, aber ich wollte einen potenziellen Fallstrick neutralisieren. Mit Markdown gab es nie Probleme. Weder wurde irgendeine Guardrail aktiviert, noch las das Modell die Headings als Lyrics.
-Auf reine Vokalisationen (wie z.B. Seufzen oder Summen) habe ich in den Lyrics weitgehend verzichtet, weil sie oft Probleme gemacht haben. `[sigh]` wurde oft als Text gelesen, “hhh” wurde in Agent als “Hage” verbalisiert. Genauso problematisch waren Back Vocals in runden Klammern. Mal hat es funktioniert, mal nicht. Diese Unvorhersehbarkeiten wollte ich vermeiden.
-Selten gab es ein Problem mit Wörtern gleichen Schriftbilds, die aber je nach Kontext anders ausgesprochen werden. In Wrecker war es z.B. “tear”, das ich in “tare” umwandeln musste, um die richtige Aussprache zu erzwingen.
+
+Markdown formatting was maintained for all lyrical blocks. Traditional bracketed conventions (e.g., `[Chorus]`) were avoided, as they occasionally triggered Google's copyright detection heuristics: the system assumed bracketed notations indicated scraped commercial song sheets. While generations were not terminated, I preferred to eliminate potential friction points. Markdown headings (`### Chorus`) proved completely transparent to the audio model, avoiding filter triggers while preventing the engine from singing section headers aloud.
+
+Pure vocalizations (e.g., written sighs or hums) were systematically excluded. Directives like `[sigh]` were frequently sung as literal words, and phonetic representations like "hhh" were once absurdly vocalized as "Hage." Similarly, backing vocal parentheticals produced erratic results. Eliminating these ambiguities ensured consistent delivery.
+
+Finally, homographs required phonetic intervention. Where English words share spelling but diverge in pronunciation based on context, deliberate phonetic misspellings were introduced—such as altering "tear" (rip) to "tare" in *Wrecker* to prevent the model from pronouncing it as "teer" (crying).
+

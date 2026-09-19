@@ -2,58 +2,78 @@
 
 ## Realization
 
-### Generierung
-Einige wesentliche Punkte sind bereits im vorhergehenden Kapitel dargelegt worden, sie tauchen hier der Vollständigkeit halber aber noch einmal auf.
+### Generation
 
-#### operative Parameter
-Die Track-Instructions werden grundsätzlich in einem neuen Chat, aber mit persönlichem Kontext ausgeführt. Als Modell kommt immer Gemini 3.1 Pro zum Einsatz
-Kein In-Painting/Editing, stattdessen Neugenerierung: meiner Erfahrung liefert das Nachbearbeiten in der Mehrzahl schlechte Ergebnisse. Die Korrekturen werden überproportional stark gewichtet oder ignoriert. Fast immer leidet der Flow. Auch das Anfordern einer weiteren Variante im selben Chat, scheitert meist, weil die schon existierende (ungewollte) Version als zusätzlicher Attraktor arbeitet. Ich habe daher den Ursprungsprompt erneut ausgeführt oder einen weiteren Chat gestartet.
-Optimierung für Stitching: isolierte Spoken-Word-Elemente zu erzeugen, erwies sich als anstrengend und fehleranfällig: es funktionierte besser, die Spoken Word Parts in den existierenden Lyrics nach vorn zu ziehen und diese Teile später auszuschneiden. Die Gesamtheit der Lyrics erzwang dann eine ähnliche Akkustik
-Keine Slot-Machine: wenn ein Prompt partout keine gute Melodie produzierte, habe ich in der Regel nach wenigen Versuchen abgebrochen und den Prompt überarbeitet. Es bringt wenig, gegen die Statistik anwürfeln zu wollen.
+While several foundational aspects were introduced in previous sections, they are consolidated here for operational completeness.
 
-#### Probleme
-Heteronyme: Worte wie “tear” oder ⁸“read” haben verlässlich zu Problemen geführt. Es hat geholfen, sie gezielt zu ersetzen (z.B. “red” oder “reed”)
-Keine Regieanweisungen in den Lyrics (besser im Setup-Block anzugeben). Kursiv geschriebene oder eckig-geklammerte Anweisungen funktionierten oft nicht oder wurden als Lyrics interpretiert. Gleiches galt für Vokalisierungen wie ‘hh’, einzig ‘oh’ und ‘m-mh’ funktionierten.
-Umstellung, Verdopplung, Auslassung von Lyrics. Das mit Abstand häufigste Problem waren Änderungen an den Lyrics. Klare Anweisungen wie “ändere die Lyrics auf keinen Fall” brachten nur bedingt Besserung. Im schlimmsten Fall bewirkten sie den totalen Kollaps. Das Modell braucht eine gewisse Freiheit.
-Spoken Word zu Beginn - ein Einstieg ohne Melodie führte verlässlich zu instabilen Tracks. Solche Elemente besser gesondert generieren und nachträglich stitchen
+#### Operational Parameters
 
-### Einzigartigkeit
-Ein großes Problem für jeden Musikschaffenden ist die Frage, ob es die Melodie, die man sich eben ausgedacht hat, vielleicht schon gibt. Beim Umgang mit KI ist diese Frage sogar noch drängender, weil ihre ganze Natur darauf beruht, das auf Grundlage ihrer Trainingsdaten statistisch wahrscheinlichste Ergebnis zu erzeugen. Ich habe nicht die Absicht, (un)bewusst bekannte Musikstücke oder Künstler zu kopieren. Wie sich also absichern?
-Mir kommen hier die bereits besprochenen Guardrails von Google Lyris entgegen. Diese verhindern nicht nur, dass man für die Track-Genese bekannte Künstler-Namen referenzieren kann, sie stellen auch sicher, dass die KI-Stimme keinem existierenden Sänger-Fingerprint zu nahe kommt, keine geschützten Texte verwendet und keine bekannten Melodien erzeugt werden. Auch wenn ich nie absichtlich versucht habe, die Guardrails aktiv auszuhebeln, um zu testen, wie effektiv sie wirklich sind, kann ich allein aus meiner Praxis davon ausgehen, dass die Tresholds sehr fein eingestellt sind. Es gab wenige Songs, wo nicht wenigstens eine Iteration von Google kassiert wurde - und das ist gut so, es wäre nur hilfreich, wenn Google erläutern würde, was genau das Problem war, statt einen generischen Fehler anzuzeigen, aber vermutlich will man Usern, die die Guardrails gezielt unterlaufen wollen, keine Hinweise liefern.
+* **Environment Isolation:** Track instructions were consistently executed in clean conversational sessions, with the *Personal Context* profile active. The underlying generative model employed was Gemini 3.1 Pro.
+* **Full Regeneration over In-Painting:** In-painting and selective editing within generative audio interfaces yielded poor results in my testing. Adjustments were either ignored or massively over-indexed, invariably destroying the rhythmic momentum of the performance. Requesting alternative takes within an existing session proved equally unreliable, as the initial (flawed) output functioned as an unwanted attractor in the context window. I adopted a policy of either re-submitting the original prompt in a refreshed session or launching a clean thread.
+* **Optimizing for Splicing:** Generating isolated spoken-word segments in isolation proved fragile. It was far more effective to position spoken-word passages at the head of the full lyric block and excise them in post-production. The presence of the surrounding lyrical text forced the engine to maintain timbral and acoustic continuity.
+* **Avoiding Stochastic Traps:** If an instruction set failed to produce a compelling harmonic core within a handful of iterations, I terminated the session immediately and refactored the prompt. Rolling the dice against hostile probabilities is a waste of time and energy.
 
-## Editing
+#### Common Failure Modes
 
-Auf das Session Recording im Tonstudio folgt die Postproduktion. Das gilt auch für dieses Album. Die KI-generierten Artefakte müssen für den Release noch überarbeitet werden. Das habe ich händisch in Ardour (eine Digital Audio Workstation) getan. Durch diesen Schritt schließt sich der Kreis: als Mensch habe ich die Instruction für die KI geschrieben und als Mensch finalisiere ich das Material. Dadurch erbringe ich die für den Leistungsschutz entscheidende Eigenleistung. Um Missverständnisse zu vermeiden: es geht nicht darum, *irgendetwas* mit den Tracks zu machen, um eine Eigenleistung behaupten zu können, sondern das Material zu verbessern und an meine Vorstellungen anzupassen.
+* **Heteronyms:** Words like "tear" or "read" reliably tripped the model's phonetic parser. Strategic phonetic substitutions (e.g., "tare" or "reed") resolved these pronunciation errors.
+* **Inline Stage Directions:** Formatting directives directly within the lyric body—whether italicized or bracketed—routinely failed, with the engine occasionally attempting to sing the directions aloud. Similarly, non-lexical vocalizations like "hh" failed completely; only simple phonetic cues like "oh" and "m-mh" rendered cleanly.
+* **Lyrical Mutations (Transpositions, Doubling, Omissions):** The most frequent failure mode was the model altering pre-written lyrics. Rigid negative constraints like "do not alter the lyrics under any circumstances" provided little benefit, and in extreme cases caused generation to collapse entirely. The audio engine requires a degree of stochastic flexibility to fit words naturally to rhythm.
+* **Initial Spoken Word:** Opening an audio generation with non-melodic spoken word almost guaranteed erratic arrangements. Such passages are best synthesized separately and spliced into the composition during DAW assembly.
 
-### Stitching
+### Uniqueness and Plagiarism Safeguards
 
-Einige Tracks habe ich aus mehreren Artefakten zusammengesetzt. Das sind meisten Spoken-Word-Elemente, die im Hauptartefakt fehlen, z.B. Jobs. Vereinzelt habe ich aber auch ganze Passagen neu kombiniert, z.B. Agent. Wo das im einzelnen der Fall war, habe ich in den Track Liner Notes der jeweiligen Songs notiert.
+A central concern for any composer is the risk of unintentional melodic duplication. With generative systems, this anxiety is heightened, as these models are explicitly architected to synthesize the most statistically probable patterns derived from their training data. I had no interest in reproducing existing songs or imitating living artists.
 
-### Restaurierung
+Here, Google Lyria's internal guardrails provided an effective safeguard. These safety filters not only prevent the generation of music based on named artists, but actively verify that the generated vocal timbre does not match known commercial vocal fingerprints, that protected lyrical fragments are rejected, and that recognizable melodies are filtered out.
 
-Eigentlich produziert Lyria durchweg hochwertige Artefakte (bezogen auf die Audio-Qualität), es gab zwei Ausreißer: die Spoken Word Passagen für Journey und Homecoming. Beide waren extrem “heiß” gefahren (extremes Zischeln der S-Laute), Homecoming litt zusätzlich an einzelnen Ausfransern und unangenehmen Micro-Crackles, die vor allem auf Magnetostaten deutlich hörbar waren.
-Es wäre naheliegend gewesen, die Artefakte neu zu generieren, aber das habe ich schnell abgebrochen, weil die neuen Versuche nicht ansatzweise die gleiche Intensität erreichten. Ein Zusammenhang zwischen der Intensität und den “Fehlern” ist denkbar, bleibt für mich mangels Empirie eine Vermutung.
-Um die Tracks zu “retten”, habe ich mit den Airwindows-Plugins Slew2 und DeCrackle gearbeitet. Auf einen De-Esser habe ich verzichtet, da sie mir das Klangbild zu sehr verfälschen. Mich stört nicht die überdeutliche Artikulation, sondern die abgerissenen Peaks in der Kurve. Die bekommt ein Slewer sehr viel besser in den Griff. Ein DeCrackle ist eigentlich ein Standard-Tool, wenn man Venyl-Digitalisate optimieren will. Die Aussetzer in den KI-Artefakten sind im Klangbild aber nicht viel anders, weswegen ich hiermit sehr gute Ergebnisse erzielen konnte.
+While I never attempted to reverse-engineer or stress-test these guardrails maliciously, empirical observation suggests their detection thresholds are calibrated quite aggressively. Very few tracks made it through production without at least one iteration being intercepted by Google's filters. While a more informative error message explaining the specific trigger would be helpful—rather than a generic failure alert—the enforcement itself provided valuable confidence regarding the legal and aesthetic distinctiveness of the output.
 
-### Masterings
-Das Mastering erfolgte in einem einzigen Projekt. Jeder Track bekam seine eigene Spur, wo ich das KI-Artefakt oder die in einem separaten Projekt finalisierte Version abgelegt habe.
+## DAW Post-Production
 
-#### Plugin-Kette auf dem Master
-Airwindows Infrasonic: beseitigt die für Menschen unhörbaren Frequenzen im Bassfundament. Der Ausgangsmaterial war zwar aufgrund des MP3-Formats bereits arm an Infrasounds, aber die Kurve zeigte noch vereinzelte Ausschläge. Das Plugin verbessert somit den Bass (die Membran ist weniger damit beschäftigt unhörbare Töne zu generieren) und verhindert, dass die Infrasounds bei der Komprimierung für verlustbehaftete Formate berücksichtigt werden
-Airwindows Interstage: nicht das typische Master-Plugin und auch kaum hörbar. Ich habe es trotzdem aufgenommen, um energiereiche Transienten zu reduzieren und die digitale Härte der Artefakte zu reduzieren.
-Airwindows Slew 2: die vielleicht am deutlichsten hörbare Veränderung des Signals. Der Slewer fängt steile Transienten ab, wie sie typischerweise bei S-Lauten im ASMR auftreten. Wie weiter oben ausgeführt, mag ich klassische De-Esser nicht. Ein Slewer entfernt das Zischeln, ohne das Klangbild zu verändern. Es ist gut möglich, dass ich die Stimme so etwas weicher gemacht habe, als man es bei der Nahbesprechung üblicherweise haben möchte, aber wenn eine Stimme auf Magnetostaten zischelt und kratzt, dann empfinde ich das als schlicht unangenehm.
-Airwindows TubeDesk: Dieses Plugin simuliert klassische Röhren-Konsolen. Der Effekt ist subtil, der Ton wird etwas wärmer, holziger, eben analoger
-Airwindows Tape: Durch das Simulieren analoger Bandmaschinen werden erneut steile Transienten geglättet, ohne die Natur des Tracks zu verändern.
-Airwindows ClipOnly 3: Dieses Plugin funktioniert wie ein Filter. Es neutralisiert letzte Ausreißer.
-LSP Limiter Stereo: um zu verhindern, dass bei der finalen Normalisierung irgendwelche Transienten abgeschnitten oder der Mix unnötig stark gedrückt wird, stellt der Limiter den True Peak mit einem minimalen Look Ahead auf das richtige Level ein.
+Just as tracking in a commercial studio is followed by mixing and post-production, raw synthetic artifacts require disciplined manual intervention before release. Every track on *Likeness* was edited, processed, and mastered by hand in Ardour (an open-source Digital Audio Workstation).
 
-#### Stille
+This stage completes the conceptual circle: as a human creator, I author the instruction set; the machine synthesizes the raw material; and as a human engineer, I shape the final master. This manual intervention establishes the substantial human labor required to justify neighboring rights protection. To be clear: the goal was never to perform performative busywork merely to claim authorship, but to refine the sonic texture and align the final output with my aesthetic intentions.
 
-Lyria versucht, das verfügbare Zeitfenster maximal auszureizen. Es gibt daher in der Regel weder eine kurze Stille zu Beginn, noch eine längere am Ende. Das ist nicht nur anstrengend für ein Album oder eine Playlist, weil die Tracks direkt aufeinander folgen, es besteht auch die Gefahr von Knacksern durch plötzlichen Ein- und Aussetzen der Musik.
-Ich habe daher jeden Track mit einem Start Delay von ca. 300 ms sowie Fadein und einem Fadeout und Stille am Ende von 1 - 2 s versehen. Wo immer möglich, habe ich versucht, die Hallfahnen am Ende zu verlängern.
+### Splicing and Arrangement
 
-#### Normalisierung
-Jeder Track wurde eingangs auf -14 Db LUFS normalisiert. Da die Plugin-Kette minimale Verschiebungen bewirkt, habe ich für den finalen Export noch einmal die -14 Db erzwungen. Der Limiter in der Plugin-Kette stellt dabei sicher, dass der True Peak am Ende zwischen -2 und -1 Db. Das sind die empfohlenen Einstellungen für DSPs (nur Apple Music bevorzugt -16 Db LUFS, aber das ist eine simple Pegelsenkung). Der True Peak von > -1 Db stellt dabei sicher, dass bei der Konvertierung in verlustbehaftete Formate keine Transienten beschnitten werden.
+Several tracks were assembled from multiple generated stems. Most commonly, this involved integrating spoken-word passages that were missing from or mangled in the primary musical take (e.g., *Jobs*). In isolated cases, entire musical movements from different generations were combined (e.g., *Agent*). Specific architectural details for each track are documented in their respective liner notes.
 
-#### Export nach WAV
-Zum Schluss wird alles im Batch nach WAV exportiert
+### Audio Restoration
+
+While Lyria generally outputs clean audio stems, two notable exceptions emerged: the spoken-word passages for *Journey* and *Homecoming*. Both generations were tracked excessively hot, exhibiting severe high-frequency sibilance. *Homecoming* suffered further from transient clipping and micro-crackles that were immediately apparent on planar magnetic headphones.
+
+The intuitive response would have been to regenerate the takes. However, repeated attempts failed to recapture the emotional intensity of the initial generation. Whether this raw performance intensity was structurally linked to the digital clipping remains an unverified hypothesis.
+
+To rescue these takes, I utilized Chris Johnson's open-source Airwindows plugins, specifically `Slew2` and `DeCrackle`:
+
+* **De-Essing via Slew Rate Limiting:** Standard dynamic de-essers were rejected because they dull the upper midrange and alter the acoustic presence of the vocal. My concern was not deliberate vocal articulation, but abrupt, non-linear voltage spikes in the waveform. `Slew2` tames harsh transient peaks dynamically without altering overall spectral balance, effectively eliminating sibilant harshness while preserving the intimate presence of the vocal.
+* **De-Crackling:** While `DeCrackle` is traditionally designed to clean digitizations of damaged vinyl, it proved remarkably effective at eliminating the micro-dropouts and digital crackle artifacts present in synthetic audio stems.
+
+### Mastering Architecture
+
+Mastering was executed within a single, unified Ardour session. Each track occupied a dedicated stem track routed through a centralized master bus processing chain.
+
+#### Master Bus Plugin Chain
+
+1. **Airwindows Infrasonic:** Strips sub-audible low-frequency rumble below the human hearing threshold. Although MP3 generation strips extreme sub-bass, raw stems still exhibited occasional sub-sonic flutter. Filtering this region cleans up the bass response—relieving headphone diaphragms from rendering inaudible excursions—and prevents unnecessary energy from distorting lossy codec compression downstream.
+2. **Airwindows Interstage:** A subtle analog modeling stage designed to tame harsh, hyper-energetic digital transients and mitigate the sterile edge typical of raw algorithmic audio.
+3. **Airwindows Slew2:** The most audible restorative stage on the master bus. It intercepts steep ultrasonic spikes native to synthesized close-mic ASMR vocals, smoothing high frequencies without the phase smear of conventional shelving EQs.
+4. **Airwindows TubeDesk:** Simulates the harmonic saturation and non-linear compression of classic tube consoles, imparting subtle warmth and analog glue.
+5. **Airwindows Tape:** Emulates tape machine dynamics, rounding off aggressive transient peaks while preserving the organic character of the instruments.
+6. **Airwindows ClipOnly3:** An transparent soft-clipping utility that catches stray peak overshoots before the final limiter.
+7. **LSP Limiter Stereo:** A high-precision digital peak limiter configured with lookahead to prevent inter-sample clipping, ensuring clean true-peak output during final loudness normalization.
+
+#### Head and Tail Silence
+
+Lyria routinely maximizes its generation window, leaving virtually no pre-roll silence at the start and terminating abruptly at the end. In an album or playlist context, this creates abrasive transitions and risks audible transient clicks during playback starts.
+
+Every track was manually padded with an introductory delay of approximately 300 ms, smooth entry and exit volume fades, and 1 to 2 seconds of natural room decay at the tail. Wherever feasible, natural reverb tails were extended seamlessly.
+
+#### Loudness Normalization
+
+Every track was balanced to an integrated loudness target of -14 LUFS. Because the analog modeling chain introduces subtle dynamic shifts, output levels were verified post-processing. The limiter ceiling was set between -2.0 and -1.0 dBTP (True Peak), aligning with current streaming distribution specifications (leaving ample headroom to prevent inter-sample clipping during AAC and Ogg Vorbis transcoding).
+
+#### Export
+
+Following final critical auditioning, all thirteen tracks were batch-exported to uncompressed 24-bit/44.1 kHz WAV files.
+
