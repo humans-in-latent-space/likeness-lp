@@ -10,4 +10,7 @@ This directory contains static snapshots of intermediate text stages. Because ar
   `commit cacf652949fe37d1c7c30df0ca6fb1822b5c890d`  
   The raw, uncurated AI translation of the German source text into English. This snapshot reflects the direct machine output before any human review, intervention, or stylistic refinement.
 
+* **[AI translation log](./03_ai-translation-log.md)**  
+  Lof of the AI translation process.
+
 These files serve as an auditable trail of provenance, establishing the baseline human intent leading up to the final curated release. They are not intended for direct use.
