@@ -18,17 +18,25 @@ Introspective, melancholic, meticulously crafted, close, and intimate.
 ### Instrumentation
 * **Felt Piano (Muted Piano):** The harmonic foundation. The tone is soft.
 * **Acoustic Guitar:** Complex yet unobtrusive fingerpicking pattern.
-* **Low-End Percussion:** No traditional drum kit. A dull, thumping rhythm in the low frequency range (like a foot stomp or tapping on the guitar body) creates intimacy.
-* **Chamber Strings:** Deep, soulful cello and viola lines that add harmonic density only in the chorus and bridge. Not orchestral, but focused and melancholic.
+* **Low-End Percussion:** No traditional drum kit. A dull, thumping rhythm in 
+  the low frequency range (like a foot stomp or tapping on the guitar body) 
+  creates intimacy.
+* **Chamber Strings:** Deep, soulful cello and viola lines that add harmonic 
+  density only in the chorus and bridge. Not orchestral, but focused and 
+  melancholic.
 
 ### Dynamic Progression & Structure
 * **Intro & Verses:** Bare-bones, focused on the felt piano and acoustic guitar.
-* **Chorus:** Increase in density through the low strings. The soundscape opens up while maintaining intimacy.
-* **Bridge:** The guitar picking becomes more energetic (staccato), the strings become more agitated, almost "breaking."
-* **Outro:** Stripped back drastically to just the felt piano, followed by an abrupt, unresolved ending.
+* **Chorus:** Increase in density through the low strings. The soundscape opens 
+  up while maintaining intimacy.
+* **Bridge:** The guitar picking becomes more energetic (staccato), the strings 
+  become more agitated, almost "breaking."
+* **Outro:** Stripped back drastically to just the felt piano, followed by an 
+  abrupt, unresolved ending.
 
 ### Vocals
-Close-miked female vocals, with every breath audible. Multiple ghostly, slightly dissonant vocal layers in the bridge.
+Close-miked female vocals, with every breath audible. Multiple ghostly, 
+slightly dissonant vocal layers in the bridge.
 
 ## Lyrics
 
@@ -215,4 +223,11 @@ Peak-Loudness (PLR):   12.60 dB
 
 SHA-256 Audio Hash:    c7a522e37c75d223f65f5131a63ba025adf089876fdcb0c7bec89b55a9952c25
 ```
+
+
+<div align="center">
+
+**[< Previous Page](./70_00_tracks.md) - 08 - [Next Page >](./70_02_shapeshifter.md)**
+
+</div>
 

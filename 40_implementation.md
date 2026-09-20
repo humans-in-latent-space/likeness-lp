@@ -36,18 +36,18 @@ This stage completes the conceptual circle: as a human creator, I author the ins
 
 ### Splicing and Arrangement
 
-Several tracks were assembled from multiple generated stems. Most commonly, this involved integrating spoken-word passages that were missing from or mangled in the primary musical take (e.g., *Jobs*). In isolated cases, entire musical movements from different generations were combined (e.g., *Agent*). Specific architectural details for each track are documented in their respective liner notes.
+Several tracks were assembled from multiple generated stems. Most commonly, this involved integrating spoken-word passages that were missing from or mangled in the primary musical take (e.g., *[Jobs](./70_04_jobs.md)*). In isolated cases, entire musical movements from different generations were combined (e.g., *[Agent](./70_09_agent.md)*). Specific architectural details for each track are documented in their respective liner notes.
 
 ### Audio Restoration
 
-While Lyria generally outputs clean audio stems, two notable exceptions emerged: the spoken-word passages for *Journey* and *Homecoming*. Both generations were tracked excessively hot, exhibiting severe high-frequency sibilance. *Homecoming* suffered further from transient clipping and micro-crackles that were immediately apparent on planar magnetic headphones.
+While Lyria generally outputs clean audio stems, two notable exceptions emerged: the spoken-word passages for *[Journey](./70_12_journey.md)* and *[Homecoming](./70_13_homecoming.md)*. Both generations were tracked excessively hot, exhibiting severe high-frequency sibilance. *[Homecoming](./70_13_homecoming.md)* suffered further from transient clipping and micro-crackles that were immediately apparent on planar magnetic headphones.
 
 The intuitive response would have been to regenerate the takes. However, repeated attempts failed to recapture the emotional intensity of the initial generation. Whether this raw performance intensity was structurally linked to the digital clipping remains an unverified hypothesis.
 
 To rescue these takes, I utilized Chris Johnson's open-source Airwindows plugins, specifically `Slew2` and `DeCrackle`:
 
 * **De-Essing via Slew Rate Limiting:** Standard dynamic de-essers were rejected because they dull the upper midrange and alter the acoustic presence of the vocal. My concern was not deliberate vocal articulation, but abrupt, non-linear voltage spikes in the waveform. `Slew2` tames harsh transient peaks dynamically without altering overall spectral balance, effectively eliminating sibilant harshness while preserving the intimate presence of the vocal.
-* **De-Crackling:** While `DeCrackle` is traditionally designed to clean digitizations of damaged vinyl, it proved remarkably effective at eliminating the micro-dropouts and digital crackle artifacts present in synthetic audio stems.
+* **De-Crackling:** While `DeCrackle` is traditionally designed to clean digitizations of damaged vinyl, it proved remarkably effective at eliminating the micro-dropouts and digital crackle artifacts present in synthetic audio.
 
 ### Mastering Architecture
 
@@ -55,7 +55,7 @@ Mastering was executed within a single, unified Ardour session. Each track occup
 
 #### Master Bus Plugin Chain
 
-1. **Airwindows Infrasonic:** Strips sub-audible low-frequency rumble below the human hearing threshold. Although MP3 generation strips extreme sub-bass, raw stems still exhibited occasional sub-sonic flutter. Filtering this region cleans up the bass response—relieving headphone diaphragms from rendering inaudible excursions—and prevents unnecessary energy from distorting lossy codec compression downstream.
+1. **Airwindows Infrasonic:** Strips sub-audible low-frequency rumble below the human hearing threshold. Although MP3 generation strips extreme sub-bass, raw tracks still exhibited occasional sub-sonic flutter. Filtering this region cleans up the bass response—relieving headphone diaphragms from rendering inaudible excursions—and prevents unnecessary energy from distorting lossy codec compression downstream.
 2. **Airwindows Interstage:** A subtle analog modeling stage designed to tame harsh, hyper-energetic digital transients and mitigate the sterile edge typical of raw algorithmic audio.
 3. **Airwindows Slew2:** The most audible restorative stage on the master bus. It intercepts steep ultrasonic spikes native to synthesized close-mic ASMR vocals, smoothing high frequencies without the phase smear of conventional shelving EQs.
 4. **Airwindows TubeDesk:** Simulates the harmonic saturation and non-linear compression of classic tube consoles, imparting subtle warmth and analog glue.
@@ -75,5 +75,12 @@ Every track was balanced to an integrated loudness target of -14 LUFS. Because t
 
 #### Export
 
-Following final critical auditioning, all thirteen tracks were batch-exported to uncompressed 24-bit/44.1 kHz WAV files.
+Following final critical auditioning, all thirteen tracks were batch-exported to uncompressed 16-bit/44.1 kHz WAV files.
+
+
+<div align="center">
+
+**[< Previous Page](./30_instruction.md) - 04 - [Next Page >](./50_distribution.md)**
+
+</div>
 

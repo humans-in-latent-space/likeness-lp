@@ -68,19 +68,17 @@ This inquiry becomes even more compelling when applied to an AI model's latent s
 
 I framed the original brief to Gemini as follows:
 
-```text
-Focus on the tactile and sensory realities of excavation labor. We open directly with the pickaxe striking compacted soil that is neither sand nor earth. The female narrator chews on the end of her hard pencil, waiting anxiously for the first artifact to emerge.
-
-The chorus articulates the tension between academic archaeology and public consumption: archaeology is ostensibly conducted for historical insight, but only sensational treasure reaches the morning headlines and captures public attention.
-
-The second verse shifts temporal focus: the narrator stands amidst exposed stone foundations as final sherds are bagged and the grid is surveyed, questioning whether we can ever genuinely understand the lives lived there.
-
-The second chorus serves as a reprise: we crave insight and the exotic, yet we merely encounter our own reflection fractured across antiquity.
-
-The bridge concludes that nothing fundamentally alien can be unearthed from the dirt—we merely excavate the debris of our predecessors. If we uncovered something genuinely unprecedented, we would fail to perceive it because we recognize only what we already understand.
+> Focus on the tactile and sensory realities of excavation labor. We open directly with the pickaxe striking compacted soil that is neither sand nor earth. The female narrator chews on the end of her hard pencil, waiting anxiously for the first artifact to emerge.
+>
+> The chorus articulates the tension between academic archaeology and public consumption: archaeology is ostensibly conducted for historical insight, but only sensational treasure reaches the morning headlines and captures public attention.
+> 
+> The second verse shifts temporal focus: the narrator stands amidst exposed stone foundations as final sherds are bagged and the grid is surveyed, questioning whether we can ever genuinely understand the lives lived there.
+> 
+> The second chorus serves as a reprise: we crave insight and the exotic, yet we merely encounter our own reflection fractured across antiquity.
+> 
+> The bridge concludes that nothing fundamentally alien can be unearthed from the dirt—we merely excavate the debris of our predecessors. If we uncovered something genuinely unprecedented, we would fail to perceive it because we recognize only what we already understand.
 
 The outro concludes with an ontological question: Does an artifact exist while buried in the loam, or does it come into existence only upon excavation and analysis?
-```
 
 <details>
 <summary><b>AI Draft 1</b><br/><br/></summary>
@@ -230,7 +228,7 @@ I discarded those takes in late June, re-prompting the model under a simple Folk
 
 ## Post-Production
 
-The final iteration required minimal correction. During mastering, I excised a mechanical tape-deck artifact at the very opening: while aesthetically interesting, it felt out of place with the rest of the album's acoustic staging. At the tail, the stem ended with an audible, heavy exhalation that lacked narrative motivation here; I cut it from *Artifact* and later repurposed it as the closing breath on *Homecoming*.
+The final iteration required minimal correction. During mastering, I excised a mechanical tape-deck artifact at the very opening: while aesthetically interesting, it felt out of place with the rest of the album's acoustic staging. At the tail, the stem ended with an audible, heavy exhalation that lacked narrative motivation here; I cut it from *Artifact* and later repurposed it as the closing breath on *[Homecoming](./70_13_homecoming.md)*.
 
 ## Related Files
 
@@ -269,4 +267,11 @@ Peak-Loudness (PLR):   12.00 dB
 
 SHA-256 Audio Hash:    b2489a6a23fd511e1681f0343101c9c0716535d2f9d5bb804cb963810f110a50
 ```
+
+
+<div align="center">
+
+**[< Previous Page](./70_05_wrecker.md) - 13 - [Next Page >](./70_07_reflection.md)**
+
+</div>
 

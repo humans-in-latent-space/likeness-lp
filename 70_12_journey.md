@@ -8,7 +8,15 @@ When we embark on a journey, we do so with a destination in mind—yet upon arri
 
 ```markdown
 ## Base
-I want to overlay the spoken recitation scripted below across a pre-recorded instrumental bed. It is essential that the lines are rendered immutably (no transpositions, omissions, or duplications), delivered with solemn presence, and performed without any accompanying instrumentation. The requested bars of music exist solely to stabilize Lyria 3's generation engine: they must cut out entirely before each recitation begins and re-enter only after each passage concludes. The atmosphere is gently melancholic yet not despondent—more akin to reverent contemplation on impermanence. The vocal delivery should feel suspended and contemplative.
+I want to overlay the spoken recitation scripted below across a pre-recorded 
+instrumental bed. It is essential that the lines are rendered immutably 
+(no transpositions, omissions, or duplications), delivered with solemn presence, 
+and performed without any accompanying instrumentation. The requested bars of 
+music exist solely to stabilize Lyria 3's generation engine: they must cut out 
+entirely before each recitation begins and re-enter only after each passage 
+concludes. The atmosphere is gently melancholic yet not despondent—more akin to 
+reverent contemplation on impermanence. The vocal delivery should feel suspended 
+and contemplative.
 
 ## Settings
 
@@ -39,22 +47,23 @@ A place once known, that somehow stays unknown.
 
 *Journey* occupies a distinct place in this project: its underlying musical foundation significantly predates the album itself. It was the very first 3-minute composition I generated with Lyria 3, tracked on the evening the long-form feature was deployed within the consumer Gemini application.
 
-Earlier, I had generated a 30-second mood clip. Returning to that session, I requested an expanded 3-minute version; because the infrastructure was brand-new, the request failed five times before completing. Remarkably, the interface assigned artwork to the track that I had generated weeks earlier in a completely unrelated conversation as a visual moodboard for the novel premise underlying [Hollow](./70_01_hollow.md). Gemini's persistent memory had independently recognized semantic affinities across conversations without explicit instruction.
+Earlier, I had generated a 30-second mood clip. Returning to that session, I requested an expanded 3-minute version; because the infrastructure was brand-new, the request failed five times before completing. Remarkably, the interface assigned artwork to the track that I had generated weeks earlier in a completely unrelated conversation as a visual moodboard for the novel premise underlying *[Hollow](./70_01_hollow.md)*. Gemini's persistent memory had independently recognized semantic affinities across conversations without explicit instruction.
 
 The resulting audio was entirely different from the initial 30-second test: it possessed an urgent, existential gravitas that moved me deeply. A purely instrumental piece, however, was unsuitable for an album predicated on curated human lyrics. I needed to integrate text—partly to disguise a sudden timbral shift in the acoustic guitar track near the start, converting that structural discontinuity into a deliberate narrative pivot.
 
-Because the lyrical sketches originally drafted for this piece developed into [Homecoming](./70_13_homecoming.md), *Journey* required fresh writing. The music evoked themes of transit, self-transformation, and the probabilistic reality of generative AI: you can define the coordinate, but the final artifact will never look identical to your expectations; it arrives as something familiar, yet fundamentally altered.
+Because the lyrical sketches originally drafted for this piece developed into *[Homecoming](./70_13_homecoming.md)*, *Journey* required fresh writing. The music evoked themes of transit, self-transformation, and the probabilistic reality of generative AI: you can define the coordinate, but the final artifact will never look identical to your expectations; it arrives as something familiar, yet fundamentally altered.
 
 Structurally, I settled on two heroic couplets in iambic pentameter, which fit the available instrumental windows perfectly. Initial drafts modeled on John Keats felt bloodless and rhetorical; for a four-line text, I needed dense, immediate imagery. I revised the creative brief:
 
-```text
-Write English lyrics.
-Structure: Iambic pentameter, two distinct blocks consisting of one heroic couplet each.
-Theme: Journey as internal transformation. Imagine yourself as the Wanderer above the Sea of Fog in Caspar David Friedrich's painting, walking through the Canadian Golden Fall (do not mention Canada by name).
-
-Block 1: You know you will ascend a mountain; you know the summit, yet the path remains obscured.
-Block 2: Arrival at the summit, only to discover the destination looks completely different than anticipated: you have reached the known, unknown peak.
-```
+> Write English lyrics.
+>
+> Structure: Iambic pentameter, two distinct blocks consisting of one heroic couplet each.
+>
+> Theme: Journey as internal transformation. Imagine yourself as the Wanderer above the Sea of Fog in Caspar David Friedrich's painting, walking through the Canadian Golden Fall (do not mention Canada by name).
+>
+> Block 1: You know you will ascend a mountain; you know the summit, yet the path remains obscured.
+>
+> Block 2: Arrival at the summit, only to discover the destination looks completely different than anticipated: you have reached the known, unknown peak.
 
 <details>
 <summary><b>AI Draft</b><br/><br/></summary>
@@ -74,7 +83,7 @@ The preliminary draft was remarkably close to the final performance (hardly surp
 
 ## Post-Production
 
-Scripting a spoken recitation without musical backing proved exceptionally difficult to render in Lyria 3, echoing my struggles on *Jobs*. Across ten iterations, the model repeatedly attempted to sing the lines. Of the rare spoken takes, only one captured the requisite solemnity—yet it had been tracked excessively hot, resulting in abrasive high-frequency sibilance on s-sounds.
+Scripting a spoken recitation without musical backing proved exceptionally difficult to render in Lyria 3, echoing my struggles on *[Jobs](./70_04_jobs.md)*. Across ten iterations, the model repeatedly attempted to sing the lines. Of the rare spoken takes, only one captured the requisite solemnity—yet it had been tracked excessively hot, resulting in abrasive high-frequency sibilance on s-sounds.
 
 While I eliminated harsh harmonic distortion, the physical articulation could not be undone without dynamic filtering that would have dulled vocal presence.
 
@@ -133,4 +142,11 @@ Peak-Loudness (PLR):   12.00 dB
 
 SHA-256 Audio Hash:    b407d4acc3986e1d2adb2deb5f961f473f561d50dbb6a358f6e971354e45b395
 ```
+
+
+<div align="center">
+
+**[< Previous Page](./70_11_fame.md) - 19 - [Next Page >](./70_13_homecoming.md)**
+
+</div>
 

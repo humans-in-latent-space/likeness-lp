@@ -15,9 +15,9 @@ Characterizing artificial intelligence as a "black box" has become a cliché. Wh
 
 ## Personal Context
 
-A critical component of this workflow was the personalization profile embedded in the Gemini application. This feature—restricted to consumer accounts—frequently shifts names and UI locations across releases, currently residing under the label "Personal Context." Analogous to system-level developer instructions, it allows users to establish persistent behavioral parameters (either via conversational memory commands or direct manual entry). These directives apply globally across all chats and custom Gems, functioning effectively as a super-system prompt.
+A critical component of this workflow was the personalization profile embedded in the Gemini application. This feature—restricted to consumer accounts—frequently shifts names and UI locations across releases, currently residing under the label "Personal Context." Analogous to system-level developer instructions (agent rules), it allows users to establish persistent behavioral parameters (either via conversational memory commands or direct manual entry). These directives apply globally across all chats and custom Gems, functioning effectively as a super-system prompt.
 
-When I began working extensively with the Gemini application in 2025, I dedicated a week to calibrating the model to my cognitive habits. I wanted to eliminate generic corporate sycophancy, and I refused to waste tokens repeatedly establishing my background as a software engineer and classically trained archaeologist. I drafted a concise biographical brief and communication protocol. Initially, I wrote this in the first person ("I prefer..."). Over extended conversational horizons, however, this triggered severe context rot: the model began conflating its persona with mine, producing bizarre identity misattributions.
+When I began working extensively with the Gemini application in 2025, I dedicated a week to calibrating the model to my cognitive habits. I wanted to reduce generic corporate sycophancy, and I refused to waste tokens repeatedly establishing my background as a software engineer and classically trained archaeologist. I drafted a concise biographical brief and communication protocol. Initially, I wrote this in the first person ("I prefer..."). Over extended conversational horizons, however, this triggered severe context rot: the model began conflating its persona with mine, producing bizarre identity misattributions.
 
 Following a suggestion from the model itself, I refactored the entire profile into the third person ("the user") and organized the sections under pseudo-keys such as `USER_INTERACTION_BIAS`. The transformation was immediate. Where standard roleplay prompting frequently triggers the *actor's dilemma*—the model mimics the superficial tropes of a role while diluting substantive output—my structural directives preserved the model's core identity as a helpful assistant while radically altering how it addressed me. Responses became dense, compressed, and unapologetically critical. This configuration proved so stable that I have kept it unchanged since December 2025. It was not devised for this album; it was an established cognitive workspace brought to the project.
 
@@ -50,9 +50,9 @@ Every track proceeded through a defined production sequence:
 5. **Final Curation:** Locking the lyrical text.
 6. **Instruction Authoring:** Composing the generation instruction set (arrangements, instrumentation, and narrative intent).
 7. **Audio Synthesis:** Executing the generation via Gemini and Lyria.
-8. **Artifact Evaluation:** Critical auditioning of generated stems.
-9. **Iterative Calibration:** Rerunning generations with adjusted parameters if required (with the exception of *Hollow*, which was an immediate take).
-10. **Digital Audio Workstation (DAW) Post-Production:** Manual mixing, stem restoration, arrangement stitching, and mastering.
+8. **Artifact Evaluation:** Critical auditioning of generated tracks.
+9. **Iterative Calibration:** Rerunning generations with adjusted parameters if required (with the exception of *[Hollow](./70_01_hollow.md)*, which was an immediate take, although not perfect).
+10. **Digital Audio Workstation (DAW) Post-Production:** Manual mixing, restoration, arrangement stitching, and mastering.
 
 ## The Genesis of the Lyrics
 
@@ -67,7 +67,7 @@ Authoring lyrics in advance rather than allowing the audio model to generate wor
 
 ### Stylistic Anchoring
 
-Every lyrical draft was initiated with the directive: *"Write in the style of Taylor Swift's Folkmore albums."* For select tracks, such as *Homecoming*, I introduced John Keats as an additional stylistic pole.
+Every lyrical draft was initiated with the directive: *"Write in the style of Taylor Swift's Folkmore albums."* For select tracks, such as *[Homecoming](./70_13_homecoming.md)*, I introduced John Keats as an additional stylistic pole.
 
 The formulation "in the style of" (rather than "You are X writing a song...") was deliberate. The intent was never to manufacture an algorithmic clone of Taylor Swift—a practice I explicitly reject—but to supply the model with a precise stylistic coordinate. Why Swift? On *Folklore* and *Evermore*, Swift demonstrates a distinct elevated diction (antique or formal registers juxtaposed against conversational speech) alongside an ability to ground complex emotional vulnerability in domestic intimacy. Her songs also feature dynamic bridges that pivot the narrative in unexpected directions. Those were the formal mechanics I sought to utilize; her thematic obsession with romantic heartbreak was deliberately discarded.
 
@@ -83,7 +83,7 @@ The lyrics across *Likeness* are dense with complex, archaic, or phonetically he
 
 This was neither an affectation of classical philology nor an attempt to project academic prestige (a maneuver that invariably misfires, particularly in American English where plain-spoken clarity is privileged). Rather, these terms served as functional steering vectors for audio synthesis.
 
-Mainstream pop music and the majority of the model's training data heavily favor basic, conversational vocabulary. If you feed the model conventional pop lyrics, it defaults to conventional pop phrasing and cadence. To cultivate a distinct musical personality, I leveraged the phonetic density, syllable count, and semantic weight of uncommon words to steer the model into under-sampled regions of its latent space. This effect is most pronounced in *Homecoming*, where the recitative, parlando vocal delivery could never have been coaxed out of generic lyrical phrasing. Elevated diction here serves not to alienate the listener, but to escape the gravitational pull of the model's statistical median.
+Mainstream pop music and the majority of the model's training data heavily favor basic, conversational vocabulary. If you feed the model conventional pop lyrics, it defaults to conventional pop phrasing and cadence. To cultivate a distinct musical personality, I leveraged the phonetic density, syllable count, and semantic weight of uncommon words to steer the model into under-sampled regions of its latent space. This effect is most pronounced in *[Homecoming](./70_13_homecoming.md)*, where the recitative, parlando vocal delivery could never have been coaxed out of generic lyrical phrasing. Elevated diction here serves not to alienate the listener, but to escape the gravitational pull of the model's statistical median.
 
 ### Structural Constraints
 
@@ -95,11 +95,11 @@ To accommodate this window, conventional pop structures (Verse-Chorus-Verse-Chor
 
 Large language models exhibit a documented self-preference bias, consistently evaluating their own generations as superior. To obtain rigorous editorial feedback, I routinely initiated fresh chat sessions to clear the context buffer, presenting the draft to a "cold" instance of the model. Unburdened by previous conversational history, the model proved far more willing to identify clunky phrasing or logical gaps.
 
-Furthermore, during linguistic polishing, I disabled my *Personal Context* profile, reverting to the baseline consumer persona. This recalibrated the model's critical lens. To ensure the text did not collapse back into bland corporate phrasing, I instructed the model to evaluate the work strictly along lines of native-speaker naturalness ("Would a native speaker flag this phrasing as awkward or unidiomatic?"). For a non-native writer, this editorial filter was indispensable—even if, as in *Hollow*, subtle grammatical anomalies occasionally slipped past.
+Furthermore, during linguistic polishing, I disabled my *Personal Context* profile, reverting to the baseline consumer persona. This recalibrated the model's critical lens. To ensure the text did not collapse back into bland corporate phrasing, I instructed the model to evaluate the work strictly along lines of native-speaker naturalness ("Would a native speaker flag this phrasing as awkward or unidiomatic?"). For a non-native writer, this editorial filter was indispensable—even if, as in *[Hollow](./70_01_hollow.md)*, grammatical anomalies occasionally slipped past.
 
 ### Rejecting Conversational Preamble
 
-On earlier tracks (most notably *Wrecker*), I experimented with initiating extensive preliminary dialogues with the model regarding genre history and narrative subtext prior to requesting a draft. The goal was to build rich contextual momentum. In practice, this proved counterproductive: the model became over-sensitized and delivered stilted results. Direct, unambiguous prompting yielded far superior drafts.
+On some tracks (most notably *[Wrecker](./70_05_wrecker.md)*), I experimented with initiating extensive preliminary dialogues with the model regarding genre history and narrative subtext prior to requesting a draft. The goal was to build rich contextual momentum. In practice, this proved counterproductive: the model became over-sensitized and delivered stilted results. Direct, unambiguous prompting yielded far superior drafts.
 
 ## Prompting Techniques
 
@@ -117,7 +117,7 @@ The inverse of Semantic Anchoring. When a monolithic keyword carries problematic
 
 ### Persona Prompting
 
-The standard convention of instructing a model: *"You are an expert X..."* I avoid this technique almost entirely. In practice, it reliably triggers the *actor's dilemma*, causing the model to lean into superficial roleplay clichés while degrading actual reasoning quality. I employed it only once—on *Journey*—to nudge the model into the psychological posture of Caspar David Friedrich's *Wanderer above the Sea of Fog*. Even there, it succeeded only because the reference was an abstract painting rather than a generic functional job title.
+The standard convention of instructing a model: *"You are an expert X..."* I avoid this technique almost entirely. In practice, it reliably triggers the *actor's dilemma*, causing the model to lean into superficial roleplay clichés while degrading actual reasoning quality. I employed it only once—on *[Journey](./70_12_journey.md)*—to nudge the model into the psychological posture of Caspar David Friedrich's *Wanderer above the Sea of Fog*. Even there, it succeeded only because it is a rather uncommon role for an AI.
 
 ### Inverse Persona Prompting
 
@@ -145,7 +145,7 @@ The setup block established operational parameters using clear key-value pairs: 
 
 For the vocal parameters, I consistently specified close-mic capture, ASMR textures, and intimate articulation. I avoided broad emotional descriptors such as "melancholic" or "euphoric," as they routinely provoked ham-fisted, melodramatic performances. I relied instead on the lyrical meter and instrumentation to convey emotion organically.
 
-For several tracks, I appended a brief narrative abstract outlining the intended dynamic progression. This was critical whenever the desired arrangement conflicted with the statistical default suggested by the lyrics. In *Shapeshifter* and *Jobs*, for instance, explicit narrative framing was necessary to prevent the model from defaulting to carnival novelty music or dull corporate acoustic strumming.
+For several tracks, I appended a brief narrative abstract outlining the intended dynamic progression. This was critical whenever the desired arrangement conflicted with the statistical default suggested by the lyrics. In *[Shapeshifter](./70_02_shapeshifter.md)* and *[Jobs](./70_04_jobs.md)*, for instance, explicit narrative framing was necessary to prevent the model from defaulting to carnival novelty music or dull corporate acoustic strumming.
 
 ### Lyrics
 
@@ -153,5 +153,12 @@ Markdown formatting was maintained for all lyrical blocks. Traditional bracketed
 
 Pure vocalizations (e.g., written sighs or hums) were systematically excluded. Directives like `[sigh]` were frequently sung as literal words, and phonetic representations like "hhh" were once absurdly vocalized as "Hage." Similarly, backing vocal parentheticals produced erratic results. Eliminating these ambiguities ensured consistent delivery.
 
-Finally, homographs required phonetic intervention. Where English words share spelling but diverge in pronunciation based on context, deliberate phonetic misspellings were introduced—such as altering "tear" (rip) to "tare" in *Wrecker* to prevent the model from pronouncing it as "teer" (crying).
+Finally, homographs required phonetic intervention. Where English words share spelling but diverge in pronunciation based on context, deliberate phonetic misspellings were introduced—such as altering "tear" (rip) to "tare" in *[Wrecker](./70_05_wrecker.md)* to prevent the model from pronouncing it as "teer" (crying).
+
+
+<div align="center">
+
+**[< Previous Page](./20_vision.md) - 03 - [Next Page >](./40_implementation.md)**
+
+</div>
 

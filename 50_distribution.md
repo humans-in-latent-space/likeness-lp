@@ -4,9 +4,9 @@ Platforms like DistroKid are often casually referred to as "distributors," thoug
 
 ## Cover Artwork and Artist Photography
 
-Album artwork is analyzed in detail in a subsequent chapter, but visual assets form an essential prerequisite for ingestion. Every digital artist profile requires authentic photography. Having deliberately rejected a synthetic AI persona in favor of standing openly as the human orchestrator behind the machine, genuine photographic assets were non-negotiable. If the music and lyrics were synthesized, the human identity behind the work had to be unmistakable.
+Album artwork is analyzed in detail in a subsequent chapter (s. [Cover Art](./80_cover-art.md)), but visual assets form an essential prerequisite for ingestion. Every digital artist profile requires authentic photography. Having deliberately rejected a synthetic AI persona in favor of standing openly as the human orchestrator behind the machine, genuine photographic assets were non-negotiable. If the music and lyrics were synthesized, the human identity behind the work had to be unmistakable.
 
-Hiring a commercial photographer for an independent experimental release was economically non-viable; paying more for headshots than for the entire technical infrastructure would have been absurd. Instead, I combed through personal archives from a past holiday in Scotland. At Eoropie Beach, on the northwestern coast of the Isle of Lewis, my wife had taken several portraits of me in heavy weather. The bleak, atmospheric setting mirrored the emotional tone of the album perfectly—and serendipitously, I was wearing a waxed oilskin coat reminiscent of the lyrics in *Wrecker*.
+Hiring a commercial photographer for an independent experimental release was economically non-viable; paying more for headshots than for the entire technical infrastructure would have been absurd. Instead, I combed through personal archives from a past holiday in Scotland. At Eoropie Beach, on the northwestern coast of the Isle of Lewis, my wife had taken several portraits of me in heavy weather. The bleak, atmospheric setting mirrored the emotional tone of the album perfectly—and serendipitously, I was wearing a coat reminiscent of the lyrics in *[Wrecker](./70_05_wrecker.md)* ("oilskin").
 
 ## Distribution Infrastructure
 
@@ -38,13 +38,13 @@ Publishing static lyrics is straightforward and free of charge via DistroKid, pr
 
 ## Spotify Canvas
 
-With the Spotify artist profile verified, I was able to generate and upload looping Canvas video clips for individual tracks prior to launch. I completed this for *Hollow*, with additional canvases planned.
+With the Spotify artist profile verified, I was able to generate and upload looping Canvas video clips for individual tracks prior to launch. I completed this for *[Hollow](./70_01_hollow.md)*, with additional canvases planned.
 
-Documenting the visual synthesis of these clips could fill an independent repository. Briefly: the video loops were generated using Google's Veo model within Google Flow, yielding a fascinating catalog of generative glitches (during the dining room scene in *Hollow*, an instruction for "flickering candlelight" caused the chandelier to erupt in periodic bursts of flame). For the projector sequence, I first generated reference stills using Nano Banana conditioned on vintage personal photographs, which were subsequently fed into Veo as image-to-video prompts.
+Documenting the visual synthesis of these clips could fill an independent repository. Briefly: the video loops were generated using Google's Veo model within Google Flow, yielding a fascinating catalog of generative glitches (during the dining room scene in *[Hollow](./70_01_hollow.md)*, an instruction for "flickering candlelight" caused the chandelier to erupt in bursts of flame). For the projector sequence, I first generated reference stills using Nano Banana conditioned on vintage personal photographs, which were subsequently fed into Veo as image-to-video prompts.
 
 ## Playlist Pitching
 
-Most streaming platforms permit creators to submit unreleased tracks to internal editorial teams for playlist consideration. With tens of thousands of tracks submitted daily, the probability of algorithmic or editorial pickup for an independent niche release is negligible, but the mechanism remains standard industry protocol.
+Most streaming platforms permit creators to submit unreleased tracks to internal editorial teams for playlist consideration. With tens of thousands of tracks submitted daily, the probability of algorithmic or editorial pickup for an independent niche release is negligible, but the mechanism remains standard protocol.
 
 Spotify enforces a strict policy that tracks can only be pitched prior to release day—which circles back to the friction of claiming a debut profile ahead of time. Secondary DSPs (where available) permit post-release pitching.
 
@@ -52,5 +52,14 @@ Spotify enforces a strict policy that tracks can only be pitched prior to releas
 
 A core structural pillar of this project is the deposit of raw synthetic artifacts, multi-track Ardour DAW sessions, stems, and final master files into a restricted Zenodo repository prior to public release.
 
+> J. Köster, "Likeness Relics: AI Artifacts, DAW Sessions, and Audio Masters", Sep. 20, 2026, Zenodo. [doi: 10.5281/zenodo.22842478](https://doi.org/10.5281/zenodo.22842478)
+
 Should disputes arise regarding authorship, chronology, or human curation, this timestamped academic deposit acts as an immutable digital notary. While this precaution will not prevent bad-faith automated copyright claims or temporary platform takedowns, it provides definitive cryptographic evidence to expedite appeals and resolve disputes.
+
+
+<div align="center">
+
+**[< Previous Page](./40_implementation.md) - 05 - [Next Page >](./50_distribution.md)**
+
+</div>
 

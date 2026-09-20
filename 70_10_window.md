@@ -14,11 +14,23 @@ VOICE: Female, breathy, close-miking, ASMR quality, intimate, melancholic.
 
 ## Arrangement
 
-CRUCIAL: The lyrics tell a self-contained narrative. They must not be compromised through omission, transposition, repetition, or unauthorized edits.
+CRUCIAL: The lyrics tell a self-contained narrative. They must not be compromised 
+through omission, transposition, repetition, or unauthorized edits.
 
-The felt piano provides the primary harmonic foundation (broken arpeggiated accompaniment). In Verse 1 and Verse 2, we employ an untreated, unmuted piano to depict the external world. For the chorus and bridge, we transition to a felt piano to represent the muffling of reality from within. The cello establishes a deep bed of drones, particularly in the bridge. A crystalline, fragile violin interjects sparse melodic accents. To avoid neoclassical chamber stiffness, a muted kick/sub-bass anchors the performance firmly within modern indie-pop.
+The felt piano provides the primary harmonic foundation (broken arpeggiated 
+accompaniment). In Verse 1 and Verse 2, we employ an untreated, unmuted piano to 
+depict the external world. For the chorus and bridge, we transition to a felt 
+piano to represent the muffling of reality from within. The cello establishes a 
+deep bed of drones, particularly in the bridge. A crystalline, fragile violin 
+interjects sparse melodic accents. To avoid neoclassical chamber stiffness, a 
+muted kick/sub-bass anchors the performance firmly within modern indie-pop.
 
-The atmosphere is shaped by quiet melancholy, protective anxiety for a loved one, and vicarious joy in their happiness—akin to rich dark chocolate: bitter, yet comforting. The spoken phrase "I wish it was..." following Chorus 2 serves as an abrupt vocal rupture that suspends the chorus and introduces the bridge. The bridge is not an aggressive surge, but an exhausted lament. The outro delivers an earnest confession of devotion.
+The atmosphere is shaped by quiet melancholy, protective anxiety for a loved one, 
+and vicarious joy in their happiness—akin to rich dark chocolate: bitter, yet 
+comforting. The spoken phrase "I wish it was..." following Chorus 2 serves as an 
+abrupt vocal rupture that suspends the chorus and introduces the bridge. 
+The bridge is not an aggressive surge, but an exhausted lament. 
+The outro delivers an earnest confession of devotion.
 
 ## Lyrics
 
@@ -82,17 +94,15 @@ Why she is confined remains deliberately ambiguous. Is she chronically ill, or i
 
 I pitched the premise to Gemini as follows:
 
-```text
-The narrator (a young woman) observes the world from a high window. She engages in a monologue addressed to her companion ("you," leaving unresolved whether the figure is a friend, sibling, or romantic partner). She watches "you" working in the garden below.
-
-In the first chorus, she expresses gratitude whenever "you" pauses to share what moves him—how the rhododendrons are in bloom—while mourning that she cannot see them firsthand.
-
-In the second verse, she watches him shivering in autumn rains, weeping in private grief. She longs to offer comfort, but her voice cannot penetrate the glass. The second chorus reflects this mounting helplessness.
-
-The bridge turns inward: she examines the towering bookshelves lining her room. Her companions are Plato and Keats, but their words are cold dust. She recognizes her study as a tomb and the windowpanes as iron bars. Outside is the pulsing world of human touch; inside is theoretical isolation.
-
-The final chorus acknowledges her inability to physically comfort him, yet begs him to keep coming to the glass—because he remains her sole window to the living world.
-```
+> The narrator (a young woman) observes the world from a high window. She engages in a monologue addressed to her companion ("you," leaving unresolved whether the figure is a friend, sibling, or romantic partner). She watches "you" working in the garden below.
+>
+> In the first chorus, she expresses gratitude whenever "you" pauses to share what moves him—how the rhododendrons are in bloom—while mourning that she cannot see them firsthand.
+>
+> In the second verse, she watches him shivering in autumn rains, weeping in private grief. She longs to offer comfort, but her voice cannot penetrate the glass. The second chorus reflects this mounting helplessness.
+>
+> The bridge turns inward: she examines the towering bookshelves lining her room. Her companions are Plato and Keats, but their words are cold dust. She recognizes her study as a tomb and the windowpanes as iron bars. Outside is the pulsing world of human touch; inside is theoretical isolation.
+> 
+> The final chorus acknowledges her inability to physically comfort him, yet begs him to keep coming to the glass—because he remains her sole window to the living world.
 
 <details>
 <summary><b>AI Draft</b><br/><br/></summary>
@@ -164,7 +174,7 @@ Tell me they're blooming for you.
 
 While overly sprawling for a 3-minute track, the preliminary draft offered a sturdy structural foundation. In editorial revisions, I sharpened the botanical taxonomy (puccoons, rhodoras, bluebells, asters), weaving the cyclical decay of the seasons into the verse progression. I replaced Shakespeare with Plato to establish an explicit dialectic between philosophical intellect and Keatsian somatic longing.
 
-Early generations were heavily corrupted by piano vamping carried over from discarded takes of *Excellence*. The model seemed incapable of shaking the pattern. Only when I fully disabled Gemini's persistent memory did the cross-contamination cease, allowing the arrangement to establish its own harmonic identity. The engine finally honored the arpeggio directive.
+Early generations were heavily corrupted by piano vamping carried over from discarded takes of *[Excellence](./71_01_excellence.md)*. The model seemed incapable of shaking the pattern. Only when I fully disabled Gemini's persistent memory did the cross-contamination cease, allowing the arrangement to establish its own harmonic identity. The engine finally honored the arpeggio directive.
 
 Because the descriptor "melancholic" reliably triggers generic sentimentality, I instructed the model to interpret the emotional atmosphere as *"aromatic dark chocolate"*—demanding full, bittersweet harmonic complexity. The metaphor worked brilliantly.
 
@@ -209,4 +219,11 @@ Peak-Loudness (PLR):   11.50 dB
 
 SHA-256 Audio Hash:    9a51b7f4fed02eb3310107d0f80215b2f16e654e499dd90baf0d69a86ca57265
 ```
+
+
+<div align="center">
+
+**[< Previous Page](./70_09_agent.md) - 17 - [Next Page >](./70_11_fame.md)**
+
+</div>
 

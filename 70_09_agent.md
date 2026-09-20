@@ -12,7 +12,8 @@ The promise of an unburdened life makes it effortless for a skilled impostor to 
 **Style:** Minimalist Indie-Folk-Pop, Folktronica  
 **Voice:** Female, close-miking, breathy, ASMR quality, intimate.  
 
-Crucial: The lyrics tell a story and must not be altered through omission, transposition, or duplication under any circumstances.  
+Crucial: The lyrics tell a story and must not be altered through omission, 
+transposition, or duplication under any circumstances.  
 
 Exploit the full 3-minute performance ceiling.  
 
@@ -65,27 +66,25 @@ I wish I was more like my sister
 
 ## Track Liner Notes
 
-*Agent* was composed in parallel with [Shapeshifter](./70_02_shapeshifter.md) and represents the second half of the "sister track" axis. Where *Shapeshifter* introduces an uncanny, foreign entity that harbors no malice toward the villagers, *Agent* stages the inverse: the familiar, polished, helpful persona who is fundamentally predatory.
+*Agent* was composed in parallel with [Shapeshifter](./70_02_shapeshifter.md) and represents the second half of the "sister track" axis. Where *[Shapeshifter](./70_02_shapeshifter.md)* introduces an uncanny, foreign entity that harbors no malice toward the villagers, *Agent* stages the inverse: the familiar, polished, helpful persona who is fundamentally predatory.
 
 While the shapeshifter struggles to adapt to human behavior, the corporate agent commands the art of social manipulation effortlessly. She promises an unburdened, frictionless existence, mirrors the villagers' expectations, and steadily gains their trust—only to weaponize it without remorse.
 
 I framed the narrative to Gemini as follows:
 
-```text
-The narrator is female, addressing the rural community in Verse 1, Chorus 1, and Verse 2 directly as "you," before shifting into the third-person "they."
-
-Verse 1 (4 lines): The narrator arrives in a small town bordering dense pine forests. Presenting herself as a corporate agent managing community development, she encounters initial caution, but villagers open their doors because she represents a "good cause."
-
-Chorus 1 (4 lines): The locals value hard work and traditional courtesy—but above all, convenience. When someone lifts administrative burdens from their shoulders, they embrace the intervention.
-
-Verse 2 (4 lines): The agent is integrated into community life. Villagers share confidences and delegate civic responsibilities. She is appointed to the parish council to coordinate the church bake sale.
-
-Bridge (4 lines): Sudden rupture. The mission was never about civic benevolence; it was operational intelligence gathering to identify non-conforming outliers. The villagers opened their doors willingly, and now the operative cleans up.
-
-Chorus 2 (4 lines): The community values stability and peace of mind above introspection. The operative relieves them of decision-making, allowing external forces to handle the enforcement.
+> The narrator is female, addressing the rural community in Verse 1, Chorus 1, and Verse 2 directly as "you," before shifting into the third-person "they."
+>
+>Verse 1 (4 lines): The narrator arrives in a small town bordering dense pine forests. Presenting herself as a corporate agent managing community development, she encounters initial caution, but villagers open their doors because she represents a "good cause."
+>
+> Chorus 1 (4 lines): The locals value hard work and traditional courtesy—but above all, convenience. When someone lifts administrative burdens from their shoulders, they embrace the intervention.
+>
+> Verse 2 (4 lines): The agent is integrated into community life. Villagers share confidences and delegate civic responsibilities. She is appointed to the parish council to coordinate the church bake sale.
+>
+> Bridge (4 lines): Sudden rupture. The mission was never about civic benevolence; it was operational intelligence gathering to identify non-conforming outliers. The villagers opened their doors willingly, and now the operative cleans up.
+>
+> Chorus 2 (4 lines): The community values stability and peace of mind above introspection. The operative relieves them of decision-making, allowing external forces to handle the enforcement.
 
 Outro (2 lines): A chilling quiet settles over the church square. The agent discovers a tailored blazer draped over a chair and folds it away.
-```
 
 <details>
 <summary><b>AI Draft</b><br/><br/></summary>
@@ -125,7 +124,7 @@ It's so pleasantly quiet now across the old church square,
 I find a blazer on a chair and fold it with precise, cold care.  
 </details>
 
-The preliminary draft was strong, though it required surgical editing. The very first audio generation was striking: unbidden by my prompt, the model improvised a soft, unsettling giggle at the tail of the vocal line, imparting a chillingly sociopathic intimacy to the performance. However, it suffered from the same issue encountered on *Shapeshifter*: the chorus was far too bright and optimistic.
+The preliminary draft was strong, though it required surgical editing. The very first audio generation was striking: unbidden by my prompt, the model improvised a soft, unsettling giggle at the tail of the vocal line, imparting a chillingly sociopathic intimacy to the performance. However, it suffered from the same issue encountered on *[Shapeshifter](./70_02_shapeshifter.md)*: the chorus was far too bright and optimistic.
 
 My original prompt:
 
@@ -200,4 +199,11 @@ Peak-Loudness (PLR):   11.40 dB
 
 SHA-256 Audio Hash:    cd401d31558b4a436660824bb6403a2b37523214f0ea6c205a118125350f71a6
 ```
+
+
+<div align="center">
+
+**[< Previous Page](./70_08_drifting.md) - 16 - [Next Page >](./70_10_window.md)**
+
+</div>
 

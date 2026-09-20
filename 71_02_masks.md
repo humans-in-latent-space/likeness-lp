@@ -98,7 +98,7 @@ Man, I need another Job...
 
 ## Track Liner Notes
 
-The concept for *Masks* occurred to me immediately after *Hollow*, though I first explored [Excellence](./71_01_excellence.md) before dedicating myself to this piece. It was chronologically the third song attempted, even if it never made it onto the final album in this arrangement.
+The concept for *Masks* occurred to me immediately after *[Hollow](./70_01_hollow.md)*, though I first explored *[Excellence](./71_01_excellence.md)* before dedicating myself to this piece. It was chronologically the third song attempted, even if it never made it onto the final album in this arrangement.
 
 The titular masks functioned as allegories for the performance of social roles in everyday life. Over time, we internalize these masks so completely that removing them becomes impossible.
 
@@ -208,5 +208,12 @@ It fits better in the light.
 
 The preliminary draft suffered from heavy baroque ornament in its poetic imagery and peculiar semantic anomalies (garden motifs bleeding in from my user profile, or the model misinterpreting the social mask as a literal respiratory face mask in Verse 2).
 
-Despite extensive editorial pruning, the song retained an unshakeable baroque preciousness, which translated into an overly ornate, precious musical arrangement during synthesis. It simply failed to coalesce. As with [Excellence](./71_01_excellence.md), the composition threatened to establish an acoustic identity at odds with the album's grounded, intimate ethos. I took the only sensible path: discarding the track and subjecting its core themes to a radical refactor. That revision ultimately entered the album as [Jobs](./70_04_jobs.md).
+Despite extensive editorial pruning, the song retained an unshakeable baroque preciousness, which translated into an overly ornate, precious musical arrangement during synthesis. It simply failed to coalesce. As with *[Excellence](./71_01_excellence.md)*, the composition threatened to establish an acoustic identity at odds with the album's grounded, intimate ethos. I took the only sensible path: discarding the track and subjecting its core themes to a radical refactor. That revision ultimately entered the album as *[Jobs](./70_04_jobs.md)*.
+
+
+<div align="center">
+
+**[< Previous Page](./71_01_excellence.md) - 23 - [Next Page >](./80_cover-art.md)**
+
+</div>
 

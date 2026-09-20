@@ -11,11 +11,14 @@ Sometimes people-pleasing is simply a survival tactic to be left alone.
 
 Genre: Folktronica, Indie-Folk-Pop  
 Voice: Female, close-miked, ASMR quality, intimate.  
-Instrumentation: Felt piano (arpeggiated), cello, fingerpicked acoustic guitar, syncopated beat (94 BPM).  
+Instrumentation: Felt piano (arpeggiated), cello, fingerpicked acoustic guitar, 
+syncopated beat (94 BPM).  
 
-The lyrics tell a continuous story and must not be compromised through omission, transposition, or repetition.  
+The lyrics tell a continuous story and must not be compromised through omission, 
+transposition, or repetition.  
 Ensure that the "Spoken Word Interludes" are strictly spoken, not sung.  
-Aim for the full 3-minute performance ceiling by incorporating subtle instrumental motifs.  
+Aim for the full 3-minute performance ceiling by incorporating subtle 
+instrumental motifs.  
 
 ## Lyrics
 
@@ -78,17 +81,15 @@ I turned instead to the emerging world-building of the album itself: the Shapesh
 
 I pitched the initial scenario to Gemini as follows:
 
-```text
-The narrator and an unspecified partner ("you") are repairing a perimeter fence around their rural property (heavy wooden posts, tension wire). The narrator takes an analytical, surveying role, while "you" provides the manual labor.
-
-Suddenly, members of the local rural community ("they") gather along the boundary line, unloading gossip, unsolicited opinions, and small-town dogmas. Both protagonists know the villagers do not want genuine dialogue—they demand compliance, validation, and head-nodding. Being an instinctive people-pleaser, the narrator supplies precisely the agreement they crave.
-
-The chorus articulates gratitude that her partner is different: he desires her unvarnished perspective, the friction of her mind, rather than an empty echo.
-
-In the bridge, the narrator compares herself to a mossy stone well behind the shed into which children shout trivialities just to hear their own voices bounce back. She wishes she could be the black, freezing water at the bottom that reflects unyielding truth—exposing every flaw and vanity—yet recognizes that people love their own hollow distortions. She agrees to play the echo chamber.
-
-The outro culminates in polite cynicism: "Oh, how interesting, please tell me more! My opinion? One moment, let me package yours and hand it right back to you."
-```
+> The narrator and an unspecified partner ("you") are repairing a perimeter fence around their rural property (heavy wooden posts, tension wire). The narrator takes an analytical, surveying role, while "you" provides the manual labor.
+>
+> Suddenly, members of the local rural community ("they") gather along the boundary line, unloading gossip, unsolicited opinions, and small-town dogmas. Both protagonists know the villagers do not want genuine dialogue—they demand compliance, validation, and head-nodding. Being an instinctive people-pleaser, the narrator supplies precisely the agreement they crave.
+> 
+> The chorus articulates gratitude that her partner is different: he desires her unvarnished perspective, the friction of her mind, rather than an empty echo.
+>
+> In the bridge, the narrator compares herself to a mossy stone well behind the shed into which children shout trivialities just to hear their own voices bounce back. She wishes she could be the black, freezing water at the bottom that reflects unyielding truth—exposing every flaw and vanity—yet recognizes that people love their own hollow distortions. She agrees to play the echo chamber.
+> 
+> The outro culminates in polite cynicism: "Oh, how interesting, please tell me more! My opinion? One moment, let me package yours and hand it right back to you."
 
 <details>
 <summary><b>AI Draft 1</b><br/><br/></summary>
@@ -337,4 +338,11 @@ Peak-Loudness (PLR):   11.50 dB
 
 SHA-256 Audio Hash:    12b853f11871f7e9a8c3e0a565bdd8521f0b3a8c99bae7a9c8361ae5bef9ebeb
 ```
+
+
+<div align="center">
+
+**[< Previous Page](./70_06_artifact.md) - 14 - [Next Page >](./70_08_drifting.md)**
+
+</div>
 

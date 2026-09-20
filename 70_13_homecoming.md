@@ -8,37 +8,64 @@ The phantom ache of a memory of the future.
 
 ```markdown
 ### Setup
-We want to generate a 3-minute composition. The lyrics are provided below. Stylistically, the piece resides in indie-folk-pop and chamber-folk. A female, ultra-close-miked vocal (ASMR quality, audible breathing on pauses) **recites** the entire text, while acoustic guitar, felt piano, cello, and violin build the atmospheric foundation.
+We want to generate a 3-minute composition. The lyrics are provided below. 
+Stylistically, the piece resides in indie-folk-pop and chamber-folk. 
+A female, ultra-close-miked vocal (ASMR quality, audible breathing on pauses) 
+**recites** the entire text, while acoustic guitar, felt piano, cello, and 
+violin build the atmospheric foundation.
 
-Crucial: The narrative is central. It must not be disrupted through omission, transposition, or duplication. The vocal delivery must be slow and intimate, whispered directly into the listener's ear. The performance carries a quiet melancholy, yet remains conversational and unforced—as though an intimate friend were gazing out of a rain-streaked window over tea, recounting memories of a childhood home. No menace; only fascination, tenderness, and longing.
+Crucial: The narrative is central. It must not be disrupted through omission, 
+transposition, or duplication. The vocal delivery must be slow and intimate, 
+whispered directly into the listener's ear. The performance carries a quiet 
+melancholy, yet remains conversational and unforced—as though an intimate 
+friend were gazing out of a rain-streaked window over tea, recounting memories 
+of a childhood home. No menace; only fascination, tenderness, and longing.
 
 ### Progression:
-* Target a slow tempo, around 74 BPM. Open with 4 bars of instrumental music to allow Lyria to establish a stable harmonic groove.
-* Introduce fingerpicked acoustic guitar. Introduce cello drones during the mention of maples and cedars, receding after the swing. At the dry C minor reference, reintroduce the cello as a sustained drone, followed by the entrance of the felt piano.
-* Verse 2 should expand in dynamic intensity to reflect the surging tides of longing, without accelerating into frantic tempo. The narrator is an observer, not a victim.
-* Verse 3 captures the epistemic rupture with the preceding verses: the realization that the memories are an illusion. Introduce a weeping violin. At "It's a cozy kind of haunting, isn't it?"—delivered with subtle self-irony, as if waking from heavy thoughts and disarming the pathos—the instrumentation decays. The final lines are spoken into silence (or over faint, dying cello drones).
+* Target a slow tempo, around 74 BPM. Open with 4 bars of instrumental music 
+  to allow Lyria to establish a stable harmonic groove.
+* Introduce fingerpicked acoustic guitar. Introduce cello drones during the 
+  mention of maples and cedars, receding after the swing. At the dry C minor 
+  reference, reintroduce the cello as a sustained drone, followed by the 
+  entrance of the felt piano.
+* Verse 2 should expand in dynamic intensity to reflect the surging tides of 
+  longing, without accelerating into frantic tempo. The narrator is an observer, 
+  not a victim.
+* Verse 3 captures the epistemic rupture with the preceding verses: the 
+  realization that the memories are an illusion. Introduce a weeping violin. 
+  At "It's a cozy kind of haunting, isn't it?"—delivered with subtle self-irony, 
+  as if waking from heavy thoughts and disarming the pathos—the instrumentation 
+  decays. The final lines are spoken into silence 
+  (or over faint, dying cello drones).
 
 ### Lyrics
 
 #### Verse 1
-The maples have begun their slow, golden self-immolation against the burning sky.  
+The maples have begun their slow, golden self-immolation 
+against the burning sky.  
 A wall of damp cedar breathes out an aeon of forgotten winters.  
 The swing sways the way it always does when the evening is about to fall.  
-The patinated latch of the screen door still catches just the way... I remember...  
-I know the precise note—a dry C minor—that the second floorboard creaks when a soul enters the kitchen,  
+The patinated latch of the screen door still catches just the way... 
+I remember...  
+I know the precise note—a dry C minor—that the second floorboard creaks 
+when a soul enters the kitchen,  
 where the scent of woodsmoke and old wool settles deep into the grain.  
 
 #### Verse 2
 Beyond the orchard, the dirt lane dissolves into the reach of the dark woods,  
 where the river runs thick with silt and suddenly tastes of the oncoming sea.  
-Look how the water crests, turning on itself, rushing violently backward into the gorge,  
+Look how the water crests, turning on itself, 
+rushing violently backward into the gorge,  
 rewinding its own destiny because the tide demands a different allegiance.  
 That is the exact physics of my own blood when autumn's whisper sharpens—  
 a pulling inward and upward, against the current of my longing.  
 
 #### Verse 3
-And here it is... the fracture, the strange frost in the fragile marrow of my yearning bone:  
-I have never smelled the memories of these trees; my boots have never pressed this moss... still untouched.  
+And here it is... 
+the fracture, the strange frost in the fragile marrow of my yearning bone:  
+I have never smelled the memories of these trees; 
+my boots have never pressed this moss... 
+still untouched.  
 No man-made map knows this jagged shoreline where the water feasts on the land.  
 I am a ghost haunting a home I have never been allowed to call my own. ...  
 It's a cozy kind of haunting, isn't it? ...  
@@ -48,21 +75,19 @@ welcomed by a self I have yet to meet.
 
 ## Track Liner Notes
 
-In the production sequence, *Homecoming* followed directly after [Jobs](./70_04_jobs.md), revisiting the motif of the longed-for woodland cottage from a radically different psychological vantage point. Where *Jobs* is grounded in everyday frustration and commodified pastoral clichés (*"cottage in the pines"*), *Homecoming* ventures into ontological territory.
+In the production sequence, *[Homecoming](./70_13_homecoming.md)* followed directly after *[Jobs](./70_04_jobs.md)*, revisiting the motif of the longed-for woodland cottage from a radically different psychological vantage point. Where *[Jobs](./70_04_jobs.md)* is grounded in everyday frustration and commodified pastoral clichés (*"cottage in the pines"*), *[Homecoming](./70_13_homecoming.md)* ventures into ontological territory.
 
 I outlined the brief to Gemini as follows:
 
-```text
-New lyric project. I want to pair an instrumental arrangement with a spoken recitation, following indie-folk conventions. We will have John Keats and Taylor Swift write about anemoia (nostalgia for a time or place never known). Keats supplies the sensory foundation; Swift ensures the language remains intimate and emotionally immediate.
-
-Target three stanzas of six lines each, avoiding rigid rhyme schemes in favor of an unmetered, whispered stream of consciousness.
-
-The central concept is anemoia as a "homecoming" to a place the narrator has never physically inhabited, yet aches for with somatic intensity. We situate it in the Canadian Golden Fall, between dense pine forests, tidal estuaries, and the sea. We open with domestic architectural memories (the screen door, the floorboards), expanding outward into the wild landscape and the narrator's inner world. Integrate the motif of the Reversing Falls: a river flowing backward against its bed.
-
-Save the realization that the narrator has never set foot in this sanctuary for the final stanza, creating a sharp tension between visceral intimacy and total estrangement.
-
-Constraints: Exclude explicit geographical identifiers like Canada, Reversing Falls, or the Atlantic; articulate their character through physical observation.
-```
+> New lyric project. I want to pair an instrumental arrangement with a spoken recitation, following indie-folk conventions. We will have John Keats and Taylor Swift write about anemoia (nostalgia for a time or place never known). Keats supplies the sensory foundation; Swift ensures the language remains intimate and emotionally immediate.
+>
+> Target three stanzas of six lines each, avoiding rigid rhyme schemes in favor of an unmetered, whispered stream of consciousness.
+> 
+> The central concept is anemoia as a "homecoming" to a place the narrator has never physically inhabited, yet aches for with somatic intensity. We situate it in the Canadian Golden Fall, between dense pine forests, tidal estuaries, and the sea. We open with domestic architectural memories (the screen door, the floorboards), expanding outward into the wild landscape and the narrator's inner world. Integrate the motif of the Reversing Falls: a river flowing backward against its bed.
+> 
+> Save the realization that the narrator has never set foot in this sanctuary for the final stanza, creating a sharp tension between visceral intimacy and total estrangement.
+> 
+> Constraints: Exclude explicit geographical identifiers like Canada, Reversing Falls, or the Atlantic; articulate their character through physical observation.
 
 <details>
 <summary><b>AI Draft 1</b><br/><br/></summary>
@@ -92,9 +117,9 @@ homesick for a porch light that was never legally turned on for me,
 marooned in the terrible, aching intimacy of a place I have never seen.  
 </details>
 
-The preliminary draft was exceptionally strong; Verse 2 survived almost verbatim into the album master. However, the repeated mention of the "porch" bothered me, as did the wandering perspective in Verse 1: opening on the screen door, panning outside, and jumping back into the kitchen felt spatially incoherent. I wanted richer Keatsian pathos, leading me to compose the heightened romantic imagery of the opening lines (*"slow, golden self-immolation against the burning sky"*). In Verse 3, I refined the sensory details, adding the line *"It's a cozy kind of haunting, isn't it?"* and closing with an anticipation of the future.
+The preliminary draft was strong; Verse 2 survived almost verbatim into the album master. However, the repeated mention of the "porch" bothered me, as did the wandering perspective in Verse 1: opening on the screen door, panning outside, and jumping back into the kitchen felt spatially incoherent. I wanted richer Keatsian pathos, leading me to compose the heightened romantic imagery of the opening lines (*"slow, golden self-immolation against the burning sky"*). In Verse 3, I refined the sensory details, adding the line *"It's a cozy kind of haunting, isn't it?"* and closing with an anticipation of the future.
 
-While originally conceived as text for [Journey](./70_12_journey.md), the poetry demanded its own sonic canvas. The first generation suffered line transpositions and was discarded. The second generation was breathtaking: that delicate interplay between spoken recitation and soaring, melodic delivery—as though singing were the only vehicle capable of carrying the emotional weight of the words—moved me deeply.
+While originally conceived as text for *[Journey](./70_12_journey.md)*, the poetry demanded its own sonic canvas. The first generation suffered line transpositions and was discarded. The second generation was breathtaking: that delicate interplay between spoken recitation and soaring, melodic delivery—as though singing were the only vehicle capable of carrying the emotional weight of the words—moved me deeply.
 
 Before committing to this direction, I conducted a blind A/B test with the model. Prior to submitting the brief with my *Personal Context* profile active, I tested the identical prompt within a fresh, unpersonalized Gemini session:
 
@@ -156,7 +181,7 @@ The generated stem was lyrically and structurally immaculate, but suffered from 
 
 The transient crackle on *"ghost"* in Verse 3 could pass as an intentional glitch, but the clicks proved unlistenable on planar magnetic headphones. I smoothed the audio using Airwindows `DeCrackle`.
 
-During final mastering, I inserted the closing breath excised from [Artifact](./70_06_artifact.md), giving the album an intimate human conclusion.
+During final mastering, I inserted the closing breath excised from *[Artifact](./70_06_artifact.md)*, giving the album an intimate human conclusion.
 
 ## Related Files
 
@@ -195,4 +220,11 @@ Peak-Loudness (PLR):   11.90 dB
 
 SHA-256 Audio Hash:    5aee41092801ec4a0b0a36ededacd8fbff098ced1943370f12dd02b6e32c7de5
 ```
+
+
+<div align="center">
+
+**[< Previous Page](./70_12_journey.md) - 20 - [Next Page >](./71_00_outtakes.md)**
+
+</div>
 

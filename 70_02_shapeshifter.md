@@ -13,16 +13,32 @@ The sighting of an uncanny creature unsettles a small town.
 **Instrumentation:**
   * Felt Piano
   * Rubber bridge acoustic guitar (finger-picked, basso ostinato)
-  * 80Hz low-pass filtered analog sine wave, subterranean bass hum, warm analog tape-saturated room tone.
+  * 80Hz low-pass filtered analog sine wave, subterranean bass hum, 
+    warm analog tape-saturated room tone.
   * 91 BPM
 **Voice:** Female, close-miking, breathy, ASMR quality, intimate.
 
-This track narrates an urban legend in the guise of a true-crime story. The existential threat cuts both ways—imperiling both the village and the creature. The passing remark regarding the church bake sale is sardonic. The baseline atmosphere is dominated by low-crawling fog, formlessness, and inescapable dread. Emotional warmth and vulnerability enter solely through the vocal delivery; the instrumentation evokes a colder world defined by late autumn and isolation.
+This track narrates an urban legend in the guise of a true-crime story. 
+The existential threat cuts both ways—imperiling both the village and the 
+creature. The passing remark regarding the church bake sale is sardonic. 
+The baseline atmosphere is dominated by low-crawling fog, formlessness, 
+and inescapable dread. Emotional warmth and vulnerability enter solely 
+through the vocal delivery; the instrumentation evokes a colder world 
+defined by late autumn and isolation.
 
-Crucial: The lyrics drive a linear narrative and must not be altered through transposition, repetition, omission, or unauthorized edits. Exploit subtle instrumental variations to stretch the performance to the 3-minute ceiling.
+Crucial: The lyrics drive a linear narrative and must not be altered through 
+transposition, repetition, omission, or unauthorized edits. Exploit subtle 
+instrumental variations to stretch the performance to the 3-minute ceiling.
 
 Scale: Pure natural minor.  
-The intro opens with fragmented, spectral felt piano chords supported by sustained sub-bass drone. The rhythm is merely implied. Finger-picked acoustic guitar enters quietly, establishing a basso ostinato that forms the foundation for the remainder of the track (collapsing into total silence only during the whispered line "But guess what? ... I didn't die..."). Throughout the verses, sparse piano notes drift in as melancholic accents rather than leading the melody. The chorus denies conventional uplifting resolution, remaining brooding and anchored by arpeggiated piano figures.
+The intro opens with fragmented, spectral felt piano chords supported by 
+sustained sub-bass drone. The rhythm is merely implied. Finger-picked acoustic 
+guitar enters quietly, establishing a basso ostinato that forms the foundation 
+for the remainder of the track (collapsing into total silence only during the 
+whispered line "But guess what? ... I didn't die..."). Throughout the verses, 
+sparse piano notes drift in as melancholic accents rather than leading the melody. 
+The chorus denies conventional uplifting resolution, remaining brooding and 
+anchored by arpeggiated piano figures.
 
 ## Lyrics
 
@@ -82,14 +98,17 @@ I turned to folklore and classical myth—specifically the archetype of the shap
 
 I outlined the initial concept to the model as follows:
 
-```text
-Verse (4 lines): The narrator reports mounting panic in a small community bordering expansive wilderness. An uncanny creature has been sighted—vaguely humanoid, yet fundamentally aberrant. Fences are repaired; night watches organized.
-Chorus 1 (4 lines): The creature shifts shape; it could be anyone in town. It performs human gestures; villagers must stay hyper-vigilant to spot the seams.
-Verse 2 (4 lines): Sightings decline as autumn deepens. Footprints in the moss disappear onto paved roads. Perhaps it was struck by a car? Fences are disassembled; the watch disbands.
-Bridge (6 lines): The narrator shifts into the first-person singular, revealing herself as the hunted creature. She never fled; she adapted. She observed human behavior, smoothed her accent, practiced walking upright, and read every book she could find. Now she lives unnoticed in plain sight.
-Chorus 2 (4 lines): Reprise of the first chorus from the first-person perspective: The creature could be any friendly neighbor, and no one cares as long as she smiles and bakes cookies for the charity bazaar.
-Outro (3 lines): "Let's be honest, you're glad I'm here as long as I don't look like a monster and kill anyone—after all, I'm not like my uncle."
-```
+>Verse (4 lines): The narrator reports mounting panic in a small community bordering expansive wilderness. An uncanny creature has been sighted—vaguely humanoid, yet fundamentally aberrant. Fences are repaired; night watches organized.
+>
+>Chorus 1 (4 lines): The creature shifts shape; it could be anyone in town. It performs human gestures; villagers must stay hyper-vigilant to spot the seams.
+>
+>Verse 2 (4 lines): Sightings decline as autumn deepens. Footprints in the moss disappear onto paved roads. Perhaps it was struck by a car? Fences are disassembled; the watch disbands.
+>
+>Bridge (6 lines): The narrator shifts into the first-person singular, revealing herself as the hunted creature. She never fled; she adapted. She observed human behavior, smoothed her accent, practiced walking upright, and read every book she could find. Now she lives unnoticed in plain sight.
+>
+>Chorus 2 (4 lines): Reprise of the first chorus from the first-person perspective: The creature could be any friendly neighbor, and no one cares as long as she smiles and bakes cookies for the charity bazaar.
+>
+>Outro (3 lines): "Let's be honest, you're glad I'm here as long as I don't look like a monster and kill anyone—after all, I'm not like my uncle."
 
 <details>
 <summary><b>AI Draft</b><br/><br/></summary>
@@ -199,4 +218,11 @@ Peak-Loudness (PLR):   11.10 dB
 
 SHA-256 Audio Hash:    4934f3741b8cb28297ebb15d26900a8ebd8c6635790847beb75a3c84263f6ea1
 ```
+
+
+<div align="center">
+
+**[< Previous Page](./70_01_hollow.md) - 09 - [Next Page >](./70_03_synergy.md)**
+
+</div>
 

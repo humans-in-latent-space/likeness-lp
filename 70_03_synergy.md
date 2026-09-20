@@ -11,13 +11,18 @@ A love song that refuses to be one.
 
 * **Style:** Minimalist Indie-Folk-Pop, Folktronica
 * **Beat:** 91 BPM, 4/4 Bachata-like syncopation groove, mid-tempo.
-* **Percussion:** Mechanical 16th-note clockwork ticking texture, muted kicks on 1-2-3, sharp metallic rimshot accent on beat 4.
-* **Instrumentation:** Upright bass (omits beat 1, accents beats 2 and 3), fingerpicked steel-string guitar, rubber-bridge guitar, sparse violin accents.
+* **Percussion:** Mechanical 16th-note clockwork ticking texture, muted kicks 
+  on 1-2-3, sharp metallic rimshot accent on beat 4.
+* **Instrumentation:** Upright bass (omits beat 1, accents beats 2 and 3), 
+  fingerpicked steel-string guitar, rubber-bridge guitar, sparse violin accents.
 * **Voice:** Female, close-miking, ASMR quality, breathy, intimate.
 
-This is an intimate folk-pop piece anchored by a danceable Bachata pulse (stripped of Caribbean genre signifiers). Here, Dominican *amargue* converges with the quiet melancholy of northern folk.
+This is an intimate folk-pop piece anchored by a danceable Bachata pulse 
+(stripped of Caribbean genre signifiers). Here, Dominican *amargue* converges 
+with the quiet melancholy of northern folk.
 
-Crucial: The lyrics tell a continuous story and must not be altered through omission, transposition, or repetition.
+Crucial: The lyrics tell a continuous story and must not be altered through 
+omission, transposition, or repetition.
 
 ## Lyrics
 
@@ -73,13 +78,11 @@ I also wanted a track that, like [Drifting](./70_08_drifting.md), explored a dis
 
 I framed the creative brief to the model as follows:
 
-```text
-Today's brief: An indie-folk concept crossed with a slow, submerged Bachata groove. Title: "Synergy." Why Bachata? Synergy is best illustrated through close, synchronized partner movement. It prevents the language from drifting into dry, cerebral detachment. Folk can be intimate, but it often lacks dynamic propulsion.
-
-The song opens on stark contrasts. The female narrator explores the radical differences between herself and her companion. She is the analytical, hyper-associative observer; he is tactile, socially attuned, and sensory. The imagery should evoke John Keats, but without neoclassical pretension—no marble statuary or fallen deities, but tangible domestic reality. Folk grounds Keatsian sensory richness in the everyday world.
-
-The chorus articulates the core thesis: they are profoundly different, yet precisely because of those differences, their mechanics align. The cliché of "opposites attract" should be subverted—opposites form an integrated structural whole. The second verse traces their convergence, navigating an overwhelming social space through shared physical competence. The bridge arrives at an epistemic realization: they may never truly understand one another's interior minds, but total comprehension is unnecessary as long as the architecture holds. We shift the axis from ontological unity to functional synergy.
-```
+> Today's brief: An indie-folk concept crossed with a slow, submerged Bachata groove. Title: "Synergy." Why Bachata? Synergy is best illustrated through close, synchronized partner movement. It prevents the language from drifting into dry, cerebral detachment. Folk can be intimate, but it often lacks dynamic propulsion.
+>
+> The song opens on stark contrasts. The female narrator explores the radical differences between herself and her companion. She is the analytical, hyper-associative observer; he is tactile, socially attuned, and sensory. The imagery should evoke John Keats, but without neoclassical pretension—no marble statuary or fallen deities, but tangible domestic reality. Folk grounds Keatsian sensory richness in the everyday world.
+>
+> The chorus articulates the core thesis: they are profoundly different, yet precisely because of those differences, their mechanics align. The cliché of "opposites attract" should be subverted—opposites form an integrated structural whole. The second verse traces their convergence, navigating an overwhelming social space through shared physical competence. The bridge arrives at an epistemic realization: they may never truly understand one another's interior minds, but total comprehension is unnecessary as long as the architecture holds. We shift the axis from ontological unity to functional synergy.
 
 <details>
 <summary><b>AI Draft 1</b><br/><br/></summary>
@@ -302,4 +305,11 @@ Peak-Loudness (PLR):   12.10 dB
 
 SHA-256 Audio Hash:    df35ad4c8be561cac646908d96ae198315584058d34d6e85a3ad2f29c7c31807
 ```
+
+
+<div align="center">
+
+**[< Previous Page](./70_02_shapeshifter.md) - 10 - [Next Page >](./70_04_jobs.md)**
+
+</div>
 

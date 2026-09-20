@@ -20,7 +20,7 @@ Throughout this project, I held myself to three core constraints:
 * **No Kitsch:** While the tracks deliberately engage genre conventions and offer accessible listening surfaces, they refuse the trap of maudlin, sentiment-maximizing kitsch. They operate across multiple semantic registers, confront the listener with questions, and seek friction rather than avoiding it.
 * **No Imitation:** Although specific artists and genre tropes served as reference points during lyric drafting, the objective was never a one-to-one replica, but the emergence of a distinct voice. The world has no need for an algorithmic clone of an existing musician, living or dead; the goal was to articulate an original perspective.
 
-## Radical Transparency: The Imperative of Non-Deception
+## The Imperative of Non-Deception
 
 *Likeness* was realized through synthetic systems: the AI drafted initial lyrical sketches based on structured instructions, which I then edited and refined before submitting them into the audio generation pipeline. From the outset, absolute transparency was non-negotiable. This was not merely about honesty toward the listener—who, in an era of deepfakes, rightly feels suspicious of generative media—but because the metatextual resonance of the lyrics depends entirely on this fact. The songs cannot function as intended unless the audience knows that an AI is singing. Artificiality is not a technical footnote; it is the core of the album's thematic identity. The project does not aim to mimic humanity, but to delineate what might be termed "the nearest stranger." Concealing the machine's role would fundamentally invalidate the experimental premise.
 
@@ -34,9 +34,9 @@ Integral to this policy of non-deception was the deliberate rejection of an AI p
 
 ## AI as a Draft Engine
 
-In conceptual art, the initiating artist does not execute the work directly. They author the rulebook and the instructions, delegating realization to assistants or fabricators. I make no claim that prompting generative AI constitutes conceptual art—that would be a category error. Generative models can be used within conceptual art, but prompting alone is not conceptual art. Nevertheless, the structural parallel holds: the human operator authors the prompt and defines the constraints, while the system executes the artifact. The critical distinction is that a conceptual artist typically accepts the output as long as it adheres to the rulebook, whereas an AI operator must actively curate, iterate, and edit the output.
+In conceptual art, the initiating artist does not execute the work directly. They author the rulebook and the instructions, delegating realization to assistants or fabricators. I make no claim that prompting generative AI constitutes conceptual art—that would be a category error. Generative models can be used within conceptual art, but prompting alone is not conceptual art. Nevertheless, the structural parallel holds: the human operator authors the prompt and defines the constraints, while the system executes the artifact. The critical distinction is that a conceptual artist typically accepts the output as long as it adheres to the rulebook, whereas an AI operator must actively curate, iterate, and edit the output. Paradoxically, this iterative resistance steers the process away from conceptual detachment and back toward the domain of traditional craft, where authorship is claimed not in the delegation of the score, but in the material friction of shaping the result.
 
-For *Likeness*, the operational chain was more complex. Gemini first drafted lyrical fragments based on my instructions. I reworked these drafts into a finalized instruction set. Crucially, I did not input this text directly into Google's audio model (Lyria 3); instead, Gemini acted as an orchestrator, serving as a Chief Assistant that translated my prompt into a proxy instruction for Lyria. I never saw this intermediate instruction—Google maintains it as a black box. Disclosing my original input instructions is therefore essential for evaluating where human intent ended and algorithmic mediation began.
+For *Likeness*, the operational chain was more complex. Gemini (Flash) first drafted lyrical fragments based on my instructions. I reworked these drafts into a finalized instruction set. Crucially, I did not input this text directly into Google's audio model (Lyria 3); instead, Gemini (Pro) acted as an orchestrator, serving as a Chief Assistant that translated my prompt into a proxy instruction for Lyria. I never saw this intermediate instruction—Google maintains it as a black box. Disclosing my original input instructions is therefore essential for evaluating where human intent ended and algorithmic mediation began.
 
 ## Genuine Labor
 
@@ -50,11 +50,11 @@ A thirteen-track concept album serves as an ideal stress test for the myth of pu
 
 The temptation with generative AI is to treat the interface like a slot machine, repeatedly pulling the lever in the hope that stochastic drift will eventually yield perfection. In practice, if a prompt fails after a handful of generations, brute-force repetition will not save it. You cannot game probability.
 
-My operational rule was strict: if an instruction failed to yield a viable musical foundation within ten attempts, I halted the session. I analyzed the failure modes, revised the prompt architecture, and only then resumed generation. The obstacle is rarely the probabilistic engine itself; it is almost always the operator's failure to formulate their intent with sufficient clarity. Anyone who burns through hundreds of iterations of an unchanged prompt has primarily achieved two things: consumed tokens and generated carbon emissions.
+My operational rule was strict: if an instruction failed to yield a viable musical foundation within approximately ten attempts, I halted the session. I analyzed the failure modes, revised the prompt architecture, and only then resumed generation. The obstacle is rarely the probabilistic engine itself; it is almost always the operator's failure to formulate their intent with sufficient clarity. Anyone who burns through hundreds of iterations of an unchanged prompt has primarily achieved two things: consumed tokens and generated carbon emissions.
 
 ## AI as a Mirror of the User
 
-My operational setup relied on an extensive system prompt embedded in Gemini's persistent memory feature. This prompt contained a concise, highly specific profile of my cognitive architecture, domain background, and communication preferences. While this might appear self-indulgent at first glance, its rationale was purely pragmatic: I refused to waste tokens and attention repeatedly explaining my background, analytical preferences, and aesthetic constraints.
+My operational setup relied on an extensive system prompt embedded in Gemini's persistent memory feature (s. [Instruction](./10_introduction.md), *Personal Context*). This prompt contained a concise, highly specific profile of my cognitive architecture, domain background, and communication preferences. While this might appear self-indulgent at first glance, its rationale was purely pragmatic: I refused to waste tokens and attention repeatedly explaining my background, analytical preferences, and aesthetic constraints.
 
 Consequently, Gemini possessed sufficient context to interpret my standard prompts accurately. It adapted its vocabulary dynamically and attended to subtleties that its baseline system configuration would have ignored. The system mirrored its operator, becoming a functional *likeness* of the human driving it.
 
@@ -74,7 +74,9 @@ Folk forces the machine into the territory of human intimacy. It is rooted in or
 
 This question ties back directly to radical transparency. Folk depends on perceived authenticity. *Likeness* plays internally with narrative illusion, but remains scrupulously honest with the listener. Much of my own lived experience informed these tracks. How much of this perceived authenticity is unconscious and how much is deliberate staging cannot be definitively resolved—but that ambiguity is native to human folk music as well. Authenticity in art has always involved curation and staging.
 
-Because an AI ultimately performs these vocal lines, a recursive loop emerges: an AI simulates a human who feels like a synthetic construct trying to be human, inevitably falling short because of its artificial nature. When the generative audio model falters—producing phantom harmonic artifacts, unnatural breath cadences, or aberrant inflections—we bear witness to that failure. A human singer delivering these lines could never replicate that specific unease. A likeness resembles its source, but can never become it.
+**A likeness resembles its source, but can never become it.**
+
+Because an AI ultimately performs these vocal lines, a recursive loop emerges: an AI simulates a human who feels like a synthetic construct trying to be human, inevitably falling short because of its artificial nature. When the generative audio model falters—producing phantom harmonic artifacts, unnatural breath cadences, or aberrant inflections—we bear witness to that failure. A human singer delivering these lines could never replicate that specific unease. 
 
 ## The Augmented Layman
 
@@ -86,9 +88,11 @@ Within this framework, the generative model acts as a cybernetic augment. It low
 
 Generative AI continues to disrupt creative labor, and defensive reactions across the music industry are entirely understandable. Yet critical discourse frequently overlooks how the collapse of marginal production costs democratizes creative expression. Producing an album like *Likeness* through traditional avenues would require session musicians, arrangers, mixing engineers, and commercial studio time—costs that place complex, long-form concept albums entirely out of reach for independent creators.
 
-*Likeness* did not displace human labor. The alternative to producing it with generative tools was simple: it would never have existed. The technology reduced the capital barrier for a niche, commercially non-viable concept album to near zero, enabling its creation from the ground up.
+**The alternative to producing Likeness with generative tools is simple: it would never have existed.**
 
-Dismissing this by arguing that non-professionals should simply not make music represents classic cultural gatekeeping. Every individual should have access to creative production; it remains the audience's prerogative whether to engage with the work. This is not an endorsement of the industrial slop flooding streaming services. Having invested three months of intensive labor into curating this record, I am speaking strictly of work driven by dedication, critical reflection, and care.
+*Likeness* did not displace human labor. The technology reduced the capital barrier for a niche, commercially non-viable concept album to near zero, enabling its creation from the ground up.
+
+Dismissing this by arguing that non-professionals should simply not make music represents classic cultural gatekeeping. Every individual should have access to creative production; it remains the audience's prerogative whether to engage with the work. This is not an endorsement of the industrial slop flooding streaming services. Having invested three months of intensive labor into curating these tracks, I am speaking strictly of work driven by dedication, critical reflection, and care.
 
 ## From AI Raw Material to Neighboring Rights
 
@@ -96,7 +100,7 @@ A central challenge of generative art concerns intellectual property. Under prev
 
 The music industry offers a useful legal precedent. While a traditional folk melody or classical composition resides in the public domain, a specific master recording of that work is protected under neighboring rights (*Leistungsschutzrecht*). This framework was established to safeguard economic and technical investment, independent of whether the underlying composition meets a standard of original authorship.
 
-This legal logic applies directly to synthetic audio. An unedited, raw generation belongs to the public domain; the operational labor belongs primarily to the platform infrastructure. However, once an operator intervenes manually—editing stems, applying equalization, slicing, arranging, and mastering in a DAW—a distinct master recording emerges, giving rise to neighboring rights for the sound recording's producer. Whether this holds for automated batch pipelines is doubtful, but it unequivocally applies to deliberate manual post-production. For this reason, every track on *Likeness* was edited and mastered by hand.
+This legal logic applies directly to synthetic audio. An unedited, raw generation belongs to the public domain; the operational labor belongs primarily to the platform infrastructure. However, once an operator intervenes manually—editing tracks, applying equalization, slicing, arranging, and mastering in a DAW—a distinct master recording emerges, giving rise to neighboring rights for the sound recording's producer. Whether this holds for automated batch pipelines is doubtful, but it unequivocally applies to deliberate manual post-production. For this reason, every track on *Likeness* was edited and mastered by hand.
 
 Philosophically, this intervention resembles John Locke's concept of property emerging from "mixing one's labor" with common resources. The generative commons remains unencumbered: because no exclusive monopoly is claimed over the prompt or the raw artifact, the latent space remains open to all.
 
@@ -140,5 +144,14 @@ How, then, do we substantiate the provenance of the underlying human ideas? Vers
 
 In parallel with this repository, an immutable, restricted Zenodo archive houses the primary digital assets: raw AI generations, multi-track Ardour project files, final masters, and visual assets, deposited prior to commercial distribution. Every file is cataloged in this repository via its cryptographic SHA-256 hash.
 
+> J. Köster, "Likeness Relics: AI Artifacts, DAW Sessions, and Audio Masters", Sep. 20, 2026, Zenodo. [doi: 10.5281/zenodo.22842478](https://doi.org/10.5281/zenodo.22842478)
+
 Should disputes arise regarding attribution, claims of algorithmic plagiarism, or challenges to human curation, this timestamped repository serves as a digital notary. To an outside observer, this may appear overly defensive—who bothers to contest an independent folk album? But anyone familiar with automated Content ID abuse on platforms like YouTube understands the pervasive threat of fraudulent copyright strikes. This architecture demonstrates how independent creators without label backing can establish cryptographic provenance to defend their work against bad-faith takedowns.
+
+
+<div align="center">
+
+**[< Previous Page](./10_introduction.md) - 02 - [Next Page >](./30_instruction.md)**
+
+</div>
 

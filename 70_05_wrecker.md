@@ -13,7 +13,8 @@ During a walk along the shore, the narrator is overcome by a vision of a histori
 * **Scale:** Dorian Minor, Aeolian Minor
 * **Voice:** Female, close-miking, breathy, ASMR quality, intimate, vulnerable.
 
-Crucial: The lyrics tell a continuous story and must not be altered through transposition, omission, or unauthorized edits.
+Crucial: The lyrics tell a continuous story and must not be altered through 
+transposition, omission, or unauthorized edits.
 
 ## Lyrics
 
@@ -70,11 +71,9 @@ The song's development began with an extended conversation with Gemini regarding
 
 The initial creative brief resulting from that dialogue:
 
-```text
-I picture the narrator walking alone along the shore, perhaps along the Bay of Fundy. The ocean is still turbulent from a recent storm; the narrator is turning over heavy thoughts. The sea becomes a mirror of the unconscious; the coastal walk an act of self-interrogation. The mudflats are littered with flotsam—debris washed ashore by the subconscious. The narrator attempts to classify these fragments, seeking to understand the material, and ultimately herself.
-
-In the bridge, the perspective pivots: the narrator becomes the ocean itself, and the figure on the beach is perceived as a foreign trespasser viewed from afar. The perspective returns to the human, who realizes it is time to move on.
-```
+> I picture the narrator walking alone along the shore, perhaps along the Bay of Fundy. The ocean is still turbulent from a recent storm; the narrator is turning over heavy thoughts. The sea becomes a mirror of the unconscious; the coastal walk an act of self-interrogation. The mudflats are littered with flotsam—debris washed ashore by the subconscious. The narrator attempts to classify these fragments, seeking to understand the material, and ultimately herself.
+>
+> In the bridge, the perspective pivots: the narrator becomes the ocean itself, and the figure on the beach is perceived as a foreign trespasser viewed from afar. The perspective returns to the human, who realizes it is time to move on.
 
 <details>
 <summary><b>AI Draft 1</b><br/><br/></summary> 
@@ -390,4 +389,11 @@ Peak-Loudness (PLR):   11.80 dB
 
 SHA-256 Audio Hash:    96acdea9e4dba6061b4868fa77218f5d969f5c347089d75f5cc80e8e6aad04d7
 ```
+
+
+<div align="center">
+
+**[< Previous Page](./70_04_jobs.md) - 12 - [Next Page >](./70_06_artifact.md)**
+
+</div>
 

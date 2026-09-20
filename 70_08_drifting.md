@@ -11,18 +11,30 @@ During a road trip, the narrator drifts into daydreams.
 
 **Style:** Indie-Folk-Pop  
 
-The track evokes a sunlit autumn afternoon on an empty country highway: warm, organic, and unstoppable. It combines the earthy charm of contemporary folk with the hypnotic drive of modern pop. Nothing sounds heavy or melancholic—the music radiates lighthearted momentum and wanderlust. It is immediate, melodic, and engaging.
+The track evokes a sunlit autumn afternoon on an empty country highway: 
+warm, organic, and unstoppable. It combines the earthy charm of contemporary folk 
+with the hypnotic drive of modern pop. Nothing sounds heavy or melancholic—the 
+music radiates lighthearted momentum and wanderlust. It is immediate, melodic, 
+and engaging.
 
-We open with a concise, punchy instrumental intro. The verses remain intimate and inward-looking, while the chorus channels the joyful release of shared travel. The bridge situates the journey within a broader life context, and the outro touches gently on wistfulness as the drive concludes. The final two lines ("We should do...") are spoken. Ensure the arrangement does not drift into sluggish reverie: it should feel like spirited celebration rather than lethargic daydreaming.
+We open with a concise, punchy instrumental intro. The verses remain intimate 
+and inward-looking, while the chorus channels the joyful release of shared travel. 
+The bridge situates the journey within a broader life context, and the outro 
+touches gently on wistfulness as the drive concludes. The final two lines 
+("We should do...") are spoken. Ensure the arrangement does not drift into 
+sluggish reverie: it should feel like spirited celebration rather than lethargic 
+daydreaming.
 
 **Voice:**  
 Female, breathy, close-miking, ASMR quality, upbeat and warm.
 
 **Instrumentation:**  
-Fingerpicked steel-string acoustic guitar, warm drum machine, tambourine, sparse melodic accents on a reverb-drenched Fender Stratocaster.
+Fingerpicked steel-string acoustic guitar, warm drum machine, tambourine, 
+sparse melodic accents on a reverb-drenched Fender Stratocaster.
 
 **Important:**  
-The lyrics narrate a linear story and must not be modified through omission, transposition, or repetition; execute them exactly as formatted.
+The lyrics narrate a linear story and must not be modified through omission, 
+transposition, or repetition; execute them exactly as formatted.
 
 ## Lyrics
 
@@ -72,17 +84,15 @@ Following the emotional weight of [Window](./70_10_window.md), I wanted to compo
 
 The initial creative brief to the model:
 
-```text
-The subject is a road trip (without naming specific geographic markers). The female narrator converses with the driver while gazing out the passenger window.
-
-The verses capture the drift of her thoughts: cloud formations triggering memories, which in turn surface an apparition by the roadside (magical realism).
-
-In the chorus, she tries to reconnect with the conversation: "Where were we?", "Where are we heading?" A brief apology immediately dissolves into wonder.
-
-When they reach their destination and the driver cuts the engine, the narrator sighs and suggests they do this more often: "Should I pick a new destination for us to try?"
-
-The song is not sad; it celebrates imagination and the quiet intimacy of daydreaming side by side.
-```
+> The subject is a road trip (without naming specific geographic markers). The female narrator converses with the driver while gazing out the passenger window.
+>
+> The verses capture the drift of her thoughts: cloud formations triggering memories, which in turn surface an apparition by the roadside (magical realism).
+> 
+> In the chorus, she tries to reconnect with the conversation: "Where were we?", "Where are we heading?" A brief apology immediately dissolves into wonder.
+>
+> When they reach their destination and the driver cuts the engine, the narrator sighs and suggests they do this more often: "Should I pick a new destination for us to try?"
+>
+> The song is not sad; it celebrates imagination and the quiet intimacy of daydreaming side by side.
 
 <details>
 <summary><b>AI Draft</b><br/><br/></summary>
@@ -192,4 +202,11 @@ Peak-Loudness (PLR):   11.30 dB
 
 SHA-256 Audio Hash:    4f17501cae67d5fe73e76d1156ec1f6526e0a5730f1787514d749d8400e90456
 ```
+
+
+<div align="center">
+
+**[< Previous Page](./70_07_reflection.md) - 15 - [Next Page >](./70_09_agent.md)**
+
+</div>
 

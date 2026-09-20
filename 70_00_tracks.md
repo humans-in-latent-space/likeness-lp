@@ -23,3 +23,11 @@ The following sections provide dedicated documentation for each track on the alb
 | 11 | [Fame](./70_11_fame.md) | 02:50 | `QT6FZ2609879` |
 | 12 | [Journey](./70_12_journey.md) | 02:51 | `QT6FZ2609880` |
 | 13 | [Homecoming](./70_13_homecoming.md) | 02:58 | `QT6FZ2609881` |
+
+
+<div align="center">
+
+**[< Previous Page](./60_narration.md) - 07 - [Next Page >](./70_01_hollow.md)**
+
+</div>
+
