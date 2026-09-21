@@ -1,5 +1,110 @@
-An experiment to explore the implications of AI-generated music.
+# Likeness: An Expedition into Latent Space
 
-The lyrics were initially created by Google Gemini (chat app), revised by a human, and finally submitted to Gemini or Lyria 3 (via the Gemini chat app) along with instructions for the musical arrangement.
+<div align="center">
 
-The license specified here applies only to the prompts and lyrics.
+**Human Intent realized by AI**
+
+</div>
+
+## Synopsis
+
+*Likeness* is an independent, thirteen-track Indie Folk concept album realized entirely through multimodal generative artificial intelligence (Google Gemini 3 and Lyria 3), accompanied by an exhaustive monograph.
+
+Rather than treating artificial intelligence as a push-button novelty or a tool for automated commercial slop, this repository operates within the traditions of **practice-as-research** and **critical making**. It investigates what happens when we reject volume and velocity as metrics, replacing them with rigorous aesthetic intentionality, manual audio engineering, and ethical accountability.
+
+*Likeness* offers an unredacted audit of an artistic encounter with an algorithmic black box: disclosing instructions, failed tracks, lyric iterations, mixing decisions, and legal considerations that shaped the final record.
+
+
+## Core Inquiries
+
+**Disclosing AI Usage** 
+The EU Artificial Intelligence Act exempts creative work from its comprehensive labeling mandates, stipulating disclosure only "in an appropriate manner." What might meaningful, transparent, yet unobtrusive disclosure actually look like in practice?
+
+**The Threshold of Human Intent**  
+Where does algorithmic probability end, and where does genuine artistic labor begin? Can an operator establish authentic authorship when working with stochastic models?
+
+**Subverting the Median**  
+How can an artist steer generative audio engines away from their default statistical mean—the polished, generic clichés of commercial pop—toward idiosyncratic, emotionally resonant sonic territory?
+
+**The Aesthetics of Generative Friction**  
+What happens when generative anomalies, synthetic slips, and uncanny artifacts are preserved and framed as semantic material rather than sanitized?
+
+**A Blueprint for Independent Creators**  
+How can solo artists establish sound recording rights (*Leistungsschutzrechte*), protect their work against automated takedown bots, and implement ethical revenue-sharing models while navigating streaming monopolies?
+
+
+## Audio & Album Access
+
+<img src="./assets/cover-art-200.png" align="left" width="220" alt="Cover Art.">
+
+*Likeness* is distributed to all major Digital Streaming Platforms (DSPs), release on September 25, 2026. It is conceived as a continuous narrative cycle; sequential listening is strongly recommended.
+ 
+[DistroKid HyperFollow Hub](https://distrokid.com/hyperfollow/jankster/likeness) *(Direct gateway to Spotify, Apple Music, and other DSPs)*
+
+**Algorithmic Discoverability Note**  
+If you prefer listening directly inside your native streaming app, searching manually for **`Jan Köster Likeness`** directly trains the platform's recommendation graph and organically signals authentic listener intent.
+<br clear="both"/>
+
+
+## Technical & Conceptual Specifications
+
+| Dimension | Implementation Details |
+| :--- | :--- |
+| **Catalog Identifier** | UPC: `882436992438` |
+| **Album Architecture** | 13 Concept Tracks + 2 Curated Outtakes (Approx. 40 min total runtime) |
+| **Model Stack** | Google Gemini 3 (Consumer Mobile Application) orchestrating Google Lyria 3 |
+| **Post-Production DAW** | Ardour on Linux; manual 2-track audio restoration, take splicing, dynamic leveling |
+| **Mastering Chain** | Airwindows DSP plugins (`Infrasonic`, `Slew2`, `DeCrackle`, `Tape`) + LSP Limiter |
+| **Loudness Standards** | Normalized to -14 LUFS with True Peak held strictly between -1.0 and -2.0 dBTP |
+| **Watermarking & Audit** | DeepMind SynthID embedded; SHA-256 artifact hashes anchored in a restricted Zenodo vault |
+| **Ethical Revenue Model** | 25% of gross streaming royalties routed directly to the *GroundUp Music Foundation* via DistroKid *Artists for Change* |
+| **Repository License** | Apache 2.0 |
+
+
+## Dossier Navigation
+
+The complete documentation is organized into sequential thematic chapters and individual track liner notes:
+
+### I. Framework & Methodology
+1. **[Introduction](./10_introduction.md)**
+2. **[Vision](./20_vision.md)**
+3. **[Instruction](./30_instruction.md)**
+4. **[Implementation](./40_implementation.md)**
+5. **[Distribution](./50_distribution.md)**
+6. **[Narration](./60_narration.md)**
+
+### II. Instructions, Track Liner Notes & Production Dossiers
+* **[01. Hollow](./70_01_hollow.md)**
+* **[02. Shapeshifter](./70_02_shapeshifter.md)**
+* **[03. Synergy](./70_03_synergy.md)**
+* **[04. Jobs](./70_04_jobs.md)**
+* **[05. Wrecker](./70_05_wrecker.md)**
+* **[06. Artifact](./70_06_artifact.md)**
+* **[07. Reflection](./70_07_reflection.md)**
+* **[08. Drifting](./70_08_drifting.md)**
+* **[09. Agent](./70_09_agent.md)**
+* **[10. Window](./70_10_window.md)**
+* **[11. Fame](./70_11_fame.md)**
+* **[12. Journey](./70_12_journey.md)**
+* **[13. Homecoming](./70_13_homecoming.md)**
+
+### III. Discarded Material
+* **[Excellence](./71_01_excellence.md)**
+* **[Masks](./71_02_masks.md)**
+
+### IV. Visual Architecture
+* **[Cover Art](./80_cover-art.md)**
+
+
+## Editorial & Linguistic Transparency Notice
+
+In keeping with the project's foundational commitment to radical honesty:
+
+**The English text published across this repository was refined, structured, and translated using advanced generative language models (Gemini 3.8 Flash)**, adopting the analytical essayistic register of publications such as *The Atlantic* and contemporary critical media theory.
+
+In accordance with the *Open Intent* ethos, **the unvarnished, raw German original text—written entirely by the human author by hand (predominantly on a mobile phone during night shifts)—remains permanently preserved in the Git commit history and the initial repository commits.** 
+
+Anyone wishing to audit the divergence between initial human thought and algorithmic prose refinement can inspect the version tree directly.  
+**For Zenodo users:** There are *snapshots* of these versions in [Stages](./stages)
+
+Note: This README was created directly in dialog with the AI and is not part of the German draft.
