@@ -72,9 +72,9 @@ We take our stand.
 
 ## Track Liner Notes
 
-In [Wrecker](./70_05_wrecker.md), I had already introduced a track that masquerades as a love song while functioning primarily as a gothic ballad of psychological erosion. I wanted a second "love song" that actively resists romance. The result is *Synergy*—a piece that explicitly rejects the conventions of romantic attachment in favor of a strictly functional coexistence whose true ontological nature remains unresolved and, ultimately, irrelevant.
+In *[Wrecker](./70_05_wrecker.md)*, I had already introduced a track that masquerades as a love song while functioning primarily as a gothic ballad of psychological erosion. I wanted a second "love song" that actively resists romance. The result is *Synergy*—a piece that explicitly rejects the conventions of romantic attachment in favor of a strictly functional coexistence whose true ontological nature remains unresolved and, ultimately, irrelevant.
 
-I also wanted a track that, like [Drifting](./70_08_drifting.md), explored a distinct rhythmic texture—perhaps even inviting physical movement. That led me to prompt the model for a subtle Bachata cadence beneath an organic folk arrangement. Bachata is an intimate, physically entwined partner dance charged with romantic longing; utilizing its syncopated pulse created a compelling friction against lyrics that systematically deconstruct romantic sentiment.
+I also wanted a track that, like *[Drifting](./70_08_drifting.md)*, explored a distinct rhythmic texture—perhaps even inviting physical movement. That led me to prompt the model for a subtle Bachata cadence beneath an organic folk arrangement. Bachata is an intimate, physically entwined partner dance charged with romantic longing; utilizing its syncopated pulse created a compelling friction against lyrics that systematically deconstruct romantic sentiment.
 
 I framed the creative brief to the model as follows:
 

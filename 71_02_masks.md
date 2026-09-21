@@ -38,7 +38,7 @@ There's a silence in the hallway that's bound to break.
 I reach for the drawer, the second from the right  
 Where the versions of me wait for the light.  
 Like silk scarves and cardigans, ironed and neat.  
-A collection of masks, growing like weed.  
+A collection of masks, growing like weeds.  
 I pick the one with the smile and the eyes without sin.  
 And I pull it tight until it's fastened to my skin.  
 

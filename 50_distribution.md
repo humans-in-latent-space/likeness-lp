@@ -4,7 +4,7 @@ Platforms like DistroKid are often casually referred to as "distributors," thoug
 
 ## Cover Artwork and Artist Photography
 
-Album artwork is analyzed in detail in a subsequent chapter (s. [Cover Art](./80_cover-art.md)), but visual assets form an essential prerequisite for ingestion. Every digital artist profile requires authentic photography. Having deliberately rejected a synthetic AI persona in favor of standing openly as the human orchestrator behind the machine, genuine photographic assets were non-negotiable. If the music and lyrics were synthesized, the human identity behind the work had to be unmistakable.
+Album artwork is analyzed in detail in a subsequent chapter (see [Cover Art](./80_cover-art.md)), but visual assets form an essential prerequisite for ingestion. Every digital artist profile requires authentic photography. Having deliberately rejected a synthetic AI persona in favor of standing openly as the human orchestrator behind the machine, genuine photographic assets were non-negotiable. If the music and lyrics were synthesized, the human identity behind the work had to be unmistakable.
 
 Hiring a commercial photographer for an independent experimental release was economically non-viable; paying more for headshots than for the entire technical infrastructure would have been absurd. Instead, I combed through personal archives from a past holiday in Scotland. At Eoropie Beach, on the northwestern coast of the Isle of Lewis, my wife had taken several portraits of me in heavy weather. The bleak, atmospheric setting mirrored the emotional tone of the album perfectly—and serendipitously, I was wearing a coat reminiscent of the lyrics in *[Wrecker](./70_05_wrecker.md)* ("oilskin").
 
@@ -59,7 +59,7 @@ Should disputes arise regarding authorship, chronology, or human curation, this 
 
 <div align="center">
 
-**[< Previous Page](./40_implementation.md) - 05 - [Next Page >](./50_distribution.md)**
+**[< Previous Page](./40_implementation.md) - 05 - [Next Page >](./60_narration.md)**
 
 </div>
 

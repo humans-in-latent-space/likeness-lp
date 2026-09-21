@@ -56,7 +56,7 @@ Or do we create it once raised from the ground?
 
 ## Track Liner Notes
 
-*Artifact* was composed following [Drifting](./70_08_drifting.md). Originating under the working title "Excavation," it is perhaps my most personal track on the album, even if its conceptual focus and philosophical inquiry might suggest otherwise.
+*Artifact* was composed following *[Drifting](./70_08_drifting.md)*. Originating under the working title "Excavation," it is perhaps my most personal track on the album, even if its conceptual focus and philosophical inquiry might suggest otherwise.
 
 Having studied classical archaeology and excavated on numerous Mediterranean and European sites (alongside living abroad for several years), the tactile realities of fieldwork are deeply familiar to me. While I never literally chewed on a 2H graphite pencil, I know intimately that specific suspension of time while waiting for a pickaxe to break through compacted soil (we frequently encountered geological strata no spade on earth could pierce). I know all too well the gulf between the celebrated museum display and the endless crates of diagnostic sherds accumulating in storage depots.
 

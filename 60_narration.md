@@ -83,7 +83,7 @@ The album artwork assumes narrative culmination here. Functioning as a visual co
 
 <div align="center">
 
-**[< Previous Page](./50_distribution.md) - 06 - [Next Page >](./60_narration.md)**
+**[< Previous Page](./50_distribution.md) - 06 - [Next Page >](./70_00_tracks.md)**
 
 </div>
 

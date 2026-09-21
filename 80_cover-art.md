@@ -60,7 +60,7 @@ This composition plays subtly with the framing of Taylor Swift's *Evermore*, exc
 
 <img src="./assets/cover-art-frame_4.png" align="left" width="220" alt="Center, left: The protagonist walking on the beach.">
 
-The protagonist in the "taylored coat" from *[Agent](./70_09_agent.md)* walking on the beach from *[Wrecker](./70_05_wrecker.md)*. The motif originates from an older mood-board image. Its subtle graphic-novel finish (especially around the edges and stones scattered across the sand) traces back to that source material, which I had initially prompted in a semi-realistic comic aesthetic.  
+The protagonist in the "tailored coat" from *[Agent](./70_09_agent.md)* walking on the beach from *[Wrecker](./70_05_wrecker.md)*. The motif originates from an older mood-board image. Its subtle graphic-novel finish (especially around the edges and stones scattered across the sand) traces back to that source material, which I had initially prompted in a semi-realistic comic aesthetic.  
 A classic generative glitch: the footprints in the sand point in the opposite direction of her stride.
 <br clear="both"/>
 

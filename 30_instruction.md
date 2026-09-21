@@ -44,12 +44,12 @@ I intentionally refrain from publishing my verbatim profile here. The objective 
 Every track proceeded through a defined production sequence:
 
 1. **Conceptual Ideation:** Most song premises originated independently; others emerged through conversational dialogue with the model (detailed in individual track notes).
-2. **Initial Drafting Prompt:** Dispatched to Gemini—followed by selective pruning, restructuring, or regeneration.
+2. **Initial Drafting Prompt:** Dispatched to Gemini—followed by selective pruning, restructuring, or regeneration. In most cases I used Gemini 3.x Flash in thinking mode, sometimes I used 3.1 Pro (see the track liner notes).
 3. **Manual Editorial Refinement:** Hands-on lyrical editing by the author.
 4. **Structural & Linguistic Review:** Model evaluation of specific lines and overall semantic cohesion (focusing on meter, cadence, and grammar).
 5. **Final Curation:** Locking the lyrical text.
 6. **Instruction Authoring:** Composing the generation instruction set (arrangements, instrumentation, and narrative intent).
-7. **Audio Synthesis:** Executing the generation via Gemini and Lyria.
+7. **Audio Synthesis:** Executing the generation via Gemini 3.1 Pro in thinking mode (and Lyria).
 8. **Artifact Evaluation:** Critical auditioning of generated tracks.
 9. **Iterative Calibration:** Rerunning generations with adjusted parameters if required (with the exception of *[Hollow](./70_01_hollow.md)*, which was an immediate take, although not perfect).
 10. **Digital Audio Workstation (DAW) Post-Production:** Manual mixing, restoration, arrangement stitching, and mastering.
@@ -69,19 +69,19 @@ Authoring lyrics in advance rather than allowing the audio model to generate wor
 
 Every lyrical draft was initiated with the directive: *"Write in the style of Taylor Swift's Folkmore albums."* For select tracks, such as *[Homecoming](./70_13_homecoming.md)*, I introduced John Keats as an additional stylistic pole.
 
-The formulation "in the style of" (rather than "You are X writing a song...") was deliberate. The intent was never to manufacture an algorithmic clone of Taylor Swift—a practice I explicitly reject—but to supply the model with a precise stylistic coordinate. Why Swift? On *Folklore* and *Evermore*, Swift demonstrates a distinct elevated diction (antique or formal registers juxtaposed against conversational speech) alongside an ability to ground complex emotional vulnerability in domestic intimacy. Her songs also feature dynamic bridges that pivot the narrative in unexpected directions. Those were the formal mechanics I sought to utilize; her thematic obsession with romantic heartbreak was deliberately discarded.
+The formulation "in the style of" (rather than "You are X writing a song...") was deliberate. The intent was never to manufacture an algorithmic clone of Taylor Swift—a practice I explicitly reject—but to supply the model with a precise stylistic coordinate. Why Swift? On *Folklore* and *Evermore*, Swift demonstrates a distinct elevated diction (antique or formal registers juxtaposed against conversational speech) alongside an ability to ground complex emotional vulnerability in domestic intimacy. Her songs also feature dynamic bridges that pivot the narrative in unexpected directions. Those were the formal mechanics I sought to utilize; her recurring focus on autobiographical romance was deliberately discarded.
 
 One could attempt to specify these qualities without naming the artist (see *Functional Disaggregation* below). However, because the precise weighting of these stylistic elements is notoriously difficult to articulate without writing sprawling prompts, the resulting output often feels disjointed. Referencing "Taylor Swift" and "Folkmore" provides dense gravitational attractors that pull the model toward a specific aesthetic cluster (see *Semantic Anchoring*). Because I supplied narrative premises far outside Swift's thematic oeuvre—further conditioned by my *Personal Context* profile—the generated text remained entirely distinct.
 
-The Swift vector was employed strictly during the initial lyrical sketch. Final lyrics were developed and edited independently. Crucially, the final generation prompt fed to the audio engine omitted all artist names, relying solely on abstract sonic and structural descriptors. Google's safety guardrails would have rejected explicit references to living commercial artists in any case.
+The Swift vector was employed strictly during the initial lyrical sketch. Final lyrics were developed and edited independently. Crucially, the final generation prompt fed to the audio engine omitted all artist names, relying solely on abstract sonic and structural descriptors. This separation is not merely an unprovable assertion of personal restraint; it is architecturally guaranteed by the platform itself: Google's safety guardrails categorically reject prompts referencing living commercial artists (or their lyrics). The existence of the final audio tracks is itself technical proof that the synthesis was driven entirely by acoustic parameters, not algorithmic mimicry.
 
-To address potential discomfort regarding this technique: the notion of an artistic genius operating in a vacuum, creating purely ex nihilo, is a romantic fallacy. Creative practice always operates in dialogue with precedent. The ethical boundary lies in moving beyond derivative imitation toward an independent aesthetic statement.
+Artistic practice does not operate in a vacuum. The notion of creation purely *ex nihilo* is a romantic fallacy; all creative work exists in dialogue with precedent. The ethical boundary lies in moving beyond derivative imitation toward an independent aesthetic statement.
 
-### "$10 Words"
+### "Ten-Dollar Words"
 
 The lyrics across *Likeness* are dense with complex, archaic, or phonetically heavy vocabulary. In some instances, these terms emerged in the initial machine draft; in others, I introduced them deliberately during editing.
 
-This was neither an affectation of classical philology nor an attempt to project academic prestige (a maneuver that invariably misfires, particularly in American English where plain-spoken clarity is privileged). Rather, these terms served as functional steering vectors for audio synthesis.
+This was neither an affectation of classical philology nor an attempt to project academic prestige (a maneuver that invariably misfires, particularly in American English where Hemingway’s gospel of plain-spoken clarity reigns supreme). Rather, these terms served as functional steering vectors for audio synthesis.
 
 Mainstream pop music and the majority of the model's training data heavily favor basic, conversational vocabulary. If you feed the model conventional pop lyrics, it defaults to conventional pop phrasing and cadence. To cultivate a distinct musical personality, I leveraged the phonetic density, syllable count, and semantic weight of uncommon words to steer the model into under-sampled regions of its latent space. This effect is most pronounced in *[Homecoming](./70_13_homecoming.md)*, where the recitative, parlando vocal delivery could never have been coaxed out of generic lyrical phrasing. Elevated diction here serves not to alienate the listener, but to escape the gravitational pull of the model's statistical median.
 
@@ -134,6 +134,16 @@ An instruction like "avoid wooden dialogue" actively poisons the context window 
 ### Semantic Induction
 
 A variant of Semantic Anchoring utilized primarily for visual and aesthetic generation. Rather than dictating an exhaustive catalog of literal props, I specify an emotional state, a sensory texture, or an atmospheric contradiction, allowing the model to derive the corresponding visual or sonic motifs. The resulting compositions feel noticeably more organic and coherent.
+
+### Keep Your Secrets
+
+AI is notoriously bad at keeping secrets or maintaining subtext. The architecture simply does not permit it. Literary subtext demands navigating multiple tiers of knowledge simultaneously: 
+* What does the character know?
+* What does the audience know? 
+* What does the narrator know? 
+An autoregressive language model generates token by token from a single, flat context. Without elaborate chain-of-thought scaffolding, it tends to collapse the overarching picture directly into the immediate scene (attention leakage). Anyone who has ever prompted an AI to write a murder mystery while disclosing the killer upfront will witness an absurd theater of (decidedly non-)subtle clues, premonitions, and outright mind reading—entertaining, but unusable.  
+For *Likeness*, this meant I could under no circumstances mention that the lyrical "I" could be read as an AI—otherwise, the false bottom would have collapsed, leaving me with "the smell of ozone" and "the hum of server fans" as sensory impressions. It may sound counterintuitive, but in such situations, the AI performs best when it simply does not know everything. The AI is a statistical recombinator (with impressive capabilities), not a world simulator. A creator is best served by handling the world simulation themselves and letting the AI render only the "immediate" experience.  
+While models are becoming increasingly adept at circumventing this issue, sparing the AI from the dilemma altogether remains, for the foreseeable future, the most effective approach.
 
 ## The Audio Generation Instruction Set
 

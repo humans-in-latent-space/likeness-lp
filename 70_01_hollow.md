@@ -98,9 +98,11 @@ This is the song that started it all. It was early in the morning—my family wa
 
 I was sitting at the living room table with my phone, looking out into the garden. Over the preceding days, I had been obsessing over a book premise—one I knew I would not actually write anytime soon, but which occupied my thoughts regardless. The core premise was that the female protagonist gradually realizes she is merely a fiction authored by her own parents. The setting, characters, and plot details were already fleshed out (and explored over several exploratory dialogues with Gemini).
 
-Where to go from there? I decided to translate the concept into a song. I outlined the premise to Gemini and requested an initial lyrical draft: *"A successful woman in her mid-twenties returns to her hometown, only to discover she doesn't actually exist—she's just a figment of her parents' imagination, created to be their ideal daughter."*
+Where to go from there? I decided to translate the concept into a song. I outlined the premise to Gemini and requested an initial lyrical draft: 
 
-That this prompt immediately produced something compelling was largely due to Gemini's persistent memory feature, which was active at the time. Operating through internal retrieval mechanisms, the model (Gemini 3.0 Flash Thinking) synthesized details from previous conversations in ways that were impossible to trace fully, yet imparted a distinct narrative depth to the draft.
+> A successful woman in her mid-twenties returns to her hometown, only to discover she doesn't actually exist—she's just a figment of her parents' imagination, created to be their ideal daughter.
+
+That this prompt immediately produced something compelling was largely due to Gemini's persistent memory feature, which was active at the time. Operating through internal retrieval mechanisms, the model (Gemini 3.0 Flash) synthesized details from previous conversations in ways that were impossible to trace fully, yet imparted a distinct narrative depth to the draft.
 
 <details>
 <summary><b>AI Draft</b><br/><br/></summary>
@@ -191,7 +193,7 @@ This track was virtually a one-shot take: the harmonic foundation and vocal deli
 ### Artifacts
 
 ```text
-File:                  01_hollow.mp3
+File:                  ai-artifacts/hollow.mp3
 
 Duration:              02:52.49
 Sample Rate:           44100 Hz
@@ -209,19 +211,19 @@ SHA-256 Audio Hash:    c7a522e37c75d223f65f5131a63ba025adf089876fdcb0c7bec89b55a
 ### Master
 
 ```text
-File:                  ai-artifacts/hollow.mp3
+File:                  masters/01_Hollow.wav
 
-Duration:              02:52.49
+Duration:              02:55.50
 Sample Rate:           44100 Hz
-Total Samples:         7606653
+Total Samples:         7739550
 
-Integrated Loudness:   -12.2 LUFS
-True Peak:             0.4 dBTP
-Max Short-Term:        -9.1 LUFS
-Loudness Range (LDR):  9.3 LU
-Peak-Loudness (PLR):   12.60 dB
+Integrated Loudness:   -13.9 LUFS
+True Peak:             -1.8 dBTP
+Max Short-Term:        -11.4 LUFS
+Loudness Range (LDR):  8.6 LU
+Peak-Loudness (PLR):   12.10 dB
 
-SHA-256 Audio Hash:    c7a522e37c75d223f65f5131a63ba025adf089876fdcb0c7bec89b55a9952c25
+SHA-256 Audio Hash:    fcbc3dc4d0b8c881c1b073de0e0b53d95bebf8bed729f83dc553adaaba8c758f
 ```
 
 

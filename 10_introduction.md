@@ -14,13 +14,23 @@ The following pages document my methodology, my technical workflow, and the huma
 
 Over the course of this five-month endeavor (three for the album creation, another two for this documentation), I encountered structural, practical, and ethical friction. How does an artist give back when drawing—even indirectly—from models trained on the collective labor of countless human creators? How do you demonstrate authorship and craft when the generative surface is algorithmic? And how do you maintain transparency when streaming distributors prefer to bury disclosures in the fine print?
 
+The EU Artificial Intelligence Act, whose second phase took effect on August 2, 2026, codifies extensive transparency mandates while explicitly granting creative works broader latitude:
+
+> [...] Where the content forms part of an evidently artistic, creative, satirical, fictional or analogous work or programme, the transparency obligations set out in this paragraph are limited to disclosure of the existence of such generated or manipulated content in an appropriate manner that does not hamper the display or enjoyment of the work. [...]  
+> — *[EU Artificial Intelligence Act, Art. 50.4](https://artificialintelligenceact.eu/article/50/#p-article-50-4)*
+
+It is undeniably welcome that the EU refrains from mandating spoken disclaimers along the lines of "You are listening to an AI-generated track." Yet what precisely constitutes an *appropriate manner* remains entirely undefined. Simply tagging a track as "AI-generated" is insufficient in my view, as it fails to distinguish between opportunistic AI slop and deliberate human curation.
+
+Ultimately, this entire repository represents my personal vision of what meaningful disclosure can look like.
+
 **The human condition cannot be surveyed from a desk—it has to be inhabited.**
 
 This documentation also demands an honest account of the project's genesis. In May 2026, the birth of my second child was imminent. I belong to that category of expectant fathers who must stay actively occupied to avoid succumbing to anxiety for their partner or the paralysis of waiting for the delivery date. For me, distraction requires active creation rather than passive consumption—reading or streaming simply will not do. Programming would normally be my natural outlet, but code demands a desk, a keyboard, and dedicated focus. With a toddler to care for and a household to support, I needed a creative medium that could exist in the margins: literally between doorframes, in the fragmentary five-minute pockets that family life affords.
 
 It had to live on a mobile phone. That constraint alone led me to the Gemini mobile application, which is architected for asynchronous, on-the-go interaction. After our daughter was born, I spent long night shifts pacing dark hallways with the baby asleep in a sling, typing. Later, I mastered the final tracks at a standing desk with her still strapped to my chest. I recount this not for sentimental effect, but because it is fundamental to the work: *Likeness* was not conceived as a sanitized terminal exercise or a desktop experiment. It was an intensely personal engagement with a specific chapter of my life. The album is not a traditional, academic case study; it has a narrative pulse, and I care deeply about every track. I would never have published it had it failed to meet my own aesthetic standards. Five months later, I still listen to it regularly. Listeners are entirely free to dislike it—musical taste remains fiercely personal—but it should not be dismissed as something less than art simply because of the tools used to make it.
 
-Finally, a note on transparency: I will refer explicitly to Google, DistroKid, and specific platforms such as Spotify throughout this text. This serves no promotional purpose. Referring vaguely to "a prominent model provider" or "a third-party distributor" would obscure the operational constraints and platform-specific quirks that shaped the project's decisions. I have no institutional or financial affiliation with any of these entities, beyond the obvious reality that I use DistroKid to distribute the record and may, theoretically, receive streaming royalties down the line.
+> [!NOTE]  
+> Finally, a note on transparency: I will refer explicitly to Google, DistroKid, and specific platforms such as Spotify throughout this text. This serves no promotional purpose. Referring vaguely to "a prominent model provider" or "a third-party distributor" would obscure the operational constraints and platform-specific quirks that shaped the project's decisions. I have no institutional or financial affiliation with any of these entities, beyond the obvious reality that I use DistroKid to distribute the record and may, theoretically, receive streaming royalties down the line.
 
 
 <div align="center">

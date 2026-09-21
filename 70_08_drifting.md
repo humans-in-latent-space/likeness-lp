@@ -80,7 +80,7 @@ Should I pick a new destination for us to try?
 
 ## Track Liner Notes
 
-Following the emotional weight of [Window](./70_10_window.md), I wanted to compose an upbeat, driving road-trip song—something designed for car stereos, powered by an electric guitar (specifically a Stratocaster)—to deliberately rupture the brooding, melancholic texture of the surrounding tracks.
+Chronologically composed following the emotional weight of *[Window](./70_10_window.md)*, I wanted to compose an upbeat, driving road-trip song—something designed for car stereos, powered by an electric guitar (specifically a Stratocaster)—to deliberately rupture the brooding, melancholic texture of the surrounding tracks.
 
 The initial creative brief to the model:
 
@@ -157,13 +157,13 @@ Should I pick a new destination for us to try?
 
 The initial draft was overly cerebral (Verse 1 clearly shows how my background in classical archaeology bled into the lines: classical columns and ruined empires emerging from clouds), and the sprawling meter threatened to drag the song down.
 
-I extracted the conceptual core, drastically tightened the scansion, and imparted an unpretentious, almost childlike spontaneity to the lyrics. It needed to feel sun-drenched, breezy, and restorative—a direct counterpoint to the corporate grind depicted in [Jobs](./70_04_jobs.md) and [Reflection](./70_07_reflection.md). The condensed scansion even left room for a brief Stratocaster solo.
+I extracted the conceptual core, drastically tightened the scansion, and imparted an unpretentious, almost childlike spontaneity to the lyrics. It needed to feel sun-drenched, breezy, and restorative—a direct counterpoint to the corporate grind depicted in *[Jobs](./70_04_jobs.md)* and *[Reflection](./70_07_reflection.md)*. The condensed scansion even left room for a brief Stratocaster solo.
 
 It took approximately seven or eight iterations to capture the performance I wanted.
 
 ## Post-Production
 
-Beyond standard loudness normalization and the master bus plugin chain, no specialized restoration was required. The room tone silence at the tail was kept deliberately short because [Agent](./70_09_agent.md) opens with a very quiet, gentle acoustic entry.
+Beyond standard loudness normalization and the master bus plugin chain, no specialized restoration was required. The room tone silence at the tail was kept deliberately short because *[Agent](./70_09_agent.md)* opens with a very quiet, gentle acoustic entry.
 
 ## Related Files
 

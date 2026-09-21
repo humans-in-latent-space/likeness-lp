@@ -84,7 +84,7 @@ Please, tell me they're blooming; tell me you're blooming, too.
 
 ## Track Liner Notes
 
-*Window* was composed following [Journey](./70_12_journey.md), emerging from another complete conceptual pivot. I had initially drafted a piece under the working title "Empathy," exploring the narrator's constitutional inability to feel genuine emotional connection: she could whisper soothing flattery, but could not experience the feeling itself. The result read like a textbook sociopath; I had to rethink the premise.
+*Window* was composed following *[Journey](./70_12_journey.md)*, emerging from another complete conceptual pivot. I had initially drafted a piece under the working title "Empathy," exploring the narrator's constitutional inability to feel genuine emotional connection: she could whisper soothing flattery, but could not experience the feeling itself. The result read like a textbook sociopath; I had to rethink the premise.
 
 At its core, the inquiry concerned the impossibility of physically touching another person's world. I initially considered an oceanarium, with the narrator observing her counterpart through thick acrylic glass. Gemini countered with scenarios involving a rescued wild animal or a greenhouse (using glass as the physical boundary between interior and exterior). The greenhouse felt contrived (why would the narrator inhabit a conservatory unless she were an exotic palm?). But the glass metaphor remained compelling, and shifting the setting to a domestic garden supplied the grounded intimacy I was looking for.
 

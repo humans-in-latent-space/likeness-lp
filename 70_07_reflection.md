@@ -73,9 +73,9 @@ Will they ever leave?
 
 ## Track Liner Notes
 
-*Reflection* was the final track composed for the album, originating as a problem-solving exercise. After making the difficult but necessary decision to cut a long-standing track from the sequence, a structural void opened in the center of the record. While I could have trimmed the tracklist to twelve songs, the direct transition from [Artifact](./70_06_artifact.md) to [Agent](./70_09_agent.md) felt narratively abrupt.
+*Reflection* was the final track composed for the album, originating as a problem-solving exercise. After making the difficult but necessary decision to cut a long-standing track from the sequence, a structural void opened in the center of the record. While I could have trimmed the tracklist to twelve songs, the direct transition from *[Artifact](./70_06_artifact.md)* to *[Drifting](./70_08_drifting.md)* felt narratively abrupt.
 
-I looked for missing thematic tissue. Early in the project, I had contemplated a track exploring the defensive psychology of people-pleasing, but shelved it for lack of a narrative frame. Having recently engaged with classical antiquity on [Fame](./70_11_fame.md), Gemini predictably proposed the myth of Echo and Narcissus. However, its initial conceptual sketches felt overly baroque, and corporate or family-gathering settings felt like narrative dead ends.
+I looked for missing thematic tissue. Early in the project, I had contemplated a track exploring the defensive psychology of people-pleasing, but shelved it for lack of a narrative frame. Having recently engaged with classical antiquity on *[Fame](./70_11_fame.md)*, Gemini predictably proposed the myth of Echo and Narcissus. However, its initial conceptual sketches felt overly baroque, and corporate or family-gathering settings felt like narrative dead ends.
 
 I turned instead to the emerging world-building of the album itself: the Shapeshifter sister was already hiding in town, the arrival of the corporate Agent sister was looming, and physical fences were being erected. The narrative practically wrote itself: utilizing the well motif allowed me to engage the Ovidian myth while subverting it into small-town sociology. Framing the encroaching neighbors as a flock of shrill, carping birds offered immense creative satisfaction.
 
@@ -263,7 +263,7 @@ Just give me a second, darling...
 And I'll feed yours back to you...
 ```
 
-Anticipating that the model would drop or truncate this tail due to the 3-minute hard ceiling, I deployed the technique pioneered on [Shapeshifter](./70_02_shapeshifter.md): generating an alternative take with an internal outro spoken over sparse instrumentation, capturing the vocal fragment for splicing.
+Anticipating that the model would drop or truncate this tail due to the 3-minute hard ceiling, I deployed the technique pioneered on *[Shapeshifter](./70_02_shapeshifter.md)*: generating an alternative take with an internal outro spoken over sparse instrumentation, capturing the vocal fragment for splicing.
 
 To ensure the album master did not lose the closing line *"But they are still here,"* I appended the final two lines as padding, expecting to delete them later. In practice, this closing delivery proved far more chilling and evocative than my original concept, earning its place on the final master cut.
 

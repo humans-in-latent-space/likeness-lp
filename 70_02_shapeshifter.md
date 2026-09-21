@@ -90,9 +90,9 @@ I'm not like my sister...
 
 ## Track Liner Notes
 
-Along with [Agent](./70_09_agent.md), *Shapeshifter* forms the dual "sister track" anchor that establishes the narrative backbone of the album.
+Along with *[Agent](./70_09_agent.md)*, *Shapeshifter* forms the dual "sister track" anchor that establishes the narrative backbone of the album.
 
-Following work on [Fame](./70_11_fame.md), I wanted to revisit the motif of masks. In [Jobs](./70_04_jobs.md), I had explored everyday labor, but not the performative strain of inhabiting an artificial persona. However, treating the mask as a literal physical object proved unworkable within the album's aesthetic framework; I needed to recalibrate. After briefly experimenting with a discarded premise titled *Wardrobe* (treating clothing in a closet as an inventory of personas), I abandoned external objects entirely and centered the inquiry on the subject.
+Following work on *[Fame](./70_11_fame.md)*, I wanted to revisit the motif of masks. In *[Jobs](./70_04_jobs.md)*, I had explored everyday labor, but not the performative strain of inhabiting an artificial persona. However, treating the mask as a literal physical object proved unworkable within the album's aesthetic framework; I needed to recalibrate. After briefly experimenting with a discarded premise titled *Wardrobe* (treating clothing in a closet as an inventory of personas), I abandoned external objects entirely and centered the inquiry on the subject.
 
 I turned to folklore and classical myth—specifically the archetype of the shapeshifter. Transposing an ancient shapeshifting motif into a contemporary setting leads naturally to the grammar of urban legends and true crime. Developing this track was immensely rewarding: I was able to build out dense regional landscape details, stage a narrative twist before the bridge, and conclude with a razor-sharp, cynical punchline.
 

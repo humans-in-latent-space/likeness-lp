@@ -63,10 +63,11 @@ I wish I was more like my sister
 
 > [!NOTE]  
 > The generation prompt appears remarkably brief and stripped-back (I did not even specify instrumentation). Instructions for the initial generation were more elaborate, but produced excessive cheerfulness in the chorus. In a subsequent session, I reintroduced "Folktronica" as the stylistic descriptor. The resulting take diverged from my original mental sketch, yet worked so immediately that further experimentation was unnecessary.
+> The instruction block reflect the finalized vocal delivery transcribed from the winning take
 
 ## Track Liner Notes
 
-*Agent* was composed in parallel with [Shapeshifter](./70_02_shapeshifter.md) and represents the second half of the "sister track" axis. Where *[Shapeshifter](./70_02_shapeshifter.md)* introduces an uncanny, foreign entity that harbors no malice toward the villagers, *Agent* stages the inverse: the familiar, polished, helpful persona who is fundamentally predatory.
+*Agent* was composed in parallel with *[Shapeshifter](./70_02_shapeshifter.md)* and represents the second half of the "sister track" axis. Where *[Shapeshifter](./70_02_shapeshifter.md)* introduces an uncanny, foreign entity that harbors no malice toward the villagers, *Agent* stages the inverse: the familiar, polished, helpful persona who is fundamentally predatory.
 
 While the shapeshifter struggles to adapt to human behavior, the corporate agent commands the art of social manipulation effortlessly. She promises an unburdened, frictionless existence, mirrors the villagers' expectations, and steadily gains their trust—only to weaponize it without remorse.
 
@@ -144,7 +145,7 @@ Faced with two compelling yet incomplete iterations, assembly in Ardour resolved
 
 Aligning the transition into the bridge required careful editing: while the entry was clean, the exit was difficult to crossfade. In the second iteration, the bridge escalated dynamically into the chorus via swelling guitars; in the first, it decayed gradually. I initiated the crossfade early on *"there is nowhere to hide,"* locking the edits to the percussive pulse and matching vocal timbres with Airwindows `Air2`. While the timbral shift remains perceptible, it functions convincingly as an intentional aesthetic disruption: the high-pass filtered vocal evokes an intercepted telephone wiretap that the agent terminates mid-sentence to resume her operation.
 
-The lyrical doubling of *"To run the church bake sale, and the summer parade"* was unintended, yet occurred across multiple generations. Because it could not be excised cleanly without creating a rhythmic hiccup—and because the audio engine clearly favored this cadence—I preserved it. Had Gemini's memory feature been engaged, I might have suspected the model was driving home the link to the church bake sale in [Shapeshifter](./70_02_shapeshifter.md). In its absence, Gemini theorized that the engine required metric filler to bridge the gap before the spoken interlude, or simply recognized the line as unusually catchy.
+The lyrical doubling of *"To run the church bake sale, and the summer parade"* was unintended, yet occurred across multiple generations. Because it could not be excised cleanly without creating a rhythmic hiccup—and because the audio engine clearly favored this cadence—I preserved it. Had Gemini's memory feature been engaged, I might have suspected the model was driving home the link to the church bake sale in *[Shapeshifter](./70_02_shapeshifter.md)*. In its absence, Gemini theorized that the engine required metric filler to bridge the gap before the spoken interlude, or simply recognized the line as unusually catchy.
 
 ## Related Files
 

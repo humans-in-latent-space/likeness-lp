@@ -181,7 +181,7 @@ The generated stem was lyrically and structurally immaculate, but suffered from 
 
 The transient crackle on *"ghost"* in Verse 3 could pass as an intentional glitch, but the clicks proved unlistenable on planar magnetic headphones. I smoothed the audio using Airwindows `DeCrackle`.
 
-During final mastering, I inserted the closing breath excised from *[Artifact](./70_06_artifact.md)*, giving the album an intimate human conclusion.
+During final mastering, I inserted the closing breath excised from *[Artifact](./70_06_artifact.md)*, giving the album an intimate *human* conclusion.
 
 ## Related Files
 

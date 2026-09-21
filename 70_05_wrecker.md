@@ -65,7 +65,7 @@ You found me out here, so you can keep me.
 
 ## Track Liner Notes
 
-*Wrecker* was conceived after the sister tracks ([Shapeshifter](./70_02_shapeshifter.md) and [Agent](./70_09_agent.md)), though it deliberately avoids assigning the narrator to a specific sister.
+*Wrecker* was conceived after the sister tracks (*[Shapeshifter](./70_02_shapeshifter.md)* and *[Agent](./70_09_agent.md)*), though it deliberately avoids assigning the narrator to a specific sister.
 
 The song's development began with an extended conversation with Gemini regarding Loreena McKennitt's "Skellig." Little of that specific track survives in the final piece, but knowing that background illuminates the parallels: the song abandons standard pop structures in favor of linear, gothic storytelling, with the ocean and tidal mechanics acting as psychological catalysts.
 
@@ -346,7 +346,7 @@ So you can keep me.
 
 *Wrecker* originated as static nature poetry, transformed into historical melodrama, and finally settled into an urban legend that bleeds directly into the narrator's psychological crisis. The ostensible "happy ending" carries deliberate ambivalence: one can interpret the partner as a tender, protective savior—or as an emotionally manipulative gaslighter who weaponizes terrifying stories to induce her breakdown, ensuring her total psychological dependence. Neither reading is definitive; both coexist equally at the listener's discretion.
 
-In the final generation prompt, as with [Fame](./70_11_fame.md), I labeled the verse of peak intensity as "Chorus" to compel the generative engine to escalate the musical arrangement dynamically.
+In the final generation prompt, as with *[Fame](./70_11_fame.md)*, I labeled the verse of peak intensity as "Chorus" to compel the generative engine to escalate the musical arrangement dynamically.
 
 ## Post-Production
 
