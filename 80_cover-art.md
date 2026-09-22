@@ -117,7 +117,7 @@ Because DSPs render album covers primarily as miniature thumbnails, the detailed
 
 <div align="center">
 
-**[< Previous Page](./71_02_masks.md) - 24 - [Next Page >](./LICENSE.txt)**
+**[< Previous Page](./71_02_masks.md) - 24 - [Next Page >](./Q-AND-A.md)**
 
 </div>
 
