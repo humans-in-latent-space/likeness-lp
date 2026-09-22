@@ -17,8 +17,8 @@ Rather than treating artificial intelligence as a push-button novelty or a tool 
 
 ## Core Inquiries
 
-**Disclosing AI Usage** 
-The EU Artificial Intelligence Act exempts creative work from its comprehensive labeling mandates, stipulating disclosure only "in an appropriate manner." What might meaningful, transparent, yet unobtrusive disclosure actually look like in practice?
+**Disclosing AI Usage**  
+The EU Artificial Intelligence Act focuses strictly on deepfakes, leaving generic synthetic audio in a regulatory vacuum: When institutional frameworks fail to distinguish between automated slop and intentional curation, what does meaningful, proactive disclosure look like in practice?
 
 **The Threshold of Human Intent**  
 Where does algorithmic probability end, and where does genuine artistic labor begin? Can an operator establish authentic authorship when working with stochastic models?
@@ -26,8 +26,8 @@ Where does algorithmic probability end, and where does genuine artistic labor be
 **Subverting the Median**  
 How can an artist steer generative audio engines away from their default statistical mean—the polished, generic clichés of commercial pop—toward idiosyncratic, emotionally resonant sonic territory?
 
-**The Aesthetics of Generative Friction**  
-What happens when generative anomalies, synthetic slips, and uncanny artifacts are preserved and framed as semantic material rather than sanitized?
+**Artificiality as Narrative Substance**  
+Can the synthetic nature of generative media be reclaimed as an integral dimension of the artistic vision rather than concealed as a technical flaw?
 
 **A Blueprint for Independent Creators**  
 How can solo artists establish sound recording rights (*Leistungsschutzrechte*), protect their work against automated takedown bots, and implement ethical revenue-sharing models while navigating streaming monopolies?
@@ -37,7 +37,7 @@ How can solo artists establish sound recording rights (*Leistungsschutzrechte*),
 
 <img src="./assets/cover-art-200.png" align="left" width="220" alt="Cover Art.">
 
-*Likeness* is distributed to all major Digital Streaming Platforms (DSPs), release on September 25, 2026. It is conceived as a continuous narrative cycle; sequential listening is strongly recommended.
+*Likeness* is distributed to all major Digital Streaming Platforms (DSPs), released on September 25, 2026. It is conceived as a continuous narrative cycle; sequential listening is strongly recommended.
  
 [DistroKid HyperFollow Hub](https://distrokid.com/hyperfollow/jankster/likeness) *(Direct gateway to Spotify, Apple Music, and other DSPs)*
 
@@ -52,9 +52,10 @@ If you prefer listening directly inside your native streaming app, searching man
 | :--- | :--- |
 | **Catalog Identifier** | UPC: `882436992438` |
 | **Album Architecture** | 13 Concept Tracks + 2 Curated Outtakes (Approx. 40 min total runtime) |
+| **Discarded iterations** | ~ 160 |
 | **Model Stack** | Google Gemini 3 (Consumer Mobile Application) orchestrating Google Lyria 3 |
-| **Post-Production DAW** | Ardour on Linux; manual 2-track audio restoration, take splicing, dynamic leveling |
-| **Mastering Chain** | Airwindows DSP plugins (`Infrasonic`, `Slew2`, `DeCrackle`, `Tape`) + LSP Limiter |
+| **Post-Production DAW** | Ardour on Linux; manual take splicing, dynamic leveling, audio optimization / restoration |
+| **Mastering Chain** | Airwindows DSP plugins (e.g. `Slew2` and `Tape`) + LSP Stereo Limiter |
 | **Loudness Standards** | Normalized to -14 LUFS with True Peak held strictly between -1.0 and -2.0 dBTP |
 | **Watermarking & Audit** | DeepMind SynthID embedded; SHA-256 artifact hashes anchored in a restricted Zenodo vault |
 | **Ethical Revenue Model** | 25% of gross streaming royalties routed directly to the *GroundUp Music Foundation* via DistroKid *Artists for Change* |
@@ -88,12 +89,11 @@ The complete documentation is organized into sequential thematic chapters and in
 * **[12. Journey](./70_12_journey.md)**
 * **[13. Homecoming](./70_13_homecoming.md)**
 
-### III. Discarded Material
-* **[Excellence](./71_01_excellence.md)**
-* **[Masks](./71_02_masks.md)**
-
-### IV. Visual Architecture
+### III. Visual Architecture
 * **[Cover Art](./80_cover-art.md)**
+
+### IV. Appendix
+* **[Question and Answer](./Q-AND-A.md)**
 
 
 ## Editorial & Linguistic Transparency Notice
@@ -108,3 +108,10 @@ Anyone wishing to audit the divergence between initial human thought and algorit
 **For Zenodo users:** There are *snapshots* of these versions in [Stages](./stages)
 
 Note: This README was created directly in dialog with the AI and is not part of the German draft.
+
+<div align="center">
+
+**[Introduction](./10_introduction.md)**
+
+</div>
+
