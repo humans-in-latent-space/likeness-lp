@@ -38,6 +38,16 @@ That synthetic production operates at vastly higher speeds than conventional stu
 While Suno and Udio provide extensive in-painting and editing suites, they operate on different architectural assumptions and interactive paradigms. Lyria functions at a higher level of abstraction, responding to nuanced prose instructions. Furthermore, Google's DeepMind SynthID embeds genuine, imperceptible technical watermarking into the audio data—a provenance mechanism I consider indispensable in light of emerging regulatory frameworks like the EU AI Act.
 
 
+**Why are the raw synthetic tracks in MP3 format? Doesn't that compromise audio quality?**  
+The Gemini consumer interface does not offer format selection during track generation; MP3 is the enforced platform default. While MP3 is a lossy perceptual format and theoretically inferior to uncompressed linear PCM (WAV), this distinction is relevant in practice primarily when subjecting source material to heavy, destructive post-processing. 
+
+My corrections in the DAW focused on surgical optimization and leveling rather than fundamental tonal re-engineering. Furthermore, the actual acoustic bottleneck in generative audio stems from the neural synthesis itself (codec representations, diffusion phase artifacts), not from the MP3 container. 
+
+Prior to distribution, I monitored all masters across high-end listening environments—including planar magnetic headphones and the classic German studio workhorse—and verified that no audible compression artifacts compromised the record's aesthetic integrity. (Downstream transcoding issues on streaming platforms were explicitly mitigated by maintaining strict True Peak ceilings between -1.0 and -2.0 dBTP.) 
+
+I hold high standards for sound reproduction, but theoretical specifications on paper matter little in isolation: a track can be rendered as a 32-bit float WAV and still sound catastrophic if squashed aggressively against a brickwall limiter.
+
+
 **Why didn't you hire human session musicians or vocalists to track the parts?**  
 A hybrid production would have been logistically impossible within my domestic constraints (working in fragmentary pockets on a phone while caring for an infant). More fundamentally, I deliberately committed to pure, end-to-end audio synthesis as a maximalist stress test for generative media. And on a purely practical note: I do not possess a breathtaking female singing voice myself.
 
