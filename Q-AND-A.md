@@ -1,7 +1,7 @@
 # Questions & Answers
 
 **Why GitHub as a platform?**  
-GitHub remains the undisputed workshop for contemporary software development. As artificial intelligence advances, the boundaries between executable code and documentation are increasingly eroding. I firmly believe that in the medium term, pure syntax and conventional manuals will decline in relevance. In their place, operator intent—situated in the tradition of Architecture Decision Records (ADRs)—will become paramount. Publishing my concept of *Open Intent* on GitHub as an empirical experiment is the natural conclusion of this logic. Furthermore, integrating the repository with Zenodo enables immediate publication alongside an immutable, citable DOI at a velocity no conventional academic or commercial medium could ever match.
+GitHub remains the undisputed workshop for contemporary software development. As artificial intelligence advances, the boundaries between executable code and documentation are increasingly eroding. I firmly believe that in the medium term, pure syntax and conventional manuals will decline in relevance. In their place, operator intent—situated in the tradition of Architecture Decision Records (ADRs)—will become paramount. Publishing my concept of *Declared Intent* on GitHub as an empirical experiment is the natural conclusion of this logic. Furthermore, integrating the repository with Zenodo enables immediate publication alongside an immutable, citable DOI at a velocity no conventional academic or commercial medium could ever match.
 
 
 **Why English lyrics when your native language is German?**  

@@ -122,7 +122,7 @@ In keeping with the project's foundational commitment to radical honesty:
 
 **The English text published across this repository was refined, structured, and translated using advanced generative language models (Gemini 3.8 Flash)**, adopting the analytical essayistic register of publications such as *The Atlantic* and contemporary critical media theory.
 
-In accordance with the *Open Intent* ethos, **the unvarnished, raw German original text—written entirely by the human author by hand (predominantly on a mobile phone during night shifts)—remains permanently preserved in the Git commit history and the initial repository commits.** 
+In accordance with the *Declared Intent*, **the unvarnished, raw German original text—written entirely by the human author by hand (predominantly on a mobile phone during night shifts)—remains permanently preserved in the Git commit history and the initial repository commits.** 
 
 Anyone wishing to audit the divergence between initial human thought and algorithmic prose refinement can inspect the version tree directly.  
 **For Zenodo users:** There are *snapshots* of these versions in [Stages](./stages)

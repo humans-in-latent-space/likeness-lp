@@ -1,4 +1,4 @@
-# Contributing & Open Intent Engagement
+# Contributing & Engagement
 
 Thank you for your interest in *Likeness*.
 
@@ -33,15 +33,15 @@ All documentation, prompt architectures, configuration scripts, and project asse
 
 Feedback, scholarly inquiry, and philosophical debate are warmly welcomed:
 
-- **Issues & Discussions:** If you have questions or critique regarding the *Open Intent* methodology, compliance, prompt design, or latent space aesthetics, please open a GitHub Discussion or submit an Issue.
+- **Issues & Discussions:** If you have questions or critique regarding the *Declared Intent*, methodology, compliance, prompt design, or latent space aesthetics, please open a GitHub Discussion or submit an Issue.
 - **Research & Dialogue:** If you are analyzing this project for academic, journalistic, or musicological purposes, please reach out via GitHub or the contact channels provided in the profile.
 
 
-## 5. Humans in Latent Space: Call for Open Intent Repositories
+## 5. Humans in Latent Space: Call for Repositories
 
-*Likeness* is published under **[Humans in Latent Space](https://github.com/humans-in-latent-space)**, an organization and imprint dedicated to exploring human agency, craft, and accountability in generative latent spaces.
+*Likeness* is published under **[Humans in Latent Space](https://github.com/humans-in-latent-space)**, an organization dedicated to exploring human agency, craft, and accountability in generative latent spaces.
 
-If you are developing independent projects that embrace the principles of **Open Intent**—rigorous creative provenance, full disclosure of machine orchestration, transparent prompt archives, and an uncompromising commitment to human artistic direction:
+If you are developing independent projects that embrace rigorous creative provenance, *Declared Intent*, and an uncompromising commitment to human artistic direction:
 
 - **Get in touch:** Open an issue or discussion on GitHub to introduce your repository.
 - **Ecosystem & Curation:** *Humans in Latent Space* is intended to actively track and showcase projects practicing transparent human-AI co-creation. The objective is to build a curated network of repositories that prove generative tools can serve human intentionality rather than obscure it.
