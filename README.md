@@ -1,8 +1,10 @@
-# Likeness: An Expedition into Latent Space
+# Likeness Notes 
 
 <div align="center">
 
-**Human Intent realized by AI**
+**An AI-Realized Concept Album as a Field Experiment in Declared Intent, Cybernetic Workflows, and Methodology**
+
+*Human Intent realized by AI*
 
 </div>
 
@@ -51,14 +53,14 @@ If you prefer listening directly inside your native streaming app, searching man
 | Dimension | Implementation Details |
 | :--- | :--- |
 | **Catalog Identifier** | UPC: `882436992438` |
-| **Album Architecture** | 13 Concept Tracks + 2 Curated Outtakes (Approx. 40 min total runtime) |
+| **Album Architecture** | 13 Concept Tracks + 2 Curated Outtakes (39:49 min total runtime) |
 | **Discarded iterations** | ~ 160 |
-| **Model Stack** | Google Gemini 3 (Consumer Mobile Application) orchestrating Google Lyria 3 |
+| **Model Stack** | Google Gemini 3.x (Consumer Mobile Application) orchestrating Google Lyria 3 |
 | **Post-Production DAW** | Ardour on Linux; manual take splicing, dynamic leveling, audio optimization / restoration |
-| **Mastering Chain** | Airwindows DSP plugins (e.g. `Slew2` and `Tape`) + LSP Stereo Limiter |
+| **Mastering Chain** | Airwindows DSP plugins (e.g. Slew2 and Tape) + LSP Stereo Limiter |
 | **Loudness Standards** | Normalized to -14 LUFS with True Peak held strictly between -1.0 and -2.0 dBTP |
 | **Watermarking & Audit** | DeepMind SynthID embedded; SHA-256 artifact hashes anchored in a restricted Zenodo vault |
-| **Ethical Revenue Model** | 25% of gross streaming royalties routed directly to the *GroundUp Music Foundation* via DistroKid *Artists for Change* |
+| **Ethical Revenue Model** | 25% of gross streaming royalties routed directly to the *GroundUp Music Foundation* via DistroKid's *Artists for Change* |
 | **Repository License** | Apache 2.0 |
 
 
