@@ -62,6 +62,26 @@ If you prefer listening directly inside your native streaming app, searching man
 | **Repository License** | Apache 2.0 |
 
 
+## Suggested Entry Points
+
+Given that the sheer volume of this documentation can be challenging to navigate, here is a brief orientation based on your primary focus:
+
+> [!NOTE]  
+> Regardless of your angle of interest, starting with the **[Introduction](./10_introduction.md)** is strongly recommended to grasp the overarching scope and methodology.
+
+**Practical Implementation & Workflows**  
+**[Instruction](./30_instruction.md)** and **[Implementation](./40_implementation.md)** outline both the essential production stages and technical methods. The granular genesis of individual pieces is documented in the liner notes of the respective track chapters.
+
+**Theoretical Foundations & Mental Framework**  
+This domain is primarily explored in **[Vision](./20_vision.md)**. **[Instruction](./30_instruction.md)** expands further on the practical and cognitive dynamics of human-machine interaction.
+
+**The Narrative World of Likeness**  
+Those seeking the story and conceptual arc behind the lyrics will find it detailed in **[Narration](./60_narration.md)**. I also recommend consulting **[Cover Art](./80_cover-art.md)** for visual context. (Note that individual track chapters focus primarily on production history rather than comprehensive lyrical exegesis.)
+
+**Questions & Edge Cases**  
+The **[Q&A](./Q-AND-A.md)** anticipates and addresses broader questions—ranging from personal background and tooling choices to legal nuances and philosophical critiques—that extend beyond the sequential chapters.
+
+
 ## Dossier Navigation
 
 The complete documentation is organized into sequential thematic chapters and individual track liner notes:
