@@ -1,6 +1,12 @@
 # Text Stages
 
-This directory contains static snapshots of intermediate text stages. Because archival platforms like Zenodo do not preserve Git commit history or diff logs, these standalone files document the evolution of the material.
+> [!IMPORTANT]  
+> **These versions of the text contain errors in content.**  
+> **They are not intended for direct use.**
+>
+> This directory contains static snapshots of intermediate text stages. Because archival platforms like Zenodo do not preserve Git commit history or diff logs, these standalone files document the evolution of the material.
+>
+> These files serve as an auditable trail of provenance, establishing the baseline human intent leading up to the final curated release.
 
 * **[German text](./01_german-text.md)**  
   `commit ca3413957c0c5ab79383caadade17e710d9c9b06`  
@@ -11,7 +17,6 @@ This directory contains static snapshots of intermediate text stages. Because ar
   The raw, uncurated AI translation of the German source text into English. This snapshot reflects the direct machine output before any human review, intervention, or stylistic refinement.
 
 * **[AI translation log](./03_ai-translation-log.md)**  
-  `commit b518bc6f0751d497baddea24a525e8a6fddda945` 
+  `commit b518bc6f0751d497baddea24a525e8a6fddda945`  
   Log of the AI translation process.
 
-These files serve as an auditable trail of provenance, establishing the baseline human intent leading up to the final curated release. They are not intended for direct use.
