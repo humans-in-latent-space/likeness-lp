@@ -131,9 +131,7 @@ The preliminary draft was strong, though it required surgical editing. The very 
 
 My original prompt:
 
-```text
-The track opens sun-drenched and hopeful. Verse 1, Chorus 1, and Verse 2 outline a classic small-town pastoral using acoustic guitar and arpeggiated felt piano. In the spoken interlude ("that was the easy part"), instrumentation cuts abruptly, re-entering in the bridge with electric guitar. Avoid aggressive distortion; cultivate an ominous, mechanical atmosphere. Chorus 2 returns to peaceful pastoral textures. The final line "Hh... I wish I was more like my sister" is delivered as a spoken, wistful sigh.
-```
+> The track opens sun-drenched and hopeful. Verse 1, Chorus 1, and Verse 2 outline a classic small-town pastoral using acoustic guitar and arpeggiated felt piano. In the spoken interlude ("that was the easy part"), instrumentation cuts abruptly, re-entering in the bridge with electric guitar. Avoid aggressive distortion; cultivate an ominous, mechanical atmosphere. Chorus 2 returns to peaceful pastoral textures. The final line "Hh... I wish I was more like my sister" is delivered as a spoken, wistful sigh.
 
 ... was counterproductively over-specified.
 
