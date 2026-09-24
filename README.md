@@ -41,11 +41,12 @@ How can solo artists establish sound recording rights (*[Verwertungsrechte des T
 
 *Likeness* is distributed to all major Digital Streaming Platforms (DSPs), released on September 25, 2026. It is conceived as a continuous narrative cycle; sequential listening is strongly recommended.
  
-[DistroKid HyperFollow Hub](https://distrokid.com/hyperfollow/jankster/likeness) *(Direct gateway to Spotify, Apple Music, and other DSPs)*
+**[DistroKid HyperFollow Hub](https://distrokid.com/hyperfollow/jankster/likeness)**  
+*(Direct gateway to Spotify, Apple Music, and other DSPs)*
+<br clear="both"/>
 
 **Algorithmic Discoverability Note**  
 If you prefer listening directly inside your native streaming app, searching manually for **`Jan Köster Likeness`** directly trains the platform's recommendation graph and organically signals authentic listener intent.
-<br clear="both"/>
 
 
 ## Technical & Conceptual Specifications
