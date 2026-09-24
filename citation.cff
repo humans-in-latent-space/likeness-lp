@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite this report as below."
+authors:
+  - family-names: "Köster"
+    given-names: "Jan"
+    orcid: "https://orcid.org/0000-0003-2713-5207"
+title: "Likeness Notes: An AI-Realized Concept Album as a Field Experiment in Declared Intent, Cybernetic Workflows, and Methodology"
+date-released: 2026-09-25
+license: Apache-2.0
+repository-code: "https://github.com/humans-in-latent-space/likeness-lp"
+keywords:
+  - "Digital Humanities"
+  - "Generative AI"
+  - "EU AI Act"
+  - "Declared Intent"
+  - "Process Documentation"
+  - "Algorithmic Accountability"
+  - "Practice-as-Research"
+  - "Data Provenance"
+  - "Digital Commons"
+  - "Sustainable AI"
+  - "Music Production"

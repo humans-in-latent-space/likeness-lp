@@ -1,0 +1,31 @@
+{
+    "creators": [
+        {
+            "name": "Köster, Jan",
+            "orcid": "0000-0003-2713-5207"
+        }
+    ],
+    "title": "Likeness Notes: An AI-Realized Concept Album as a Field Experiment in Declared Intent, Cybernetic Workflows, and Methodology",
+    "description": "Likeness Notes is a methodological monograph and production dossier documenting the creation of Likeness, an independent concept album realized through multimodal generative AI (Google Gemini 3 and Lyria 3). Operating within the traditions of practice-as-research and critical making, it provides an unredacted audit of human intent, prompt workflows, audio post-production, and EU AI Act compliance.",
+    "upload_type": "publication",
+    "publication_type": "report",
+    "language": "eng",
+    "access_right": "open",
+    "keywords": [
+        "Digital Humanities",
+        "Generative AI",
+        "EU AI Act",
+        "Declared Intent",
+        "Process Documentation",
+        "Algorithmic Accountability",
+        "Practice-as-Research",
+        "Data Provenance",
+        "Digital Commons",
+        "Sustainable AI",
+        "Music Production"
+    ],
+    "license": "Apache-2.0",
+    "communities": [
+        {"identifier": "digitalhumanities"}
+    ]
+}
