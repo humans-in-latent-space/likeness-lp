@@ -2,6 +2,7 @@
 
 We all wear our "masks" when stepping into the various roles that everyday life demands of us.
 
+
 ## Instruction
 
 ```markdown
@@ -96,6 +97,7 @@ Am I?
 Man, I need another Job...  
 ```
 
+
 ## Track Liner Notes
 
 The concept for *Masks* occurred to me immediately after *[Hollow](./70_01_hollow.md)*, though I first explored *[Excellence](./71_01_excellence.md)* before dedicating myself to this piece. It was chronologically the third song attempted, even if it never made it onto the final album in this arrangement.
@@ -103,13 +105,20 @@ The concept for *Masks* occurred to me immediately after *[Hollow](./70_01_hollo
 The titular masks functioned as allegories for the performance of social roles in everyday life. Over time, we internalize these masks so completely that removing them becomes impossible.
 
 I outlined the creative brief to the model as follows:
-* The narrator steps into different social roles daily to meet external expectations, donning them like physical masks without complaint or emotional exposure.
-* Each morning, she opens a dresser drawer where these personas lie carefully arranged like folded garments.
-* Society is indifferent to her inner reality; they desire only the specific functional persona.
-* Gazing into the mirror, she no longer recognizes herself. Even if she shatters the glass, every shard merely multiplies the reflection of the mask.
-* The mask provides armor and makes professional excellence effortless, but functions simultaneously as a psychological prison.
-* The intro opens with an answering-machine beep: a tinny, phone-filtered male voice demands, *"We need the list ASAP. Hurry up!"*
-* Before the bridge, additional intrusive demands intrude: *"What should I buy my girlfriend for her birthday?"*, *"We need the translation by five."*
+
+> The narrator steps into different social roles daily to meet external expectations, donning them like physical masks without complaint or emotional exposure.
+>
+> Each morning, she opens a dresser drawer where these personas lie carefully arranged like folded garments.
+>
+> Society is indifferent to her inner reality; they desire only the specific functional persona.
+>
+> Gazing into the mirror, she no longer recognizes herself. Even if she shatters the glass, every shard merely multiplies the reflection of the mask.
+>
+> The mask provides armor and makes professional excellence effortless, but functions simultaneously as a psychological prison.
+>
+> The intro opens with an answering-machine beep: a tinny, phone-filtered male voice demands, *"We need the list ASAP. Hurry up!"*
+>
+> Before the bridge, additional intrusive demands intrude: *"What should I buy my girlfriend for her birthday?"*, *"We need the translation by five."*
 
 <details>
 <summary><b>AI Draft</b><br/><br/></summary>

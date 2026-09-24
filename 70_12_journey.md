@@ -4,6 +4,7 @@
 
 When we embark on a journey, we do so with a destination in mind—yet upon arrival, the destination often looks entirely different than expected; it has changed.
 
+
 ## Instruction
 
 ```markdown
@@ -43,11 +44,12 @@ A place once known, that somehow stays unknown.
 > [!IMPORTANT]  
 > The incremental development of the instrumental track can no longer be reconstructed in isolation: because it emerged across an expansive conversational thread influenced by Gemini's persistent memory, no single prompt exists to reproduce it. Rather than inventing an artificial instruction retroactively, I openly acknowledge this gap in the documentation.
 
+
 ## Track Liner Notes
 
 *Journey* occupies a distinct place in this project: its underlying musical foundation significantly predates the album itself. It was the very first 3-minute composition I generated with Lyria 3, tracked on the evening the long-form feature was deployed within the consumer Gemini application.
 
-Earlier, I had generated a 30-second mood clip. Returning to that session, I requested an expanded 3-minute version; because the infrastructure was brand-new, the request failed five times before completing. Remarkably, the interface assigned artwork to the track that I had generated weeks earlier in a completely unrelated conversation as a visual moodboard for the novel premise underlying *[Hollow](./70_01_hollow.md)*. Gemini's persistent memory had independently recognized semantic affinities across conversations without explicit instruction.
+Earlier, I had generated a 30-second mood clip. Returning to that session, I requested an expanded 3-minute version; because the infrastructure was brand-new, the request failed five times before completing. Remarkably, the interface assigned *[artwork](./80_cover-art.md)* to the track that I had generated weeks earlier in a completely unrelated conversation as a visual moodboard for the novel premise underlying *[Hollow](./70_01_hollow.md)*. Gemini's persistent memory had independently recognized semantic affinities across conversations without explicit instruction.
 
 The resulting audio was entirely different from the initial 30-second test: it possessed an urgent, existential gravitas that moved me deeply. A purely instrumental piece, however, was unsuitable for an album predicated on curated human lyrics. I needed to integrate text—partly to disguise a sudden timbral shift in the acoustic guitar track near the start, converting that structural discontinuity into a deliberate narrative pivot.
 
@@ -81,6 +83,7 @@ Structurally, I settled on two heroic couplets in iambic pentameter, which fit t
 
 The preliminary draft was remarkably close to the final performance (hardly surprising for a four-line text), though I adjusted specific diction and inverted the resolution. This was the sole instance where I deployed classical persona prompting ("You are..."): here, adopting the specific perspective of the romantic traveler served a distinct thematic purpose.
 
+
 ## Post-Production
 
 Scripting a spoken recitation without musical backing proved exceptionally difficult to render in Lyria 3, echoing my struggles on *[Jobs](./70_04_jobs.md)*. Across ten iterations, the model repeatedly attempted to sing the lines. Of the rare spoken takes, only one captured the requisite solemnity—yet it had been tracked excessively hot, resulting in abrasive high-frequency sibilance on s-sounds.
@@ -88,6 +91,7 @@ Scripting a spoken recitation without musical backing proved exceptionally diffi
 While I eliminated harsh harmonic distortion, the physical articulation could not be undone without dynamic filtering that would have dulled vocal presence.
 
 In the final mix, I sliced the spoken recitation into isolated stems and aligned the stressed opening syllable of *"destined"* precisely with the first beat of the guitar's harmonic shift. This created the psychoacoustic impression of a deliberate, side-chained volume duck: when you cannot hide an acoustic seam, you turn it into a stylistic signature.
+
 
 ## Related Files
 

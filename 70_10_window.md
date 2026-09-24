@@ -4,6 +4,7 @@
 
 Imprisoned within her interior world, the narrator experiences reality solely through the gaze of another.
 
+
 ## Instruction
 
 ```markdown
@@ -82,15 +83,16 @@ Oh, my window to the world is you
 Please, tell me they're blooming; tell me you're blooming, too.  
 ```
 
+
 ## Track Liner Notes
 
-*Window* was composed following *[Journey](./70_12_journey.md)*, emerging from another complete conceptual pivot. I had initially drafted a piece under the working title "Empathy," exploring the narrator's constitutional inability to feel genuine emotional connection: she could whisper soothing flattery, but could not experience the feeling itself. The result read like a textbook sociopath; I had to rethink the premise.
+*Window* was composed following *[Journey](./70_12_journey.md)*, emerging from another complete conceptual pivot. I had initially drafted a piece under the working title *Empathy*, exploring the narrator's constitutional inability to feel genuine emotional connection: she could whisper soothing flattery, but could not experience the feeling itself. The result read like a textbook sociopath; I had to rethink the premise.
 
 At its core, the inquiry concerned the impossibility of physically touching another person's world. I initially considered an oceanarium, with the narrator observing her counterpart through thick acrylic glass. Gemini countered with scenarios involving a rescued wild animal or a greenhouse (using glass as the physical boundary between interior and exterior). The greenhouse felt contrived (why would the narrator inhabit a conservatory unless she were an exotic palm?). But the glass metaphor remained compelling, and shifting the setting to a domestic garden supplied the grounded intimacy I was looking for.
 
-I recalled a conversation from April where I had consulted Gemini regarding a newly planted flower bed in my garden. Initially, I simply wanted to identify a specific rare tulip from a photograph (the white-and-blue botanical variety *Alba Coerulea Oculata*). The exchange quickly expanded: I asked about companion planting, soil conditions, and weed management. Gemini simulated infectious, charming enthusiasm for horticulture—which sparked the core conceit: what if the narrator in this song can experience the garden only through the eyes and words of her companion?
+I recalled a conversation from April where I had consulted Gemini regarding a newly planted flower bed in my garden. Initially, I simply wanted to identify a specific rare tulip from a photograph (the white-and-blue botanical variety *Alba Coerulea Oculata*). The exchange quickly expanded: I asked about planting and soil conditions. Gemini simulated infectious, charming enthusiasm for horticulture—which sparked the core conceit: what if the narrator in this song can experience the garden only through the eyes and words of her companion?
 
-Why she is confined remains deliberately ambiguous. Is she chronically ill, or is she in hiding? To sharpen the contrast against the fertile earth outside, I framed her sanctuary as a second-story private library.
+Why she is confined remains deliberately ambiguous: Is she chronically ill, or is she in hiding? To sharpen the contrast against the fertile earth outside, I framed her sanctuary as a second-story private library.
 
 I pitched the premise to Gemini as follows:
 
@@ -178,9 +180,11 @@ Early generations were heavily corrupted by piano vamping carried over from disc
 
 Because the descriptor "melancholic" reliably triggers generic sentimentality, I instructed the model to interpret the emotional atmosphere as *"aromatic dark chocolate"*—demanding full, bittersweet harmonic complexity. The metaphor worked brilliantly.
 
+
 ## Post-Production
 
 The final iteration required virtually zero correction. The vocal delivery landed on the final second of the performance window without truncation. During mastering, I extended the natural reverb tail slightly and engaged the standard master bus processing chain.
+
 
 ## Related Files
 

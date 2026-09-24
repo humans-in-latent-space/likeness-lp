@@ -71,6 +71,7 @@ Or they'll find someone else to arrange.
 Mmm...  
 ```
 
+
 ## Track Liner Notes
 
 *Excellence* did not survive onto the album, despite holding a locked position on the tracklist for an extended period. It was the second piece composed for the project, following directly after *[Hollow](./70_01_hollow.md)*.
@@ -78,10 +79,14 @@ Mmm...
 The thematic premise confronted the existential condition of creative labor in the age of generative models: when the statistical median is available instantaneously and for free, excellence—whether measured by technical virtuosity or radical novelty—becomes the sole justification for creative survival.
 
 I supplied Gemini with the following lyrical parameters:
-* The narrator is condemned to continuous, flawless execution: she is "excellent by demand." If she falters, she will be cast aside.
-* In a world where mediocrity is commodified, excellence is the only hard currency.
-* No one can truly define what excellence entails, but mere craft is insufficient—it must project genius and effortless innovation.
-* Satisfy the crowd's expectations by delivering what they recognize, while disguising the fact that everything has already been done before.
+
+> The narrator is condemned to continuous, flawless execution: she is "excellent by demand." If she falters, she will be cast aside.
+>
+> In a world where mediocrity is commodified, excellence is the only hard currency.
+>
+> No one can truly define what excellence entails, but mere craft is insufficient—it must project genius and effortless innovation.
+>
+> Satisfy the crowd's expectations by delivering what they recognize, while disguising the fact that everything has already been done before.
 
 <details>
 <summary><b>AI Draft</b><br/><br/></summary>

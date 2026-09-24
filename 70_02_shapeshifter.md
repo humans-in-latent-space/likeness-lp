@@ -4,6 +4,7 @@
 
 The sighting of an uncanny creature unsettles a small town.
 
+
 ## Instruction
 
 ```markdown
@@ -88,11 +89,12 @@ Don't worry, darlings, you're safe...
 I'm not like my sister...  
 ```
 
+
 ## Track Liner Notes
 
 Along with *[Agent](./70_09_agent.md)*, *Shapeshifter* forms the dual "sister track" anchor that establishes the narrative backbone of the album.
 
-Following work on *[Fame](./70_11_fame.md)*, I wanted to revisit the motif of masks. In *[Jobs](./70_04_jobs.md)*, I had explored everyday labor, but not the performative strain of inhabiting an artificial persona. However, treating the mask as a literal physical object proved unworkable within the album's aesthetic framework; I needed to recalibrate. After briefly experimenting with a discarded premise titled *Wardrobe* (treating clothing in a closet as an inventory of personas), I abandoned external objects entirely and centered the inquiry on the subject.
+Following work on *[Fame](./70_11_fame.md)*, I wanted to revisit the motif of *[Masks](./71_02_masks.md)*. In *[Jobs](./70_04_jobs.md)*, I had explored everyday labor, but not the performative strain of inhabiting an artificial persona. However, treating the mask as a literal physical object proved unworkable within the album's aesthetic framework; I needed to recalibrate. After briefly experimenting with a discarded premise titled *Wardrobe* (treating clothing in a closet as an inventory of personas), I abandoned external objects entirely and centered the inquiry on the subject.
 
 I turned to folklore and classical myth—specifically the archetype of the shapeshifter. Transposing an ancient shapeshifting motif into a contemporary setting leads naturally to the grammar of urban legends and true crime. Developing this track was immensely rewarding: I was able to build out dense regional landscape details, stage a narrative twist before the bridge, and conclude with a razor-sharp, cynical punchline.
 
@@ -161,9 +163,11 @@ The final generation ended prematurely after *"you love me with a blazer on,"* o
 
 My solution was to generate an alternative take of the full song wherein the spoken outro was shifted into the center of the lyric block under explicit instructions for "zero instrumentation." Within three iterations, I had a matching vocal stem that fit seamlessly.
 
+
 ## Post-Production
 
 With the outro vocal captured, assembly in Ardour was frictionless. In the final edit, I dropped in a few sparse piano chords salvaged from another generation so the spoken outro would not sit in absolute acoustic isolation.
+
 
 ## Related Files
 

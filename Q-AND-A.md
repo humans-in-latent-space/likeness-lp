@@ -4,6 +4,14 @@
 GitHub remains the undisputed workshop for contemporary software development. As artificial intelligence advances, the boundaries between executable code and documentation are increasingly eroding. I firmly believe that in the medium term, pure syntax and conventional manuals will decline in relevance. In their place, operator intent—situated in the tradition of Architecture Decision Records (ADRs)—will become paramount. Publishing my concept of *Declared Intent* on GitHub as an empirical experiment is the natural conclusion of this logic. Furthermore, integrating the repository with Zenodo enables immediate publication alongside an immutable, citable DOI at a velocity no conventional academic or commercial medium could ever match.
 
 
+**Did you intend this as a field experiment in transparency and methodology from the outset?**  
+No. It began simply by exploring a new feature in an app I was already using daily. When *[Hollow](./70_01_hollow.md)* turned out so compelling, I wanted to determine whether it was a pure fluke or whether this level of aesthetic quality could be sustained. Working with AI daily in my professional capacity, I initially approached this as an exercise in applied prompt engineering. The decision to document the entire process emerged organically from the—often absurd—hurdles and constraints I was forced to navigate.
+
+There is a broader motivation as well: I am working in the Digital Humanities since 2020. I find it regrettable that the discipline so frequently views itself merely as an applied IT service provider for traditional humanities research. I believe the Digital Humanities must also critically examine the societal and cultural ramifications of the digital—especially generative AI; not in competition with dedicated media studies, but firmly rooted in the tradition of practitioners committed to Open Source and [FAIR Guiding Principles](https://www.gofair.foundation/fair-principles). 
+
+I find it deeply troubling when public discourse is dominated almost exclusively by commercial entrepreneurs and influencers while academia remains largely silent. At least, that is my (purely subjective) impression.
+
+
 **Why English lyrics when your native language is German?**  
 The personal answer is that I have always struggled with German song lyrics. In my private listening, I engage with only a handful of select German artists. German operates within a very different literary and acoustic tradition: what registers as romantic or profound in English often sounds heavy-handed, flat, or maudlin in German. I also naturally gravitate toward English-language literature, both academic and fictional.
 
@@ -68,6 +76,10 @@ Neither in the conventional sense. Academically, my roots lie in Classical Studi
 My relationship with artificial intelligence is also relatively recent. Until mid-2025, I had practically zero engagement with generative AI. Today, I orchestrate virtually every new project agentically. The shift was pragmatic: agentic systems liberate me from the mechanical friction of low-level execution—allowing me to focus on architectural problem-solving rather than manually typing `while` loops.
 
 This domain fusion defines the DNA of *Likeness*: my background in antiquity and philology informs the lyrical density, metric scansion, and historical subtext (from Hellenistic poetics to excavation stratigraphy), while my architectural mindset dictates the operational discipline. The generative model acts as a cybernetic instrument, enabling an independent creator to realize an ambitious, complex concept that would otherwise have remained locked behind technical bottlenecks.
+
+
+**Are you planning further albums?**  
+I wouldn't rule it out—producing this record was immensely rewarding—but I currently have no concept for a follow-up project. One thing is certain: I will not produce a generic "Likeness 2.0" under a different moniker.
 
 
 **I don't like the music; isn't this just kitsch?**  

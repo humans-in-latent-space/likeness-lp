@@ -4,6 +4,7 @@
 
 During a walk along the shore, the narrator is overcome by a vision of a historic shipwreck.
 
+
 ## Instruction
 
 ```markdown
@@ -62,6 +63,7 @@ You found me out here, so you can keep me.
 
 > [!NOTE]  
 > The generation instructions appear unusually brief and stripped-down (I did not even specify individual instruments). Early iterations with elaborate setups felt cluttered; testing a radically reduced prompt immediately yielded the album cut.
+
 
 ## Track Liner Notes
 
@@ -348,9 +350,11 @@ So you can keep me.
 
 In the final generation prompt, as with *[Fame](./70_11_fame.md)*, I labeled the verse of peak intensity as "Chorus" to compel the generative engine to escalate the musical arrangement dynamically.
 
+
 ## Post-Production
 
 The final generation was directly viable and proceeded into mastering without multi-take splicing.
+
 
 ## Related Files
 

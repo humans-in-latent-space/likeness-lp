@@ -4,6 +4,7 @@
 
 During a road trip, the narrator drifts into daydreams.
 
+
 ## Instruction
 
 ```markdown
@@ -77,6 +78,7 @@ The ignition clicks off, letting go of the glow.
 We should do this more often...  
 Should I pick a new destination for us to try?  
 ```
+
 
 ## Track Liner Notes
 
@@ -161,9 +163,11 @@ I extracted the conceptual core, drastically tightened the scansion, and imparte
 
 It took approximately seven or eight iterations to capture the performance I wanted.
 
+
 ## Post-Production
 
 Beyond standard loudness normalization and the master bus plugin chain, no specialized restoration was required. The room tone silence at the tail was kept deliberately short because *[Agent](./70_09_agent.md)* opens with a very quiet, gentle acoustic entry.
+
 
 ## Related Files
 

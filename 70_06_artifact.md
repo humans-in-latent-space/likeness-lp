@@ -4,6 +4,7 @@
 
 On the ontology of an artifact.
 
+
 ## Instruction
 
 ```markdown
@@ -53,6 +54,7 @@ Or do we create it once raised from the ground?
 
 > [!NOTE]  
 > The generation prompt appears remarkably concise (I did not even specify individual instruments). This was a deliberate reaction against earlier frustration: I had previously engineered an intricate arrangement prompt that failed to coalesce, leading me to rely entirely on the generative model's latent intuition.
+
 
 ## Track Liner Notes
 
@@ -205,7 +207,7 @@ Did we dig up a ghost that was waiting tonight,
 Or did we just write it into the light?  
 </details>
 
-Archaeology is conventionally classified as an interpretive humanities discipline rather than a hard "science," and the term "alien" carried excessive pulp sci-fi baggage. The remainder provided a disciplined foundation for final lyric editing. In an earlier, cynical revision, I considered having the researchers discard the unrecognized object; ultimately, I favored the quieter, epistemological statement: *"we wouldn't see it at all."*
+Archaeology is conventionally classified as an interpretive humanities discipline rather than a "science," and the term "alien" carried excessive pulp sci-fi baggage. The remainder provided a disciplined foundation for final lyric editing. In an earlier, cynical revision, I considered having the researchers discard the unrecognized object; ultimately, I favored the quieter, epistemological statement: *"we wouldn't see it at all."*
 
 Acoustically, I initially envisioned portable instruments suitable for a field campfire. An early test iteration incorporated an Irish bouzouki, but the performance drifted uncomfortably close to generic "World Music" exotica.
 
@@ -226,9 +228,11 @@ Crucial: The lyrics tell a story and must not be altered through transposition, 
 
 I discarded those takes in late June, re-prompting the model under a simple Folktronica directive without micro-managing the instrumentation. That take became the album master. I appreciated its stripped-back arrangement and hypnotic percussive drive. Interestingly, the underlying vocal melody remained virtually identical between the bouzouki and folktronica iterations—demonstrating that pre-authored lyrics exercise immense melodic gravity within the latent space of the model.
 
+
 ## Post-Production
 
 The final iteration required minimal correction. During mastering, I excised a mechanical tape-deck artifact at the very opening: while aesthetically interesting, it felt out of place with the rest of the album's acoustic staging. At the tail, the stem ended with an audible, heavy exhalation that lacked narrative motivation here; I cut it from *Artifact* and later repurposed it as the closing breath on *[Homecoming](./70_13_homecoming.md)*.
+
 
 ## Related Files
 

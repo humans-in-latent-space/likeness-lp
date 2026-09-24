@@ -20,7 +20,7 @@ Rather than treating artificial intelligence as a push-button novelty or a tool 
 ## Core Inquiries
 
 **Disclosing AI Usage**  
-The EU Artificial Intelligence Act focuses strictly on deepfakes, leaving generic synthetic audio in a regulatory vacuum: When institutional frameworks fail to distinguish between automated slop and intentional curation, what does meaningful, proactive disclosure look like in practice?
+The [EU Artificial Intelligence Act](https://artificialintelligenceact.eu/article/50/#p-article-50-4) focuses strictly on deepfakes, leaving generic synthetic audio in a regulatory vacuum: When institutional frameworks fail to distinguish between automated slop and intentional curation, what does meaningful, proactive disclosure look like in practice?
 
 **The Threshold of Human Intent**  
 Where does algorithmic probability end, and where does genuine artistic labor begin? Can an operator establish authentic authorship when working with stochastic models?
@@ -32,7 +32,7 @@ How can an artist steer generative audio engines away from their default statist
 Can the synthetic nature of generative media be reclaimed as an integral dimension of the artistic vision rather than concealed as a technical flaw?
 
 **A Blueprint for Independent Creators**  
-How can solo artists establish sound recording rights (*Leistungsschutzrechte*), protect their work against automated takedown bots, and implement ethical revenue-sharing models while navigating streaming monopolies?
+How can solo artists establish sound recording rights (*[Verwertungsrechte des Tonträgerherstellers]((https://www.gesetze-im-internet.de/urhg/__85.html))*), protect their work against automated takedown bots, and implement ethical revenue-sharing models while navigating streaming monopolies?
 
 
 ## Audio & Album Access

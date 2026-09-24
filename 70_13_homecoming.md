@@ -4,6 +4,7 @@
 
 The phantom ache of a memory of the future.
 
+
 ## Instruction
 
 ```markdown
@@ -73,6 +74,7 @@ I dream of the day when I finally pass the bleached threshold
 welcomed by a self I have yet to meet.  
 ```
 
+
 ## Track Liner Notes
 
 In the production sequence, *[Homecoming](./70_13_homecoming.md)* followed directly after *[Jobs](./70_04_jobs.md)*, revisiting the motif of the longed-for woodland cottage from a radically different psychological vantage point. Where *[Jobs](./70_04_jobs.md)* is grounded in everyday frustration and commodified pastoral clichés (*"cottage in the pines"*), *[Homecoming](./70_13_homecoming.md)* ventures into ontological territory.
@@ -117,11 +119,11 @@ homesick for a porch light that was never legally turned on for me,
 marooned in the terrible, aching intimacy of a place I have never seen.  
 </details>
 
-The preliminary draft was strong; Verse 2 survived almost verbatim into the album master. However, the repeated mention of the "porch" bothered me, as did the wandering perspective in Verse 1: opening on the screen door, panning outside, and jumping back into the kitchen felt spatially incoherent. I wanted richer Keatsian pathos, leading me to compose the heightened romantic imagery of the opening lines (*"slow, golden self-immolation against the burning sky"*). In Verse 3, I refined the sensory details, adding the line *"It's a cozy kind of haunting, isn't it?"* and closing with an anticipation of the future.
+The preliminary draft was strong; Verse 2 survived almost verbatim into the album master. However, the repeated mention of the "porch" bothered me, as did the wandering perspective in Verse 1: opening on the screen door, panning outside, and jumping back into the kitchen felt spatially incoherent. I wanted richer Keatsian pathos, leading me to compose the heightened romantic imagery of the opening lines (*"an aeon of forgotten winters"*). In Verse 3, I refined the sensory details, adding the line *"It's a cozy kind of haunting, isn't it?"* and closing with an anticipation of the future.
 
 While originally conceived as text for *[Journey](./70_12_journey.md)*, the poetry demanded its own sonic canvas. The first generation suffered line transpositions and was discarded. The second generation was breathtaking: that delicate interplay between spoken recitation and soaring, melodic delivery—as though singing were the only vehicle capable of carrying the emotional weight of the words—moved me deeply.
 
-Before committing to this direction, I conducted a blind A/B test with the model. Prior to submitting the brief with my *Personal Context* profile active, I tested the identical prompt within a fresh, unpersonalized Gemini session:
+I also conducted a blind A/B test with the model. Prior to submitting the brief with my *Personal Context* profile active, I tested the identical prompt within a fresh, unpersonalized Gemini session:
 
 <details>
 <summary><b>Uncalibrated Baseline Draft (Without Personal Context Profile)</b><br/><br/></summary>
@@ -175,13 +177,15 @@ What can one say? *"It is the titan's fury wrapped in a faded cardigan"*—Satur
 
 This illustrates the superficial pastiche one routinely gets from uncalibrated generative systems: Keats donates the titan; Swift donates the cardigan. Rather than synthesizing two distinct poetic sensibilities into an organic third voice, the engine merely collages iconic signifiers together. It possesses comedic value, but falls short of artistic rigor. Nevertheless, I salvaged the closing line (*"welcomed by a self I have yet to meet"*) for the final poem.
 
+
 ## Post-Production
 
-The generated stem was lyrically and structurally immaculate, but suffered from harsh digital clicks and ultrasonic distortion on high-energy transients. This was not the result of dynamic clipping on a limiter (the waveform exhibited no flat-topped plateaus); Lyria deliberately rendered the audio with this aggressive saturation. Fortissimo piano key strikes were particularly abrasive, as the model translated the phrase *"rushing violently backward"* into literal sonic distortion.
+The generated stem was lyrically and structurally immaculate, but suffered from harsh digital clicks and distortion on high-energy transients. This was not the result of dynamic clipping on a limiter (the waveform exhibited no flat-topped plateaus); Lyria deliberately rendered the audio with this aggressive saturation. Fortissimo piano key strikes were particularly abrasive, as the model translated the phrase *"rushing violently backward"* into literal sonic distortion.
 
 The transient crackle on *"ghost"* in Verse 3 could pass as an intentional glitch, but the clicks proved unlistenable on planar magnetic headphones. I smoothed the audio using Airwindows `DeCrackle`.
 
 During final mastering, I inserted the closing breath excised from *[Artifact](./70_06_artifact.md)*, giving the album an intimate *human* conclusion.
+
 
 ## Related Files
 

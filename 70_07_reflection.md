@@ -4,6 +4,7 @@
 
 Sometimes people-pleasing is simply a survival tactic to be left alone.
 
+
 ## Instruction
 
 ```markdown
@@ -71,13 +72,14 @@ Will they ever leave?
 > [!NOTE]  
 > On this track, I dispensed with atmospheric prose entirely, specifying only the instrumentation. The lyrical imagery alone exerted sufficient gravitational pull on the model's emotional register.
 
+
 ## Track Liner Notes
 
 *Reflection* was the final track composed for the album, originating as a problem-solving exercise. After making the difficult but necessary decision to cut a long-standing track from the sequence, a structural void opened in the center of the record. While I could have trimmed the tracklist to twelve songs, the direct transition from *[Artifact](./70_06_artifact.md)* to *[Drifting](./70_08_drifting.md)* felt narratively abrupt.
 
 I looked for missing thematic tissue. Early in the project, I had contemplated a track exploring the defensive psychology of people-pleasing, but shelved it for lack of a narrative frame. Having recently engaged with classical antiquity on *[Fame](./70_11_fame.md)*, Gemini predictably proposed the myth of Echo and Narcissus. However, its initial conceptual sketches felt overly baroque, and corporate or family-gathering settings felt like narrative dead ends.
 
-I turned instead to the emerging world-building of the album itself: the Shapeshifter sister was already hiding in town, the arrival of the corporate Agent sister was looming, and physical fences were being erected. The narrative practically wrote itself: utilizing the well motif allowed me to engage the Ovidian myth while subverting it into small-town sociology. Framing the encroaching neighbors as a flock of shrill, carping birds offered immense creative satisfaction.
+I turned instead to the emerging world-building of the album itself: the *[Shapeshifter](./70_02_shapeshifter.md)* sister was already hiding in town, the arrival of the corporate *[Agent](./70_09_agent.md)* sister was looming, and physical fences were being erected. The narrative practically wrote itself: utilizing the well motif allowed me to engage the Ovidian myth while subverting it into small-town sociology. Framing the encroaching neighbors as a flock of shrill, carping birds offered immense creative satisfaction.
 
 I pitched the initial scenario to Gemini as follows:
 
@@ -251,6 +253,7 @@ I adopted the structural scaffolding while refining the metaphors heavily.
 
 Musical synthesis proved somewhat volatile. In one anomalous generation, the vocal model delivered an entirely divergent vocal character from every other track on the record. Nevertheless, the final arrangement was locked within ten iterations.
 
+
 ## Post-Production
 
 I had initially scripted an extended spoken outro:
@@ -268,6 +271,7 @@ Anticipating that the model would drop or truncate this tail due to the 3-minute
 To ensure the album master did not lose the closing line *"But they are still here,"* I appended the final two lines as padding, expecting to delete them later. In practice, this closing delivery proved far more chilling and evocative than my original concept, earning its place on the final master cut.
 
 Additionally, an otherwise flawed generation featured a gorgeous piano intro and an acoustic interlude. While the intro spliced seamlessly into the master track, the interlude had to be sacrificed: its warm, optimistic chord changes conflicted sharply with the brooding tension of the final arrangement. Forcing a merge would have compromised the narrative integrity of the piece.
+
 
 ## Related Files
 

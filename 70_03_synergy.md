@@ -4,6 +4,7 @@
 
 A love song that refuses to be one.
 
+
 ## Instruction
 
 ```markdown
@@ -69,6 +70,7 @@ You shake a hand.
 The gears lock in.  
 We take our stand.  
 ```
+
 
 ## Track Liner Notes
 
@@ -258,11 +260,12 @@ Synergy.
 
 This draft required extensive editorial pruning. Several metaphors were imprecise or clashed with the acoustic palette. Ultimately, the finalized text captured the exact balance I wanted. In the audio take, the chorus leans somewhat cheerful owing to the prominent rubber-bridge guitar strumming, but the outro lands with razor precision.
 
-During audio synthesis, the bridge suffered minor lyrical truncation:  
+During audio synthesis, the bridge suffered lyrical truncation:  
 *"You will never trace the ~~patterns I've designed. / We are two different~~ languages, untranslated till the end"*  
 The underlying meaning, however, survived intact.
 
 In German, "Synergie" carries predominantly positive, holistic connotations; in English, it carries the faint aftertaste of corporate jargon. For this track, that sterile corporate undercurrent was a feature, not a bug.
+
 
 ## Post-Production
 

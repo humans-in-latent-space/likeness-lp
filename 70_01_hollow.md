@@ -4,6 +4,7 @@
 
 A successful woman in her mid-twenties returns to her hometown, only to realize she isn't real, but rather the figment of her parents' ideal daughter.
 
+
 ## Instruction
 
 ```markdown
@@ -91,6 +92,7 @@ In the lines you planned.
 Just ink on the page.  
 (Mm-mm), just a draft you made.  
 ```
+
 
 ## Track Liner Notes
 
@@ -180,13 +182,15 @@ Additionally, I streamlined the chorus from six lines down to four (excising "yo
 
 Finally, the outro rendered slightly shorter than scripted, though not by deliberate design: the audio model took the "Strike the line!" command literally and truncated the section (a sensible cut, as it happened, given the 180-second hard cap).
 
-In the chorus, the vocal delivers "you written" instead of "you've written"—a grammatical error I caught only after the track was completed. I debated how to handle it. It is unquestionably a syntactic glitch, yet while listening casually one barely notices it; no matter how closely you listen, there is simply no "'ve" to be heard. It is frustrating that it survived onto the album, especially since fixing the meter would have been trivial, but correcting it post-generation was impossible without re-rolling the entire track. In the end, I chose to accept it as an organic glitch in the very *syntax* the song laments.
+In the chorus, the vocal delivers "you written" instead of "you've written"—a grammatical error I caught only after the track was completed. No matter how closely you listen, there is simply no "'ve" to be heard. It is unquestionably a syntactic glitch, yet while listening casually one barely notices it. Anyway, it is frustrating that it survived onto the album, especially since fixing the meter would have been trivial, but correcting it post-generation was impossible without re-rolling the entire track. In the end, I chose to accept it as an organic glitch in the very *syntax* the song laments.
 
 Were I approaching the song today, I would subject it to deeper iterative revisions (as I did with later tracks), but at the time it was an uncommitted experiment. Because the generated composition was so compelling, it earned its place as the foundational keystone of the record—without this song, *Likeness* would not exist.
+
 
 ## Post-Production
 
 This track was virtually a one-shot take: the harmonic foundation and vocal delivery landed immediately, and the third generation became the album cut. No stem-level restoration was necessary. Auditioned on planar magnetic headphones, I noticed slight transient hardness on the felt piano key strikes during denser passages in the chorus. Because there was no audible digital clipping or clicking, I kept slew-rate limiting modest to avoid dulling acoustic presence. That subtle sonic restlessness in the chorus effectively mirrors the agitated psychological state of the narrator. During mastering, I added entry and exit headroom, engaged the standard Airwindows processing chain, and normalized the master to target loudness.
+
 
 ## Related Files
 

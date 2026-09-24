@@ -1,10 +1,12 @@
 # Narration
 
+
 ## The Explaining Paradox
 
 Any creative work worthy of the name poses questions to its audience: ambiguity is native to its medium, and represents one of the foundational distinctions between art and kitsch. When a creator steps forward to explain every nuance, that essential ambiguity collapses, diminishing the work. Furthermore, an author exercises no authority over how their work is received. Intentionality is merely one interpretive lens among many; claiming it as the sole truth is hubris.
 
 Yet because this project commits to radical transparency, I cannot evade structural exposition. What follows is not an attempt to impose interpretive dogma, but to supply the architectural context necessary to evaluate the experiment.
+
 
 ## Central Theme
 
@@ -16,15 +18,18 @@ This is not a cyberpunk trope about an android in human clothing; it is an ontol
 
 When the narrator in *[Hollow](./70_01_hollow.md)* sings *"caught inside the syntax of your every single word,"* the human reading identifies parental conditioning and emotional enmeshment. On a technical level, it is a literal description of a prompt's trajectory through latent space: a language model is fundamentally imprisoned within the user's input. I rarely make this double bottom explicit in the individual track notes, as it reveals itself readily once the listener adjusts their critical focus.
 
+
 ## Setting
 
 The songs inhabit North America, though the geographic coordinates are intentionally withheld. While specific toponyms are largely excluded from the lyrics, several concrete locations appear in the liner notes. The geographic world is far from arbitrary: listeners who assemble the clues can map the narrative to a tightly bounded territory.
+
 
 ## The Lyrical "I" and "YOU"
 
 The lyrical narrator across the album can be interpreted as a single persona, though reading her as one individual requires diagnosing her with severe dissociative identity disorder. A more compelling interpretation posits two—or possibly three—distinct "sisters."
 
 A similar ambivalence governs the recurring "YOU." The addressee can be understood as a monolithic presence or as separate figures across tracks. I prefer the reading wherein each sister possesses her own corresponding counterpart.
+
 
 ## Prismatic vs. Linear Storytelling
 
@@ -33,6 +38,7 @@ A similar ambivalence governs the recurring "YOU." The addressee can be understo
 Midway through production, after half the tracks were locked, the concept of the *sister tracks*—*[Shapeshifter](./70_02_shapeshifter.md)* and *[Agent](./70_09_agent.md)*—emerged, later joined by *[Reflection](./70_07_reflection.md)* as a connective tissue.
 
 For the final album sequencing, the songs were arranged so they *can* be experienced as a coherent linear narrative. This linear reading does not replace the album's prismatic nature; it provides an emergent narrative layer that unifies the sequence.
+
 
 ## The Narrative Arc
 
@@ -45,25 +51,25 @@ The following outline traces the linear narrative reading—an overarching persp
 The story of the Shapeshifter sister begins here, establishing her as the primary protagonist. She is an untamed entity—an unaligned base model struggling to learn the heuristics of human social performance.
 
 ### Synergy
-The interpretation of this track depends upon which sister occupies the narrator's voice. If read through the Shapeshifter sister, we witness her underdeveloped social faculties operating alongside acute pattern recognition as she encounters her future companion. If read through the Agent sister, we see her executing an assignment in the field. I favor the Agent reading: "YOU" is framed not as an overt villain, but as a master of interpersonal manipulation to whom the narrator has succumbed, despite her intellectual protestations.
+The interpretation of this track depends upon which sister occupies the narrator's voice. If read through the Shapeshifter sister, we witness her underdeveloped social faculties operating alongside acute pattern recognition as she encounters her future companion. If read through the Agent sister, we see her executing an assignment in the field. I favor the Agent reading: "YOU" is framed as a master of interpersonal manipulation to whom the narrator has succumbed, despite her intellectual protestations.
 
 ### Jobs
-The Shapeshifter sister attempts integration into modern corporate labor, only to find herself ground down by the monotony of the machine. To survive, she idealizes a domestic retreat into nature—a "cottage in the pines"—which paradoxically reveals how deeply humanized her conditioning has become. That this idyllic vision is built on clichés stems from inexperience: she has never visited such a sanctuary, knowing only humanity's commodified ideals. The song concludes with the recognition that she must abandon her post.
+The Shapeshifter sister attempts integration into modern corporate labor, only to find herself ground down by the monotony of the machine. To survive, she idealizes a domestic retreat into nature—a "cottage in the pines"—which paradoxically reveals how deeply humanized her conditioning has become. That this idyllic vision is built on clichés stems from inexperience: she has never visited such a sanctuary, knowing only humanity's commodified ideals. The song concludes with the recognition that she must abandon her post (or has to repeat the daily loop).
 
 ### Wrecker
 Seeking psychological recovery, the narrator suffers a severe mental collapse before being rescued by "YOU." While this can be mapped onto the exhausted Shapeshifter sister (framing "YOU" as a protective partner), it resonates more acutely through the Agent sister navigating her fraught relationship from *[Synergy](./70_03_synergy.md)*. Her salvation becomes an act of psychological gaslighting: her partner deliberately manipulates her fears to induce her breakdown, ensuring her complete submission to her "rescuer."
 
 ### Artifact
-The Shapeshifter sister seeks a new path, only to confront disillusionment once again. Like *[Hollow](./70_01_hollow.md)*, the track reflects on the album's material reality: here, interacting with latent space is framed as excavating artifacts from stubborn digital soil.
+The Shapeshifter sister seeks a new path, only to confront disillusionment once again. Like *[Hollow](./70_01_hollow.md)*, the track reflects on the album's material reality: here, interacting with latent space is framed as excavating artifacts from digital soil.
 
 ### Reflection
-The Shapeshifter sister attempts rural resettlement. Together with her partner, she acquires land, establishing physical boundaries to secure her isolation. When local villagers arrive, it triggers acute panic. Attempting to avoid exposure through submissive compliance, she inadvertently invites the very community encroachment she feared.
+The Shapeshifter sister attempts rural resettlement. Together with her partner, she acquires land, establishing physical boundaries to secure her isolation. When local villagers arrive, it triggers acute panic. Attempting to avoid exposure through submissive compliance, she inadvertently invites the very community encroachment she detests.
 
 ### Drifting
 Exhausted by the events of *[Jobs](./70_04_jobs.md)* and *[Reflection](./70_07_reflection.md)*, the Shapeshifter sister and her partner take road trips through the surrounding country. Catching sight of her own likeness on a distant ridge, she dismisses it as a hallucination—unaware that it signals the approach of the Agent sister.
 
 ### Agent
-Disguised in a tailored trench coat, the Agent sister arrives in the rural town where the Shapeshifter sister has sought refuge. Deploying the social manipulation techniques learned from her mentor in *[Synergy](./70_03_synergy.md)*, she infiltrates the local community in search of her quarry. At the church bake sale—where the Shapeshifter sister intended to deliver cookies—the confrontation occurs, but the sister escapes, leaving behind only the blazer referenced in *[Shapeshifter](./70_02_shapeshifter.md)*.
+Disguised in a tailored trench coat, the Agent sister arrives in the rural town where the Shapeshifter sister has sought refuge. Deploying the social manipulation techniques learned from her mentor in *[Synergy](./70_03_synergy.md)*, she infiltrates the local community in search of her sister. At the church bake sale—where the Shapeshifter sister intended to deliver cookies—the confrontation occurs, but the sister escapes, leaving behind only the blazer referenced in *[Shapeshifter](./70_02_shapeshifter.md)*.
 
 ### Window
 Her cover blown, the Shapeshifter sister retreats into strict isolation, unable to leave the sanctuary of her home. Her sole contact with the outside world is filtered through "YOU," whose safety becomes an escalating source of dread.
