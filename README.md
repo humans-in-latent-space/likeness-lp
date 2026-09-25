@@ -53,6 +53,7 @@ If you prefer listening directly inside your native streaming app, searching man
 
 | Dimension | Implementation Details |
 | :--- | :--- |
+| **DOI** | [10.5281/zenodo.22953330](https://doi.org/10.5281/zenodo.22953330) |
 | **Catalog Identifier** | UPC: `882436992438` |
 | **Album Architecture** | 13 Concept Tracks + 2 Curated Outtakes (39:49 min total runtime) |
 | **Discarded iterations** | ~ 160 |
@@ -117,6 +118,20 @@ The complete documentation is organized into sequential thematic chapters and in
 
 ### IV. Appendix
 * **[Question and Answer](./Q-AND-A.md)**
+
+
+## Citation
+
+```bibtex
+@techreport{Koster_Likeness_Notes_2026,
+  author = {Köster, Jan},
+  doi = {10.5281/zenodo.22953330},
+  month = sep,
+  title = {{Likeness Notes: An AI-Realized Concept Album as a Field Experiment in Declared Intent, Cybernetic Workflows, and Methodology}},
+  url = {https://github.com/humans-in-latent-space/likeness-lp},
+  year = {2026}
+}
+```
 
 
 ## Editorial & Linguistic Transparency Notice

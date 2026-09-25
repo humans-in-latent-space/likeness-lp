@@ -5,6 +5,7 @@ authors:
     given-names: "Jan"
     orcid: "https://orcid.org/0000-0003-2713-5207"
 title: "Likeness Notes: An AI-Realized Concept Album as a Field Experiment in Declared Intent, Cybernetic Workflows, and Methodology"
+doi: "10.5281/zenodo.22953330"
 date-released: 2026-09-25
 license: Apache-2.0
 repository-code: "https://github.com/humans-in-latent-space/likeness-lp"
@@ -20,3 +21,13 @@ keywords:
   - "Digital Commons"
   - "Sustainable AI"
   - "Music Production"
+preferred-citation:
+  type: report
+  authors:
+    - family-names: "Köster"
+      given-names: "Jan"
+      orcid: "https://orcid.org/0000-0003-2713-5207"
+  title: "Likeness Notes: An AI-Realized Concept Album as a Field Experiment in Declared Intent, Cybernetic Workflows, and Methodology"
+  doi: "10.5281/zenodo.22953330"
+  date-released: 2026-09-25
+  url: "https://github.com/humans-in-latent-space/likeness-lp"
