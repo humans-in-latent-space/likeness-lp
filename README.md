@@ -42,7 +42,7 @@ How can solo artists establish sound recording rights (*[Verwertungsrechte des T
 *Likeness* is distributed to all major Digital Streaming Platforms (DSPs), released on September 25, 2026. It is conceived as a continuous narrative cycle; sequential listening is strongly recommended.
  
 **[DistroKid HyperFollow Hub](https://distrokid.com/hyperfollow/jankster/likeness)**  
-*(Direct gateway to Spotify, Apple Music, and other DSPs)*
+*(Direct gateway to [Spotify](https://open.spotify.com/album/6RpcbnJMDvXweSbZJ1zQ83), [Apple Music](https://music.apple.com/album/likeness/6797233177), and other DSPs)*
 <br clear="both"/>
 
 **Algorithmic Discoverability Note**  
