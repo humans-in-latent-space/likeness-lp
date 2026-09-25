@@ -51,13 +51,19 @@ The Gemini consumer interface does not offer format selection during track gener
 
 My corrections in the DAW focused on surgical optimization and leveling rather than fundamental tonal re-engineering. Furthermore, the actual acoustic bottleneck in generative audio stems from the neural synthesis itself (codec representations, diffusion phase artifacts), not from the MP3 container. 
 
-Prior to distribution, I monitored all masters across high-end listening environments—including planar magnetic headphones and the classic German studio workhorse—and verified that no audible compression artifacts compromised the record's aesthetic integrity. (Downstream transcoding issues on streaming platforms were explicitly mitigated by maintaining strict True Peak ceilings between -1.0 and -2.0 dBTP.) 
+Prior to distribution, I monitored all masters across high-end listening environments—including planar magnetic headphones and the classic German studio workhorse—and verified that no audible compression artifacts compromised the record's aesthetic integrity. (Downstream transcoding issues on streaming platforms were explicitly mitigated by maintaining strict True Peak ceilings below -1.0 dBTP.) 
 
 I hold high standards for sound reproduction, but theoretical specifications on paper matter little in isolation: a track can be rendered as a 32-bit float WAV and still sound catastrophic if squashed aggressively against a brickwall limiter.
 
 
-**Why didn't you hire human session musicians or vocalists to track the parts?**  
-A hybrid production would have been logistically impossible within my domestic constraints (working in fragmentary pockets on a phone while caring for an infant). More fundamentally, I deliberately committed to pure, end-to-end audio synthesis as a maximalist stress test for generative media. And on a purely practical note: I do not possess a breathtaking female singing voice myself.
+**Why do your tracks sound quieter than others on my preferred streaming platform?**  
+I noticed this as well. While not technically surprising, I admit it frustrates me. And let’s be candid: an experienced mastering engineer would undoubtedly have achieved a punchier, more competitive balance than I did.
+
+Anyone releasing music faces a fundamental dilemma: how aggressively do you push the limiter, and what integrated LUFS target do you aim for? I prioritized acoustic fidelity, mastering strictly to -14 LUFS with True Peak ceilings held below -1.0 dBTP. This headroom was essential to prevent delicate high-frequency elements—particularly brittle synthetic sibilants—from distorting.
+
+I guess, the problem lies in what mastering engineers call the *crest factor* (dynamic range density): even when streaming normalization is active and brings all tracks to -14 LUFS, modern commercial productions are hyper-compressed before loudness penalty kicks in. A heavily limited pop track turned down by 6 dB still maintains relentless average energy (RMS) and aggressive presence, whereas a dynamically breathing acoustic track feels noticeably quieter and laid-back by comparison. 
+
+In retrospect, I erred on the side of caution during mastering—a valuable, humbling lesson in applied audio engineering.
 
 
 **Do you make money with this?**  
